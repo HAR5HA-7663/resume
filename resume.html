@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vardhan Yellela - Resume</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 7.5in;
+            margin: 0.2in auto 0.7in auto;
+            line-height: 1.2;
+            color: #000;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 24pt;
+            text-align: center;
+            margin: 0;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 10pt;
+            margin: 5px 0 15px;
+        }
+
+        h2 {
+            font-size: 14pt;
+            margin: 20px 0 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+        }
+
+        p {
+            font-size: 10pt;
+            margin: 0 0 15px 0;
+        }
+
+        .entry {
+            margin-bottom: 20px;
+        }
+
+        .entry .header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11pt;
+            font-weight: bold;
+        }
+
+        .entry .subheader {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11pt;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+            font-size: 10pt;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: -15px;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Harsha Vardhan Yellela</h1>
+    <div class="contact-info">
+        Ferndale, Michigan - 48220 | +1-248-497-9965 |
+        <a href="mailto:harsha.yellela@gmail.com">harsha.yellela@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/har5ha-7663">LinkedIn</a> |
+        <a href="https://github.com/HAR5HA-7663">GitHub</a>
+    </div>
+
+    <!-- Summary Section -->
+    <h2>Summary</h2>
+    <p>
+        <strong>Backend Engineer</strong> with experience in <strong>Infor ERP</strong> system development (<strong>LN,
+            ION</strong>) and building <strong>scalable AI tools</strong> like
+        Resumade.in, using <strong>FastAPI, AWS Lambda</strong>, and <strong>multi-LLM pipelines (GPT-4,
+            Gemini)</strong> to deliver <strong>cloud-native
+            automation</strong>.
+    </p>
+
+    <!-- Experience Section -->
+    <h2>Experience</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Infor India Pvt. Ltd.</span>
+            <span>Apr 2022 – Dec 2023</span>
+        </div>
+        <div class="subheader">
+            <span>LN Technical Consultant</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Developed <strong>modular, production-ready tools</strong> for global clients (<strong>Ferrari, Boeing,
+                    Triumph</strong>) by extending
+                <strong>Infor LN ERP</strong> workflows for inventory, manufacturing, and finance using <strong>BaanC,
+                    ION, and DBMS</strong>.
+            </li>
+            <li>Integrated <strong>Infor ION</strong> process flows with <strong>AWS S3, Lambda, and API
+                    Gateway</strong> to enable <strong>asynchronous file
+                    transfer</strong> and external service triggers, reducing <strong>batch processing delays by
+                    ~40%</strong>.</li>
+            <li><strong>Containerized</strong> business logic services using <strong>Docker</strong> and simulated
+                <strong>Kubernetes-like orchestration</strong> with
+                Infor ION, improving <strong>deployment consistency</strong> and cross-module communication across
+                client environments
+                (e.g., Weiler, Immucor).
+            </li>
+        </ul>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Languages & APIs:</strong> Python, JavaScript, SQL, RESTful API Design</li>
+        <li><strong>Backend & Cloud:</strong> FastAPI, Flask, AWS (Lambda, SageMaker, FinSpace, Bedrock), CI/CD (GitHub
+            Actions)</li>
+        <li><strong>AI/ML & NLP:</strong> GPT-4, Gemini, DeepSeek, LangChain, TensorFlow, VADER, LSTM, Transfer
+            Learning, Sentiment Analysis</li>
+        <li><strong>Automation & Agents:</strong> CrewAI, n8n, BeautifulSoup, Web Scraping, Agent Orchestration</li>
+        <li><strong>Data & Storage:</strong> DynamoDB, PostgreSQL, Pandas, NumPy</li>
+        <li><strong>Tools & Frameworks:</strong> Docker, Git, Pydantic, OpenCV, Matplotlib</li>
+        <li><strong>Enterprise Systems:</strong> Infor LN, Infor ION, BaanC, Manufacturing & Finance Modules</li>
+    </ul>
+
+    <!-- Projects Section -->
+    <h2>Projects</h2>
+    <div class="entry">
+        <div class="header">
+            <span>AI Resume Builder – Backend Engineer</span>
+            <span>Jun 2025 – Present</span>
+        </div>
+        <div class="subheader">
+            <span><a href="https://resumade.in" target="_blank">Resumade.in</a> | FastAPI, AWS Lambda, DynamoDB, GPT-4,
+                Amazon Bedrock (DeepSeek)</span>
+        </div>
+        <ul>
+            <li>Architected and deployed a <strong>serverless backend</strong> using <strong>FastAPI,
+                    AWS Lambda, and DynamoDB</strong>, enabling
+                <strong>auto-scaling, 95%+ uptime</strong>, and <strong>sub-2s PDF/Word resume generation</strong>.
+            </li>
+            <li>Integrated <strong>multi-LLM pipelines (GPT-4, Gemini, DeepSeek)</strong> with <strong>custom
+                    prompts</strong> to tailor resumes based on
+                job descriptions scraped via <strong>LinkedIn parsers and BeautifulSoup</strong>.</li>
+            <li>Implemented <strong>secure JWT and Google OAuth authentication</strong>, <strong>CI/CD via GitHub
+                    Actions</strong>, and <strong>real-time scraping
+                    + AI optimization pipelines</strong>, reducing <strong>manual resume effort by 80%</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>AgenticAI – Agent-Based Newsletter Automation (Code vs. No-Code)</span>
+            <span>Apr 2025</span>
+        </div>
+        <div class="subheader">
+            <span>n8n, CrewAI, LangChain, FastAPI, AWS Lambda</span>
+        </div>
+        <ul>
+            <li>Designed and deployed <strong>newsletter automation</strong> using <strong>n8n (no-code)</strong> and
+                <strong>CrewAI + LangChain (code-first)</strong> to compare <strong>performance, flexibility, and
+                    maintainability</strong> of <strong>agentic workflows</strong>.
+            </li>
+            <li>Built <strong>custom APIs</strong> with <strong>FastAPI</strong>, integrated <strong>multi-agent
+                    coordination logic</strong>, and deployed <strong>backend services</strong> on <strong>AWS
+                    Lambda</strong> for <strong>scalable, event-driven execution</strong>.</li>
+            <li>Benchmarked both approaches across <strong>latency, reliability, and dev speed</strong>, achieving
+                <strong>70% reduction in manual workload</strong> with insights into <strong>visual vs. programmatic
+                    agent tradeoffs</strong>.
+            </li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span>Pneumonia Detection – Deep Learning for Chest X-ray Classification</span>
+            <span>Dec 2024</span>
+        </div>
+        <div class="subheader">
+            <span>TensorFlow, VGG19, AWS SageMaker, Flask, OpenCV</span>
+        </div>
+        <ul>
+            <li>Built a <strong>pneumonia detection model</strong> using <strong>VGG19</strong> with <strong>custom
+                    classifier layers</strong>, leveraging <strong>transfer learning</strong> and <strong>image
+                    augmentation</strong> to improve <strong>medical image classification accuracy</strong>.</li>
+            <li>Fine-tuned and trained the model on <strong>AWS SageMaker</strong>, reducing <strong>training time by
+                    60%</strong> compared to local GPU setups while scaling to <strong>larger datasets</strong> with
+                improved <strong>validation performance</strong>.</li>
+            <li>Deployed the model as a <strong>Flask-based web app</strong> with <strong>real-time inference
+                    support</strong> and a <strong>user-friendly front-end</strong> for interactive <strong>diagnosis
+                    simulation</strong>.</li>
+        </ul>
+    </div>
+
+    <div style="page-break-before: always;"></div>
+
+    <div class="entry" style="margin-top: 30px;">
+        <div class="header">
+            <span>Sentiment-Driven Market Forecasting – LSTM for NVDA Returns</span>
+            <span>May 2025</span>
+        </div>
+        <div class="subheader">
+            <span>VADER, LSTM, Reddit NLP, yfinance, Amazon SageMaker, FinSpace, TensorFlow</span>
+        </div>
+        <ul>
+            <li>Engineered a <strong>multimodal pipeline</strong> combining <strong>Reddit sentiment signals</strong>
+                (via <strong>VADER + virality-based scoring</strong>) and <strong>financial indicators (OHLCV,
+                    VIX)</strong> to predict <strong>NVDA's next-day returns</strong>.</li>
+            <li>Trained a <strong>7-day rolling LSTM model</strong> in <strong>Amazon SageMaker</strong>, achieving
+                <strong>measurable correlation against market baselines</strong> while reducing <strong>local
+                    experimentation time by 60%</strong>.
+            </li>
+            <li>Used <strong>Amazon FinSpace</strong> to manage <strong>historical pricing and sentiment data</strong>,
+                supporting <strong>scalable time-series alignment</strong> and <strong>high-resolution feature
+                    aggregation</strong> for deep learning input.</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Lawrence Technological University</strong></span>
+            <span>Expected Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span><strong>Master of Science in Computer Science</strong> · GPA: <strong>3.6/4.0</strong></span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Intelligent Robotics (ROS)</strong>, <strong>Machine
+                    Learning</strong>, <strong>Artificial Intelligence</strong>, <strong>Natural Language
+                    Processing</strong>, Collaborative Research in <strong>Agentic AI</strong></li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
+            <span>Graduated: August 2022</span>
+        </div>
+        <div class="subheader">
+            <span><strong>Bachelor of Technology in Computer Science & Engineering</strong> · GPA: <strong>7.5/10
+                    (~3.0/4.0)</strong></span>
+            <span>Hyderabad, Telangana</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Software Engineering</strong>, <strong>Deep
+                    Learning</strong> & <strong>Python</strong>, <strong>Machine Learning</strong> Foundations,
+                <strong>Internet of Things</strong>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- Extracurricular / Achievements Section -->
+    <h2>Extracurricular / Achievements</h2>
+    <ul>
+        <li><strong>Selected for Amazon Nova AI Challenge: Trusted AI Track</strong> (2025)</li>
+        <li><strong>Participated in RSNA Pneumonia Detection Challenge; ranked in upper quartile</strong> (2024)</li>
+        <li><strong>Designed "ATOLL" for NSS/NASA Space Settlement Design Competition</strong> (2015)</li>
+        <li><strong>Gold Medalist in Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
+    </ul>
+</body>
+
+</html>
