@@ -10,16 +10,46 @@
         body {
             font-family: 'Times New Roman', serif;
             max-width: 7.5in;
-            margin: 0.2in auto 0.7in auto;
-            line-height: 1.2;
+            margin: 0.1in auto 0.7in auto;
+            line-height: 1.1;
             color: #000;
             text-align: left;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @media print {
+            body {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+            }
+            
+            .entry, .entry .header, .entry .subheader, ul, ul li {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                page-break-inside: avoid;
+            }
+            
+            ul li:before {
+                -webkit-user-select: none !important;
+                -moz-user-select: none !important;
+                -ms-user-select: none !important;
+                user-select: none !important;
+            }
         }
 
         h1 {
-            font-size: 24pt;
+            font-size: 22pt;
             text-align: center;
-            margin: 0;
+            margin: 30px 0 1px 0;
             font-variant: small-caps;
             font-weight: bold;
         }
@@ -27,40 +57,150 @@
         .contact-info {
             text-align: center;
             font-size: 10pt;
-            margin: 5px 0 15px;
+            margin: 0 0 8px 0;
         }
 
         h2 {
             font-size: 14pt;
-            margin: 20px 0 5px;
+            margin: 15px 0 3px;
             text-transform: uppercase;
             font-weight: bold;
             border-bottom: 1px solid #000;
             padding-bottom: 2px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header, .entry .subheader {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header span, .entry .subheader span {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: inline-block;
         }
 
         p {
             font-size: 10pt;
-            margin: 0 0 15px 0;
+            margin: 0 0 10px 0;
         }
 
         .entry {
-            margin-bottom: 20px;
+            margin-bottom: 12px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry::after {
+            content: "";
+            display: block;
+            clear: both;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .entry ul {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
         }
 
         .entry .header {
-            display: flex;
-            justify-content: space-between;
             font-size: 11pt;
             font-weight: bold;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .header span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 80%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .header span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 20%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
         }
 
         .entry .subheader {
-            display: flex;
-            justify-content: space-between;
             font-size: 11pt;
             font-style: italic;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .subheader span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 80%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 20%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
         }
 
         ul {
@@ -68,17 +208,36 @@
             padding-left: 20px;
             margin: 0;
             font-size: 10pt;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
 
         ul li {
-            margin-bottom: 6px;
+            margin-bottom: 3px;
             position: relative;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            white-space: normal;
+            word-wrap: break-word;
         }
 
         ul li:before {
             content: "•";
             position: absolute;
             left: -15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
         }
 
         a {
@@ -113,6 +272,22 @@
 
     <!-- Experience Section -->
     <h2>Experience</h2>
+    <div class="entry">
+        <div class="header">
+            <span>AI Agent Development Researcher</span>
+            <span>Jan 2025 – Present</span>
+        </div>
+        <div class="subheader">
+            <span>Lawrence Technological University</span>
+            <span>USA</span>
+        </div>
+        <ul>
+            <li>Built and compared <strong>no-code (n8n)</strong> vs. <strong>coded multi-agent systems (CrewAI + LangChain MCP)</strong> for <strong>workflow automation</strong> and <strong>intelligent decision-making</strong>.</li>
+            <li>Deployed <strong>persistent MCP agent services</strong> on <strong>AWS Fargate</strong> and <strong>Amazon EKS</strong>, integrating <strong>OpenSearch Serverless Vector Engine</strong> for <strong>semantic search</strong> and <strong>RAG</strong>.</li>
+            <li>Designed <strong>hybrid pipelines</strong> combining <strong>Bedrock-hosted models</strong> with <strong>custom tools</strong>, achieving up to <strong>70% reduction in manual process time</strong> in prototype testing.</li>
+        </ul>
+    </div>
+
     <div class="entry">
         <div class="header">
             <span>Infor India Pvt. Ltd.</span>
@@ -165,6 +340,7 @@
         <div class="subheader">
             <span><a href="https://resumade.in" target="_blank">Resumade.in</a> | FastAPI, AWS Lambda, DynamoDB, GPT-4,
                 Amazon Bedrock (DeepSeek)</span>
+                <span> </span>
         </div>
         <ul>
             <li>Architected and deployed a <strong>serverless backend</strong> using <strong>FastAPI,
@@ -180,72 +356,77 @@
         </ul>
     </div>
 
-    <div class="entry">
-        <div class="header">
-            <span>AgenticAI – Agent-Based Newsletter Automation (Code vs. No-Code)</span>
-            <span>Apr 2025</span>
-        </div>
-        <div class="subheader">
-            <span>n8n, CrewAI, LangChain, FastAPI, AWS Lambda</span>
-        </div>
-        <ul>
-            <li>Designed and deployed <strong>newsletter automation</strong> using <strong>n8n (no-code)</strong> and
-                <strong>CrewAI + LangChain (code-first)</strong> to compare <strong>performance, flexibility, and
-                    maintainability</strong> of <strong>agentic workflows</strong>.
-            </li>
-            <li>Built <strong>custom APIs</strong> with <strong>FastAPI</strong>, integrated <strong>multi-agent
-                    coordination logic</strong>, and deployed <strong>backend services</strong> on <strong>AWS
-                    Lambda</strong> for <strong>scalable, event-driven execution</strong>.</li>
-            <li>Benchmarked both approaches across <strong>latency, reliability, and dev speed</strong>, achieving
-                <strong>70% reduction in manual workload</strong> with insights into <strong>visual vs. programmatic
-                    agent tradeoffs</strong>.
-            </li>
-        </ul>
-    </div>
-    <div class="entry">
-        <div class="header">
-            <span>Pneumonia Detection – Deep Learning for Chest X-ray Classification</span>
-            <span>Dec 2024</span>
-        </div>
-        <div class="subheader">
-            <span>TensorFlow, VGG19, AWS SageMaker, Flask, OpenCV</span>
-        </div>
-        <ul>
-            <li>Built a <strong>pneumonia detection model</strong> using <strong>VGG19</strong> with <strong>custom
-                    classifier layers</strong>, leveraging <strong>transfer learning</strong> and <strong>image
-                    augmentation</strong> to improve <strong>medical image classification accuracy</strong>.</li>
-            <li>Fine-tuned and trained the model on <strong>AWS SageMaker</strong>, reducing <strong>training time by
-                    60%</strong> compared to local GPU setups while scaling to <strong>larger datasets</strong> with
-                improved <strong>validation performance</strong>.</li>
-            <li>Deployed the model as a <strong>Flask-based web app</strong> with <strong>real-time inference
-                    support</strong> and a <strong>user-friendly front-end</strong> for interactive <strong>diagnosis
-                    simulation</strong>.</li>
-        </ul>
-    </div>
+         <div class="entry">
+         <div class="header">
+             <span>Sentiment-Driven Market Forecasting – LSTM for NVDA Returns</span>
+             <span>May 2025</span>
+         </div>
+         <div class="subheader">
+             <span>VADER, LSTM, Reddit NLP, yfinance, Amazon SageMaker, FinSpace, TensorFlow</span>
+             <span> </span>
+         </div>
+         <ul>
+             <li>Engineered a <strong>multimodal pipeline</strong> combining <strong>Reddit sentiment signals</strong>
+                 (via <strong>VADER + virality-based scoring</strong>) and <strong>financial indicators (OHLCV,
+                     VIX)</strong> to predict <strong>NVDA's next-day returns</strong>.</li>
+             <li>Trained a <strong>7-day rolling LSTM model</strong> in <strong>Amazon SageMaker</strong>, achieving
+                 <strong>measurable correlation against market baselines</strong> while reducing <strong>local
+                     experimentation time by 60%</strong>.
+             </li>
+             <li>Used <strong>Amazon FinSpace</strong> to manage <strong>historical pricing and sentiment data</strong>,
+                 supporting <strong>scalable time-series alignment</strong> and <strong>high-resolution feature
+                     aggregation</strong> for deep learning input.</li>
+         </ul>
+     </div>
 
-    <div style="page-break-before: always;"></div>
+     <div class="entry">
+         <div class="header">
+             <span>AgenticAI – Agent-Based Newsletter Automation (Code vs. No-Code)</span>
+             <span>Apr 2025</span>
+         </div>
+         <div class="subheader">
+             <span>n8n, CrewAI, LangChain, FastAPI, AWS Lambda</span>
+             <span> </span>
+         </div>
+         <ul>
+             <li>Designed and deployed <strong>newsletter automation</strong> using <strong>n8n (no-code)</strong> and
+                 <strong>CrewAI + LangChain (code-first)</strong> to compare <strong>performance, flexibility, and
+                     maintainability</strong> of <strong>agentic workflows</strong>.
+             </li>
+             <li>Built <strong>custom APIs</strong> with <strong>FastAPI</strong>, integrated <strong>multi-agent
+                     coordination logic</strong>, and deployed <strong>backend services</strong> on <strong>AWS
+                     Lambda</strong> for <strong>scalable, event-driven execution</strong>.</li>
+             <li>Benchmarked both approaches across <strong>latency, reliability, and dev speed</strong>, achieving
+                 <strong>70% reduction in manual workload</strong> with insights into <strong>visual vs. programmatic
+                     agent tradeoffs</strong>.
+             </li>
+         </ul>
+     </div>
 
-    <div class="entry" style="margin-top: 30px;">
-        <div class="header">
-            <span>Sentiment-Driven Market Forecasting – LSTM for NVDA Returns</span>
-            <span>May 2025</span>
-        </div>
-        <div class="subheader">
-            <span>VADER, LSTM, Reddit NLP, yfinance, Amazon SageMaker, FinSpace, TensorFlow</span>
-        </div>
-        <ul>
-            <li>Engineered a <strong>multimodal pipeline</strong> combining <strong>Reddit sentiment signals</strong>
-                (via <strong>VADER + virality-based scoring</strong>) and <strong>financial indicators (OHLCV,
-                    VIX)</strong> to predict <strong>NVDA's next-day returns</strong>.</li>
-            <li>Trained a <strong>7-day rolling LSTM model</strong> in <strong>Amazon SageMaker</strong>, achieving
-                <strong>measurable correlation against market baselines</strong> while reducing <strong>local
-                    experimentation time by 60%</strong>.
-            </li>
-            <li>Used <strong>Amazon FinSpace</strong> to manage <strong>historical pricing and sentiment data</strong>,
-                supporting <strong>scalable time-series alignment</strong> and <strong>high-resolution feature
-                    aggregation</strong> for deep learning input.</li>
-        </ul>
-    </div>
+     <div style="page-break-before: always;"></div>
+
+     <div class="entry" style="margin-top: 30px;">
+     <div class="entry">
+         <div class="header">
+             <span>Pneumonia Detection – Deep Learning for Chest X-ray Classification</span>
+             <span>Dec 2024</span>
+         </div>
+         <div class="subheader">
+             <span>TensorFlow, VGG19, AWS SageMaker, Flask, OpenCV</span>
+             <span> </span>
+         </div>
+         <ul>
+             <li>Built a <strong>pneumonia detection model</strong> using <strong>VGG19</strong> with <strong>custom
+                     classifier layers</strong>, leveraging <strong>transfer learning</strong> and <strong>image
+                     augmentation</strong> to improve <strong>medical image classification accuracy</strong>.</li>
+             <li>Fine-tuned and trained the model on <strong>AWS SageMaker</strong>, reducing <strong>training time by
+                     60%</strong> compared to local GPU setups while scaling to <strong>larger datasets</strong> with
+                 improved <strong>validation performance</strong>.</li>
+             <li>Deployed the model as a <strong>Flask-based web app</strong> with <strong>real-time inference
+                     support</strong> and a <strong>user-friendly front-end</strong> for interactive <strong>diagnosis
+                     simulation</strong>.</li>
+         </ul>
+     </div>
 
     <!-- Education Section -->
     <h2>Education</h2>
