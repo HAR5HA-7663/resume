@@ -2,7 +2,7 @@
 
 ## Basic Information
 - **Full Name:** Harsha Vardhan Yellela
-- **Location:** Ferndale, Michigan - 48220
+- **Location:** United States
 - **Phone:** +1-248-497-9965
 - **Email:** harsha.yellela@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/har5ha-7663
@@ -29,9 +29,9 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 
 ## Work Experience
 
-### AI Agent Development Researcher
+### Graduate Research Assistant – Agentic AI
 - **Company:** Lawrence Technological University
-- **Location:** USA
+- **Location:** Southfield, MI
 - **Duration:** Jan 2025 – Present
 - **Key Responsibilities:**
   - Built and compared no-code (n8n) vs. coded multi-agent systems (CrewAI + LangChain MCP) for workflow automation and intelligent decision-making
@@ -49,26 +49,103 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 
 ## Technical Skills
 
-### Languages & APIs
-- Python, JavaScript, SQL, RESTful API Design
+### Programming Languages
+- **Primary:** Python, Go, TypeScript, JavaScript
+- **Secondary:** SQL, Dart, C#, Bash
 
-### Backend & Cloud
-- FastAPI, Flask, AWS (Lambda, SageMaker, FinSpace, Bedrock), CI/CD (GitHub Actions)
+### Backend Frameworks & APIs`
+- FastAPI, Flask, Gin (Go), Express.js
+- RESTful API Design, OpenAPI/Swagger, HATEOAS
+- Pydantic, JWT Authentication, CORS
 
-### AI/ML & NLP
-- GPT-4, Gemini, DeepSeek, LangChain, TensorFlow, VADER, LSTM, Transfer Learning, Sentiment Analysis
+### Frontend & Mobile
+- React Native/Expo, Next.js, React
+- HTML5, CSS3, Vanilla JavaScript
+- Flutter/Dart (cross-platform mobile)
+- GetX State Management
 
-### Automation & Agents
-- CrewAI, n8n, BeautifulSoup, Web Scraping, Agent Orchestration
+### IoT & Embedded Systems
+- Arduino, NodeMCU, ESP32
+- MQTT Protocol, Adafruit Cloud
+- Voice Assistants (Google Assistant, Alexa)
+- Sensors (DHT11/DHT22), Relays
 
-### Data & Storage
-- DynamoDB, PostgreSQL, Pandas, NumPy
+### Cloud & Infrastructure (AWS)
+- **Compute:** Lambda, ECS Fargate, EC2, SageMaker
+- **Storage:** S3, DynamoDB, ECR
+- **ML Services:** SageMaker, Bedrock, FinSpace
+- **Integration:** API Gateway, Kinesis, SNS
+- **IaC:** CloudFormation, CDK, Terraform
 
-### Tools & Frameworks
-- Docker, Git, Pydantic, OpenCV, Matplotlib
+### DevOps & CI/CD
+- Docker, Docker Compose, Kubernetes (EKS)
+- Jenkins (Multibranch Pipelines), GitHub Actions
+- Prometheus, Grafana (Monitoring)
+- Health checks, HPA, Circuit Breaker patterns
+
+### Machine Learning & Deep Learning
+- **Frameworks:** TensorFlow/Keras, PyTorch, PyTorch Geometric, Transformers (HuggingFace)
+- **Architectures:** CNN, RNN, LSTM, GRU, VGG19, Graph Neural Networks (GCN)
+- **Techniques:** Transfer Learning, Fine-tuning, Quantization (QLoRA, 4-bit NF4)
+- **Simulation:** SUMO (Traffic Flow), NetworkX
+- **MLOps:** SageMaker Pipelines, Model Registry, Auto-retraining
+
+### LLM & AI Agents
+- **Models:** GPT-4, Gemini, DeepSeek, Qwen, LLaMA, Claude
+- **Frameworks:** LangChain, LangGraph, CrewAI, PEFT, TRL
+- **RAG:** Vector Databases (Qdrant, pgvector), Embeddings, Reranking
+- **Tools:** Ollama, vLLM, n8n
+
+### NLP & Text Processing
+- Sentiment Analysis (VADER, BERT), Named Entity Recognition
+- Text Preprocessing, Tokenization, TF-IDF
+- NLTK, spaCy, TextBlob
+
+### Computer Vision
+- Image Classification, Medical Imaging (X-Ray, Chest)
+- OpenCV, Data Augmentation
+- Transfer Learning (VGG19, ResNet)
+- YOLO Object Detection, CLIP Segmentation
+- Point Cloud Processing, 3D Vision
+
+### Robotics
+- ROS (Robot Operating System)
+- Autonomous Navigation & Manipulation
+- Sensor Fusion, Kinematics
+- Stretch2 Mobile Manipulator
+
+### Optimization & Algorithms
+- Evolutionary Algorithms (GA, ES, CMA-ES)
+- Hyperparameter Optimization (Keras Tuner, DEAP, Hyperband)
+- Mathematical Optimization, Benchmarking
+
+### Databases & Storage
+- **SQL:** PostgreSQL, SQLite
+- **NoSQL:** DynamoDB, MongoDB
+- **Vector:** Qdrant, pgvector
+- **Caching:** Redis
+
+### Data Processing & Visualization
+- Pandas, NumPy, scikit-learn
+- Matplotlib, Seaborn
+- Web Scraping (Selenium, BeautifulSoup)
+- Document Parsing (PyPDF2, python-docx)
+
+### Third-Party Integrations
+- Payment: Stripe, Stripe Connect
+- Communication: Twilio, Telnyx WebRTC
+- Documents: DocuSign
+- Accounting: QuickBooks
+- APIs: GitHub, dev.to, Semantic Scholar, ArXiv
 
 ### Enterprise Systems
-- Infor LN, Infor ION, BaanC, Manufacturing & Finance Modules
+- Infor LN, Infor ION, BaanC
+- Manufacturing & Finance Modules
+
+### Development Tools
+- Git, Jupyter Notebooks
+- VS Code, Cursor
+- Postman, Swagger UI
 
 ## Achievements & Extracurricular
 - Selected for Amazon Nova AI Challenge: Trusted AI Track (2025)

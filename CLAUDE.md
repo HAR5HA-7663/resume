@@ -114,12 +114,20 @@ When the user provides a job description (JD), follow these steps:
 ### Quick Role-to-Project Reference
 | Target Role | Priority Projects |
 |-------------|-------------------|
-| Backend/SDE | Resumade.in, AgenticAI |
-| ML/AI Engineer | Sentiment Forecasting, Pneumonia Detection |
-| Data Scientist | Sentiment Forecasting |
-| Full Stack | Resumade.in, Pneumonia Detection |
-| Cloud Engineer | All (emphasize AWS components) |
-| Healthcare AI | Pneumonia Detection |
+| Backend/SDE | Job Portal, FieldFuze Backend (Go), Resumade, Lambda Microservices |
+| API Developer | Job Portal (HATEOAS), FieldFuze Backend |
+| DevOps/Platform | Telegram Toxicity (K8s), Online Learning Portal (Jenkins), ML Sentiment Loop |
+| SRE | Telegram Toxicity (circuit breaker, monitoring), ML Sentiment Loop |
+| ML/AI Engineer | Resume Optimizer (QLoRA), ML Sentiment Loop (MLOps), Sentiment Forecasting, Pneumonia Detection, Traffic Flow GNN, Food Classifier (EA-HPO) |
+| LLM/NLP Engineer | Resume Optimizer, CRE Agent (RAG), ATS Matching |
+| MLOps Engineer | ML Sentiment Loop (8 microservices), Telegram Toxicity |
+| Cloud Engineer | Lambda Microservices (94 functions), ML Sentiment Loop, FieldFuze Backend |
+| Full Stack | FieldFuze (Go + React Native), Job Portal, Resumade |
+| Mobile Developer | FieldFuze Mobile (React Native, 104+ components) |
+| Frontend | VSCode Portfolio (Next.js), FieldFuze Mobile |
+| Data Scientist | Sentiment Forecasting, NLP Course, Food Classifier |
+| Integration Engineer | Lambda Microservices (Stripe, Twilio, DocuSign, QuickBooks) |
+| Automation Engineer | N8N, AgenticAI, ATS Matching |
 
 ---
 
@@ -139,24 +147,65 @@ Open `resume.html` in a browser and use the browser's Print to PDF feature. The 
 
 ---
 
+## Resume Tailoring Hacks (Optimization Insights)
+
+**Key patterns for faster, better resume generation:**
+
+1. **ML Engineer Resume Formula:**
+   - Summary: Lead with "Machine Learning Engineer" + LLM fine-tuning + deep learning architectures + MLOps
+   - Skills order: ML Frameworks → Deep Learning → LLM/Fine-tuning → NLP → CV → MLOps → Languages
+   - Top projects: QLoRA fine-tuning > MLOps pipeline > LSTM/time-series > CV/medical > GNN (unique differentiator)
+
+2. **Project Selection Priority:**
+   - Always include 1 LLM/fine-tuning project (shows modern ML skills)
+   - Always include 1 MLOps project (shows production-readiness)
+   - Include 1-2 domain-specific (CV, NLP, GNN based on JD)
+   - Include 1 unique/differentiating project (GNN, Robotics, etc.)
+
+3. **Bullet Point Formula:**
+   - Format: `[Action verb] + [specific tech] + [quantifiable result]`
+   - Example: "Fine-tuned Qwen3-4B using QLoRA (4-bit NF4), reducing GPU memory to 18-22GB"
+   - Always bold key technologies and metrics
+
+4. **Page Break Strategy:**
+   - Page 1: Summary, Experience, Skills, 3 projects
+   - Page 2: 2-3 more projects, Education, Achievements
+   - Use `<div style="page-break-before: always;"></div>` before 4th project
+
+5. **Skills Section Optimization:**
+   - Group by category, not alphabetically
+   - Put JD-matching skills first in each category
+   - Combine related items with "|" separator to save space
+
+---
+
 ## Task Log
 
-**Instructions for Claude:** After completing any significant task, add an entry here with the date and description. Keep entries concise. This helps future chat sessions understand the project state.
+**Instructions for Claude:** After completing any significant task, add an entry here with the date and description. Keep entries concise. **Only keep the last 4 entries** - delete older ones when adding new. This helps future chat sessions understand the project state.
 
 ### Log Entries
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2024-12-20 | Initial setup | Created `personal_details.md` and `projects.md` context files |
-| 2024-12-20 | Extracted existing data | Populated both files with data from `resume.html` (4 projects, personal info, skills) |
-| 2024-12-20 | Updated CLAUDE.md | Added instructions for adding projects, tailoring resumes from JD, and session continuity |
+| 2024-12-20 | GitHub repos scan | Cloned 4 new repos (Stretch2, Traffic GNN, DOMUS, Covid-analyzer), added as Projects 24-27 |
+| 2024-12-20 | Added GitHub links | Added GitHub repository links to 19 projects (3-8, 13-17, 19-22, 24-27) that have public repos |
+| 2024-12-20 | ML Engineer resume | Created tailored ML Engineer resume with 6 projects, updated job title to "Graduate Research Assistant", location to "United States", achievements restored |
+| 2024-12-20 | SDE resume | Created SDE-focused resume with 6 backend projects (Job Portal, FieldFuze Go, Lambda 94, Resumade, Telegram K8s, Car Dealer), updated personal_details.md |
 
 ### Pending/In Progress
-- Awaiting user to provide additional projects to add to `projects.md`
+- Ready for new job descriptions
 
 ### Current State Summary
-- **Projects in projects.md:** 4 (Resumade.in, Sentiment Forecasting, AgenticAI, Pneumonia Detection)
-- **personal_details.md:** Complete with education, experience, skills, achievements
+- **Projects in projects.md:** 27 total
+  - ML/AI (10): Resume Optimizer, Sentiment Forecasting, Pneumonia Detection, Food Classifier, ATS Matching, NLP Course, Air Quality, Hybrid CMA-ES, Traffic Flow GNN, Stretch2
+  - Backend (5): Job Portal, FieldFuze Backend, Resumade, Lambda Microservices, AviationStack
+  - MLOps/Platform (4): ML Sentiment Loop, Telegram Toxicity, Online Learning Portal, AWS ML Projects
+  - Full Stack (3): FieldFuze, Resumade, Car Dealer App
+  - AI Agents/RAG (3): AgenticAI, CRE Agent, N8N
+  - Mobile/IoT (3): FieldFuze Mobile, DOMUS, Covid-analyzer
+  - Frontend (1): VSCode Portfolio
+  - Robotics (1): Stretch2 Robot
+- **personal_details.md:** Complete with 17+ skill categories (added ROS, IoT, GNN, Embedded)
 - **resume.html:** Contains current resume (can be tailored per JD)
 
 ---
