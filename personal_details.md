@@ -5,6 +5,7 @@
 - **Location:** United States
 - **Phone:** +1-248-497-9965
 - **Email:** harsha.yellela@gmail.com
+- **Portfolio:** https://har5ha.in
 - **LinkedIn:** https://www.linkedin.com/in/har5ha-7663
 - **GitHub:** https://github.com/HAR5HA-7663
 

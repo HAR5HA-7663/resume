@@ -21,7 +21,7 @@
 | **Country** | United States |
 | **LinkedIn** | https://www.linkedin.com/in/har5ha-7663 |
 | **GitHub** | https://github.com/HAR5HA-7663 |
-| **Portfolio** | https://resumade.in |
+| **Portfolio** | https://har5ha.in |
 
 ---
 

@@ -187,10 +187,10 @@ Open `resume.html` in a browser and use the browser's Print to PDF feature. The 
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2024-12-20 | SDE resume | Created SDE-focused resume with 6 backend projects (Job Portal, FieldFuze Go, Lambda 94, Resumade, Telegram K8s, Car Dealer), updated personal_details.md |
 | 2024-12-25 | DevOps resume | Created DevOps-focused resume with 6 projects (Telegram K8s, ML Sentiment Loop, Online Learning Portal Jenkins, Lambda IaC, Car Dealer K8s, Job Portal Docker) |
 | 2024-12-25 | Indeed job apps | Applied to 3 DevOps positions: Principal Engineer at Etactics ($90K-$105K), DevOps Engineer at Etactics ($75K+), Platform Engineer at Brooksource ($125K-$145K) |
 | 2024-12-25 | Job context file | Created JOB_APPLICATION_CONTEXT.md - comprehensive context file for LLM/browser agents to fill job application forms automatically |
+| 2024-12-27 | General portfolio resume | Created versatile portfolio resume showcasing 6 high-profile projects: QLoRA LLM fine-tuning, MLOps microservices, Lambda (94 functions), Go backend, ROS Robotics, Graph Neural Networks |
 
 ### Pending/In Progress
 - Ready for new job descriptions or applications
