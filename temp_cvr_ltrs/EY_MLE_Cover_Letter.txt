@@ -1,0 +1,36 @@
+V Harsha Vardhan Yellela
+Ferndale, MI 48220
+harsha.yellela@gmail.com | (248) 497-9965
+LinkedIn: linkedin.com/in/har5ha-7663 | GitHub: github.com/HAR5HA-7663
+
+December 29, 2025
+
+EY Recruiting Team
+Service Delivery Center - AI and Data
+Ernst & Young LLP
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Machine Learning Engineer (MLE) - Senior position within EY's Financial Services Organization AI and Data team. With hands-on experience building production-grade AI agents using LangChain and CrewAI, deploying RAG systems with vector databases, and implementing MLOps pipelines on AWS, I am excited about the opportunity to help transform financial services through autonomous AI systems.
+
+In my current role as a Graduate Research Assistant at Lawrence Technological University, I have been directly working on the technologies central to this role:
+
+- Built and compared multi-agent systems using CrewAI and LangChain MCP for workflow automation, achieving 70% reduction in manual process time
+- Deployed persistent agent services on AWS Fargate and Amazon EKS, integrating OpenSearch Serverless Vector Engine for semantic search and RAG
+- Designed hybrid pipelines combining Bedrock-hosted models with custom tools for intelligent decision-making
+
+My experience aligns closely with the core technical requirements:
+
+- LLM & Agentic Frameworks: Extensive work with GPT-4, Claude, Gemini, and open-source models (Qwen, LLaMA). Built multi-agent architectures using LangChain, LangGraph, and CrewAI for complex workflows.
+- RAG Systems: Developed the CRE Research Agent using vector databases (Qdrant, pgvector) with embeddings and reranking for academic literature review.
+- MLOps: Built an 8-microservice MLOps platform on AWS with SageMaker for automated model retraining, deployment pipelines, and continuous monitoring.
+- Fine-tuning: Applied QLoRA (4-bit NF4 quantization) to fine-tune Qwen3-4B for domain-specific tasks, achieving 9.5/10 quality scores while optimizing GPU memory usage.
+
+Previously at Infor, I developed modular, production-ready tools for Fortune 500 clients including Ferrari, Boeing, and Triumph, integrating AWS services (S3, Lambda, API Gateway) for enterprise-scale automation. This experience in delivering client-facing solutions in regulated environments has prepared me well for EY's financial services focus.
+
+I am particularly drawn to EY's vision of building autonomous financial AI systems that process millions of transactions while maintaining regulatory compliance. The opportunity to architect AI agents for trading assistants, compliance monitors, and fraud detection aligns perfectly with my passion for building reliable, scalable AI infrastructure.
+
+I would welcome the opportunity to discuss how my experience with agentic AI systems, RAG architectures, and MLOps can contribute to EY's AI and Data practice. Thank you for considering my application.
+
+Sincerely,
+V Harsha Vardhan Yellela

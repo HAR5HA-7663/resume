@@ -8,15 +8,16 @@
 
 | Field | Value |
 |-------|-------|
-| **Full Name** | Harsha Vardhan Yellela |
-| **First Name** | Harsha |
+| **Full Name** | V Harsha Vardhan Yellela |
+| **Legal First Name** | V Harsha Vardhan |
+| **First Name (Casual)** | Harsha |
 | **Last Name** | Yellela |
 | **Middle Name** | Vardhan |
 | **Email** | harsha.yellela@gmail.com |
 | **Phone** | +1-248-497-9965 |
 | **Phone (alt format)** | 248-497-9965 |
 | **Location** | United States |
-| **City** | Southfield |
+| **City** | Ferndale |
 | **State** | Michigan (MI) |
 | **Country** | United States |
 | **LinkedIn** | https://www.linkedin.com/in/har5ha-7663 |

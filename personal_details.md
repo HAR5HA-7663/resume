@@ -1,7 +1,12 @@
 # Personal Details
 
 ## Basic Information
-- **Full Name:** Harsha Vardhan Yellela
+- **Full Name:** V Harsha Vardhan Yellela
+- **Legal First Name:** V Harsha Vardhan
+- **Casual Name:** Harsha
+- **Date of Birth:** June 7, 2001
+- **Gender:** Male
+- **Address:** 431 W Saratoga St, Ferndale, MI 48220
 - **Location:** United States
 - **Phone:** +1-248-497-9965
 - **Email:** harsha.yellela@gmail.com
