@@ -374,14 +374,18 @@ V Harsha Vardhan Yellela
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2025-12-29 | LinkedIn ML batch | Applied to 15+ ML Engineer jobs via LinkedIn (Databricks, Pinterest, Cisco, Moveworks, AAA Life, etc.) |
-| 2025-12-29 | MigrateMate ML batch | Applied to 10 ML jobs from MigrateMate including Lucid Motors, Snap Inc., EY (with cover letter) |
-| 2025-12-29 | EY application | Completed full EY ML Engineer Senior application with tailored cover letter saved to `temp_cvr_ltrs/` |
 | 2025-12-29 | Cover letter docs | Added "Cover Letter Handling" section to CLAUDE.md with decision matrix, template, and process |
+| 2026-01-09 | Build Fellowship apps | Applied to 2 Build Fellowship programs: (1) Transformer language model (Expert), (2) LLM integration with Python (Intermediate). Q&A saved to `Build_Fellowship_QA.md` |
+| 2026-01-09 | JPMC referral research | Found 3 new top-pick JPMC roles via web search: Python/Agentic AI (210670963), Python/PySpark SWE II (210671741), Full Stack SWE III (210679365) |
+| 2026-01-09 | JPMC jobs ranked | Created `jpmc_referral_jobs_ranked.csv` with all JPMC referral jobs ranked by match level (TOP PICK → VERY LOW) |
 
 ### Pending/In Progress
-- Ready for new applications
-- Total applications: 77 (CSV job_applications.csv)
+- LinkedIn DevOps/SDE job applications pending
+- Total applications: 77+ (CSV job_applications.csv)
+
+### New Files Created This Session
+- `Build_Fellowship_QA.md` - Interview prep with all Q&A for both fellowship applications
+- `jpmc_referral_jobs_ranked.csv` - Ranked JPMC referral jobs with 3 new top picks added
 
 ### Current State Summary
 - **Projects in projects.md:** 27 total
