@@ -298,4 +298,24 @@
 
 ---
 
-*Last Updated: December 2025*
+## 11. Platform-Specific Information
+
+### Turing (developers.turing.com)
+| Field | Value |
+|-------|-------|
+| **Platform URL** | https://developers.turing.com |
+| **Application URL** | https://developers.turing.com/dashboard/applications/ |
+| **Expected Hourly Rate** | $65 USD |
+| **Primary Language Selected** | Python |
+| **Application Process** | 1) Upload Resume → 2) Application Form → 3) Interview → 4) Automated Challenge |
+| **Account Status** | Active |
+| **Notes** | Turing is a remote work platform for developers. After application form submission, requires technical interview and automated coding challenge. |
+
+### Turing Form Fields Reference
+- **Expected pay per hour:** Numeric field (USD) - Use $65
+- **Primary programming language:** Single-select radio buttons (Python, JavaScript, Go, C++, C, Ruby, Dart, Flutter, TypeScript, PHP, Java)
+- **Confirmation checkbox:** "I confirm that the data I've entered is correct"
+
+---
+
+*Last Updated: January 2026*
