@@ -1,0 +1,23 @@
+To: humanresources@cdreams.org
+Subject: Volunteer Application - AI/ML Engineer for Green Technology Initiatives
+
+Dear Human Resources Team,
+
+I hope this message finds you well. My name is Harsha Vardhan Yellela, and I am a recent Master of Science in Computer Science graduate from Lawrence Technological University in Michigan. I came across Community Dreams Foundation while exploring organizations working at the intersection of technology and community development, and I was excited to learn about your mission to empower underserved communities through clean energy and advanced technology solutions.
+
+Your Green Connect App and Green Collar Jobs program particularly caught my attention. As someone with hands-on experience building AI-powered applications and machine learning pipelines, I believe I can make meaningful contributions to your technology initiatives. During my graduate research, I developed multi-agent AI systems using LangChain and CrewAI, built RAG pipelines with vector databases, and deployed scalable services on AWS. I am also proficient in Python, FastAPI, and cloud infrastructure, which I understand aligns well with the technical work at CDF.
+
+I am currently on F-1 OPT status and am looking to volunteer my skills while contributing to a cause I genuinely care about. I am available to start immediately and can commit to a consistent schedule, whether remote or on-site. I am happy to support your team with AI/ML development, data engineering, app development, or any other technical needs.
+
+I have attached my resume for your reference. Please let me know if there are any current or upcoming volunteer opportunities where I could contribute. I would also be grateful if you could provide a volunteer offer letter confirming my role, as this is required for my immigration documentation.
+
+Thank you for your time and for the impactful work Community Dreams Foundation does. I look forward to the opportunity to contribute to your mission.
+
+Best regards,
+
+V Harsha Vardhan Yellela
+Email: harsha.yellela@gmail.com
+Phone: +1-248-497-9965
+LinkedIn: linkedin.com/in/har5ha-7663
+GitHub: github.com/HAR5HA-7663
+Portfolio: har5ha.in
