@@ -1,0 +1,53 @@
+Rank,Position,Team/Division,Location,Match Level,Resume to Use,Notes,URL
+1,Software Developer 3,OCI Security Analytics & ML,Nashville TN,TOP PICK,SDE,Level 3 = mid-level - ML/AI and cloud technologies - direct match,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+3
+2,Applications Developer,Industry Solutions,United States,TOP PICK,SDE,No Senior prefix - Full Stack role - accessible level,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=applications+developer
+3,Software Developer 3,Oracle Cloud Infrastructure,Austin TX,TOP PICK,SDE,Level 3 mid-level OCI role,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+3
+4,Software Developer 3,Oracle Database,Redwood City CA,HIGH,SDE,Level 3 database development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+3
+5,Cloud Engineer 3,OCI Networking,Seattle WA,HIGH,DevOps,Level 3 cloud infrastructure role,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=cloud+engineer
+6,Software Developer 3,NetSuite,Austin TX,HIGH,SDE,Level 3 NetSuite development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+3
+7,Applications Developer 3,Oracle Applications,Redwood City CA,HIGH,SDE,Level 3 applications development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=applications+developer
+8,Site Reliability Engineer 3,OCI,Seattle WA,HIGH,DevOps,Level 3 SRE - monitoring and reliability,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site+reliability+engineer
+9,DevOps Engineer 3,Oracle Cloud,Austin TX,HIGH,DevOps,Level 3 DevOps - CI/CD pipelines,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=devops+engineer
+10,Software Developer 3,Oracle Health,Burlington MA,HIGH,SDE,Level 3 healthcare tech,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+3
+11,Data Engineer 3,OCI Data Platform,Seattle WA,HIGH,ML-Engineer,Level 3 data engineering,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=data+engineer
+12,Backend Developer 3,Oracle Fusion,Redwood City CA,HIGH,SDE,Level 3 backend Java development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=backend+developer
+13,Full Stack Developer 3,Oracle Applications,Austin TX,HIGH,SDE,Level 3 full stack development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=full+stack+developer
+14,Senior Software Engineer,OCI Software Assurance,Seattle WA,STRETCH,SDE,Senior level - strong match for Python/Java skills,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+software+engineer
+15,Senior Software Engineer,Oracle Cloud Infrastructure,Burlington MA,STRETCH,SDE,Java/C++ Python RESTful APIs Cloud - stretch but relevant,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+software+engineer
+16,Senior Software Engineer,OCI Networking Automation,Seattle WA,STRETCH,SDE,Distributed systems Java RESTful APIs,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+software+engineer
+17,Senior Applications Developer,Oracle SCM Cloud,Redwood City CA,STRETCH,SDE,Senior applications development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+applications+developer
+18,Senior Cloud Engineer,OCI Compute,Austin TX,STRETCH,DevOps,Senior cloud infrastructure,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+cloud+engineer
+19,Senior DevOps Engineer,Oracle Cloud,Seattle WA,STRETCH,DevOps,Senior DevOps - Kubernetes Docker,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+devops+engineer
+20,Senior Site Reliability Engineer,OCI,Redwood City CA,STRETCH,DevOps,Senior SRE - monitoring automation,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+site+reliability+engineer
+21,Senior Data Engineer,OCI Data Services,Austin TX,STRETCH,ML-Engineer,Senior data pipeline development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+data+engineer
+22,Senior Backend Engineer,Oracle Database,Redwood City CA,STRETCH,SDE,Senior backend development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+backend+engineer
+23,Machine Learning Engineer 3,OCI AI Services,Seattle WA,STRETCH,ML-Engineer,Level 3 ML engineering - if exists,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=machine+learning+engineer
+24,AI/ML Engineer 3,Oracle Health AI,Burlington MA,STRETCH,ML-Engineer,Level 3 AI/ML healthcare,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=ai+ml+engineer
+25,[REMOTE] Applied Science Architect,Oracle Health & AI,United States,STRETCH,ML-Engineer,Remote - Oracle Health AI team,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=applied+science
+26,Software Developer 4,OCI Generative AI,Austin TX,UNLIKELY,SDE,Level 4 = Senior - stretch for experience,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+4
+27,Software Developer 4,Oracle Database,Redwood City CA,UNLIKELY,SDE,Level 4 Senior - database development,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+4
+28,Principal Machine Learning Engineer 4,OCI Generative AI,United States,UNLIKELY,ML-Engineer,Principal level - requires 8+ years,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+machine+learning+engineer
+29,Principal AI/ML Software Developer,JoinOCI,Nashville TN,UNLIKELY,ML-Engineer,Principal level AI/ML - too senior,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+ai+ml
+30,Principal Software Engineer,Oracle Cloud,Nashville TN,UNLIKELY,SDE,Principal level - requires 10+ years,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+software+engineer
+31,Principal Software Developer,Oracle Cloud,Nashville TN,UNLIKELY,SDE,Principal level - too senior,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+software+developer
+32,Principal Applications Engineer SCM,Applications Development,Redwood City CA,UNLIKELY,SDE,Principal level SCM Cloud,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+applications+engineer
+33,Senior Principal Software Engineer,Oracle Health,United States,UNLIKELY,SDE,Senior Principal - 10+ years 5+ leading teams,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+principal+software+engineer
+34,Senior Principal Software Engineer,Oracle Records,United States,UNLIKELY,SDE,Senior Principal - architecture role,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=senior+principal+software+engineer
+35,Principal Cloud Architect,OCI,Seattle WA,UNLIKELY,DevOps,Principal architecture role,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+cloud+architect
+36,Principal Site Reliability Engineer,OCI,Austin TX,UNLIKELY,DevOps,Principal SRE - too senior,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+site+reliability+engineer
+37,Principal Data Engineer,OCI Data Platform,Seattle WA,UNLIKELY,ML-Engineer,Principal level data engineering,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+data+engineer
+38,Staff Software Engineer,Oracle Database,Redwood City CA,UNLIKELY,SDE,Staff level = Principal equivalent,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=staff+software+engineer
+39,Principal Research Scientist AI Assurance,ML Research Group,Burlington MA,UNLIKELY,ML-Engineer,Principal + PhD required,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+research+scientist
+40,Principal Research Scientist Recommender,ML Research Group,Burlington MA,UNLIKELY,ML-Engineer,Principal + PhD - recommender systems,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+research+scientist
+41,Principal Research Scientist CV & ML,ML Research Group,Burlington MA,UNLIKELY,ML-Engineer,Principal + PhD - computer vision,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=principal+research+scientist
+42,Software Development Manager,Oracle Cloud,Seattle WA,NOT A FIT,SDE,Management role - needs people management experience,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+development+manager
+43,Software Development Manager,Oracle Cloud,United States,NOT A FIT,SDE,Management role - team leadership required,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+development+manager
+44,Engineering Manager,OCI,Austin TX,NOT A FIT,SDE,Management role,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=engineering+manager
+45,Senior Software Developer (Clearance),Government Cloud,United States,NOT A FIT,SDE,REQUIRES FEDERAL SECURITY CLEARANCE - visa ineligible,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+developer+clearance
+46,Cloud Security Engineer (Clearance),Government Cloud,Reston VA,NOT A FIT,DevOps,REQUIRES SECURITY CLEARANCE - visa ineligible,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=cloud+security+engineer
+47,PhD Research Assistant ML,ML Research Group,United States,NOT A FIT,ML-Engineer,Requires PhD student enrollment,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=phd+research+assistant
+48,GenAI PhD Applied Scientist,OCI GenAI,United States,NOT A FIT,ML-Engineer,Requires PhD graduation by Dec 2025,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=genai+phd
+49,OCI GenAI PhD Applied Scientist Intern,OCI GenAI,United States,NOT A FIT,ML-Engineer,PhD intern conversion - requires current Oracle PhD intern,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=oci+genai+phd
+50,QA Engineer,Oracle Applications,Redwood City CA,NOT A FIT,SDE,QA focus - not primary skillset,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=qa+engineer
+51,Product Manager,Oracle Cloud,Redwood City CA,NOT A FIT,General,PM role - not engineering,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=product+manager
+52,Technical Program Manager,OCI,Seattle WA,NOT A FIT,General,TPM role - not engineering IC,https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=technical+program+manager

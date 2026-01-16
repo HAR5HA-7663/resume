@@ -1,0 +1,32 @@
+Harsha Vardhan Yellela
+Ferndale, MI 48220
+harsha.yellela@gmail.com | (248) 497-9965
+linkedin.com/in/har5ha-7663 | github.com/HAR5HA-7663
+
+January 15, 2026
+
+Hiring Manager
+Apprentice Engineer - AI/ML Team
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Apprentice Engineer - Artificial Intelligence / Machine Learning position. As a recent MS Computer Science graduate from Lawrence Technological University with hands-on experience building production AI systems, I am excited about the opportunity to contribute to your team while continuing to grow as an ML practitioner.
+
+In my current role as a Graduate Research Assistant, I have been working directly with Professor Paula Lauren on building agentic AI systems and ML-powered automation. I designed and deployed the CRE Research Agent, an end-to-end research automation workflow orchestrated in n8n, hosted on AWS EC2, and exposed via a Telegram bot webhook. This project required implementing multi-step tool calling, error handling, and logging to make the agent reliable enough for day-to-day faculty use.
+
+What excites me most about this apprenticeship is the opportunity to learn from experienced engineers while applying my existing skills. My technical background includes:
+
+- Deep learning frameworks: PyTorch, TensorFlow, Transformers (HuggingFace)
+- LLM fine-tuning using QLoRA and 4-bit quantization, reducing GPU memory requirements while maintaining model quality
+- Building RAG systems with vector databases (Qdrant, pgvector) and embedding pipelines
+- MLOps practices including SageMaker Pipelines, model registry, and automated retraining
+- Production backend development in Python (FastAPI) and Go, serving enterprise clients like Ferrari and Boeing
+
+I built a resume-optimization SLM pipeline that collected thousands of resumes and job descriptions, scraped postings, and used structured supervision with a local Qwen-2.5B model to fine-tune for resume-JD matching. This hands-on experience with the full ML lifecycle, from data collection to model deployment, has prepared me to contribute meaningfully from day one.
+
+I am particularly drawn to apprenticeship programs because I believe the best way to grow as an engineer is through mentorship and real-world problem solving. I am eager to learn, quick to adapt, and committed to delivering quality work.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how my background and enthusiasm can contribute to your team.
+
+Sincerely,
+Harsha Vardhan Yellela

@@ -18,8 +18,8 @@ Job Number,Position,Company,Location,Status,Date Applied
 17,AI/LLM Engineer (remote),Safe Sign Technologies,Remote - Cambridge MA,Applied,2025-12-28
 18,Founding AI / Backend Engineer (Healthcare Agentic Systems),TurnKey AI Practice,Remote,Applied,2025-12-28
 19,AI Data Engineer,Clinical Ink,Remote US,Applied,2025-12-28
-20,Mid-Level Software Engineer Full Stack,AI Front Desk,Texas (Remote),Applied,2025-12-28
-21,Automation & RMM Engineer (Level 2/3),ACC Technical Services Inc.,Remote,Applied,2025-12-28
+20,Mid-Level Software Engineer Full Stack,AI Front Desk,Texas (Remote),Rejected,2025-12-28
+21,Automation & RMM Engineer (Level 2/3),ACC Technical Services Inc.,Remote,Rejected,2025-12-28
 22,DevOps Engineer,Intrinsic Digital Marketing,Remote,Applied,2025-12-28
 23,Backend/DevOps Engineer,Nick AI,Remote,Applied,2025-12-28
 24,Mid-Level DevOps Engineer,Knowledge Management Inc.,Washington DC (Remote),Applied,2025-12-28
@@ -74,7 +74,7 @@ Job Number,Position,Company,Location,Status,Date Applied
 73,ML Engineer,Revefi,Seattle WA,Applied,2025-12-29
 74,Senior Applied Machine Learning Engineer,EvolutionIQ,New York NY,Applied,2025-12-29
 75,Staff ML Engineer - ADAS,Lucid Motors,Newark CA,Applied,2025-12-29
-76,Machine Learning Engineer Level 4,Snap Inc.,Palo Alto CA,Applied,2025-12-29
+76,Machine Learning Engineer Level 4,Snap Inc.,Palo Alto CA,Rejected,2025-12-29
 77,Machine Learning Engineer (MLE) - Senior,Ernst & Young LLP,Remote,Applied,2025-12-29
 78,Software Engineer,Ascendion,Richmond VA (On-site),Applied,2026-01-03
 79,Remote Software Engineer (US),Turing,Remote,Applied,2026-01-03
@@ -102,7 +102,7 @@ Job Number,Position,Company,Location,Status,Date Applied
 101,Machine Learning Infrastructure Engineers,Greylock Partners,San Francisco Bay Area (Hybrid),Applied,2026-01-06
 102,Artificial Intelligence Consultant,Brooksource,United States (Remote),Applied,2026-01-06
 103,Senior Python Developer,Precision Technologies,United States (Remote),Applied,2026-01-06
-104,Junior Cloud Engineer,Helic & Co.,United States (Remote),Applied,2026-01-06
+104,Junior Cloud Engineer,Helic & Co.,United States (Remote),Rejected,2026-01-06
 105,Cloud Engineer,Morey,Holland MI (On-site),Applied,2026-01-06
 106,Senior System Engineer,Net2Source (N2S),Dallas TX (Hybrid),Applied,2026-01-06
 107,Azure Fullstack Engineer,Qualis1 Inc.,Framingham MA (On-site),Applied,2026-01-06
@@ -112,3 +112,118 @@ Job Number,Position,Company,Location,Status,Date Applied
 111,DevOps Engineer,Talentpair,San Francisco Bay Area (Hybrid),Applied,2026-01-06
 112,Site Reliability Engineer,Aquent,Austin TX (On-site),Applied,2026-01-06
 113,Sr. Site Reliability Engineer,Analytic Partners,Dallas TX (Hybrid),Applied,2026-01-06
+114,Engineer (Mobile),Blue,United States (Remote),Applied,2026-01-11
+115,Front-End Engineers With AI Tools,Verita AI,California (Remote),Applied,2026-01-11
+116,QA Automation Lead with Python - AI,Gandiv Insights LLC,San Francisco CA (Hybrid),Applied,2026-01-11
+117,Full Stack Developer,RSC Solutions,Philadelphia PA (On-site),Applied,2026-01-11
+118,Software Engineer in Test,BeaconFire Inc.,New York City Metropolitan Area (On-site),Applied,2026-01-11
+119,Machine Learning Engineer,iPerformX,Tampa FL (On-site),Applied,2026-01-11
+120,Senior Security Engineer,Silicon Valley Consulting Group,Sacramento CA (On-site),Applied,2026-01-11
+121,Software Quality Engineer,Insight Global,Sunset Hills MO (On-site),Applied,2026-01-11
+122,Sr. Security Operations Engineer,Hyundai AutoEver America,West Point GA (On-site),Applied,2026-01-11
+123,Software Engineer-Other - Basic,PTR Global,Columbus OH (On-site),Applied,2026-01-11
+124,High-Performance Computing (HPC) Systems Engineer,Axle,Rockville MD (On-site),Applied,2026-01-11
+125,Client Operations Engineer,Ketryx,Boston MA (Hybrid),Rejected,2026-01-11
+126,Embedded Security Engineer,Skild AI,Pittsburgh PA (On-site),Applied,2026-01-11
+127,IT Software Engineer II,Boyd Gaming,Las Vegas NV (On-site),Applied,2026-01-11
+128,Artificial Intelligence Engineer,Hadron Energy Inc.,San Francisco Bay Area (On-site),Applied,2026-01-11
+129,Design Engineer 1 - New College,MechNova,Temple TX (Remote),Applied,2026-01-11
+130,Epicor Developer,CyberCoders,Owatonna MN (On-site),Applied,2026-01-11
+131,System Engineer,RightClick,Tupelo MS (On-site),Applied,2026-01-11
+132,Senior Software Engineer - C++,Kforce Inc,Orem UT (On-site),Applied,2026-01-11
+133,Junior Web Developer,Tech Consulting,Texas (On-site),Applied,2026-01-11
+134,Back End (Go) Developer,SkyHop Technologies,Miami-Fort Lauderdale Area (Hybrid),Applied,2026-01-11
+135,Software Engineer (Entry Level),OptiSigns Inc.,Houston TX (On-site),Applied,2026-01-11
+136,Android Developer (Android Golang Kotlin Java),Raindrops,Mountain View CA (On-site),Applied,2026-01-11
+137,Software Engineer ($80/hr),Crossing Hurdles,United States (Remote),Applied,2026-01-11
+138,Java Software Engineer,Atlas Search,New York NY (Hybrid),Applied,2026-01-11
+139,Junior Software Engineer (Recent Grads) - Enterprise AI,Andiamo,Santa Clara CA (On-site),Applied,2026-01-11
+140,Software Engineer,Saltu Staffing,Greater Chicago Area (On-site),Applied,2026-01-11
+141,Software Engineer (Backend/DevOps),Blue,United States (Remote),Applied,2026-01-11
+142,Junior Software Engineer,Tech Consulting,Virginia (On-site),Applied,2026-01-11
+143,Software Engineer III KMNA Development,Hyundai AutoEver America,Costa Mesa CA (On-site),Applied,2026-01-11
+144,ERP & Software Developer,Fibreworks Composites LLC,Mooresville NC (On-site),Rejected,2026-01-11
+145,Software Engineer,Coherent Technical Services Inc.,Hollywood MD (On-site),Applied,2026-01-11
+146,NetSuite Developer,The Daston Corporation,Leesburg VA (Hybrid),Applied,2026-01-11
+147,Business Central Developer,Access Truck Parts,Phoenix AZ (On-site),Applied,2026-01-11
+148,Software Engineer - II,Mensor LP,San Marcos TX (On-site),Rejected,2026-01-11
+149,Senior Staff/Senior Machine Learning Engineer,SciTec,Huntsville AL (On-site),Applied,2026-01-11
+150,Machine Learning Engineer II,Restoration of America,Ponte Vedra FL (On-site),Rejected,2026-01-11
+151,Machine Learning Engineer II,Glidewell Dental,Irvine CA (On-site),Rejected,2026-01-11
+152,DevOps / Backend (Platform) Engineer,LikenessLabs.AI,Remote,Applied,2026-01-13
+153,Data Platform Engineer,Dragonfli Group,Remote,Applied,2026-01-13
+154,Senior Software Engineer Backend (Institutional - Staking),Coinbase,Remote,Rejected,2026-01-13
+155,REMOTE Cloud Infrastructure Engineer (Terraform / IaC),Yoh,Remote,Applied,2026-01-13
+156,Senior DevSecOps Engineer - AWS Infrastructure & Security Automation,The Language Doctors,Remote,Applied,2026-01-13
+157,Site Reliability Engineer,Centraprise,Remote,Applied,2026-01-13
+158,OS / Infrastructure Vulnerability Management Engineer,ALTEN,Remote,Applied,2026-01-13
+159,MS Defender/Azure Engineer,Softworld a Kelly Company,Remote,Applied,2026-01-13
+160,Senior System Engineer,Feuji,Remote,Applied,2026-01-13
+161,Cloud .Net Software Engineer,iMPact Business Group,Grand Rapids MI (Remote),Applied,2026-01-13
+162,Applied NLP Engineer (Language Systems),Accumulated Inc.,Remote,Applied,2026-01-13
+163,AI Application Engineer,Fuel.AI,Remote,Applied,2026-01-13
+164,Staff Fullstack Engineer - Grapevine (AI),Recruiting from Scratch,Remote,Applied,2026-01-13
+165,Senior Engineer (Agentic + Data/ML),Luxoft,Remote,Applied,2026-01-13
+166,Forward Deployment Engineer,ASK Consulting,Remote,Applied,2026-01-13
+167,Software Engineer (Applied AI Focus),FirmPilot,Remote,Applied,2026-01-13
+168,Palantir Foundry Developer,Velovox Infotech,Remote,Applied,2026-01-13
+169,Senior Full Stack Engineer,Radicle Science,California (Remote),Applied,2026-01-13
+170,Full-stack Engineer (H),Blue Coding,Remote,Applied,2026-01-13
+171,Integration Senior Software Engineer/Architect,Pearson Carter,Remote,Applied,2026-01-13
+172,Principal Software Engineer,Mango Voice,Remote,Applied,2026-01-13
+173,MBD Software Engineer/Developer,Pentangle Tech Services | P5 Group,Remote,Applied,2026-01-13
+174,Senior Software Development Engineer in Test (SDET),FirmPilot,Remote,Applied,2026-01-13
+175,Junior Backend Software Engineer,Whitewood Media,Remote,Applied,2026-01-14
+176,Sr. Software Engineer Data & AI Platform,BetterWorks Systems Inc.,Menlo Park CA (Remote),Applied,2026-01-14
+177,Software Engineer II- Backend,Aledade,Remote,Applied,2026-01-14
+178,Machine Learning Engineer,QuadSci.ai,United States (Remote),Applied,2026-01-14
+179,Computer Vision Engineer,Franklin Fitch,United States (Remote),Applied,2026-01-14
+180,Backend/AI Engineer,KTeam,United States (Remote),Applied,2026-01-14
+181,Snowflake AI Engineer,Programmers.io,United States (Remote),Applied,2026-01-14
+182,Machine Learning Engineer - MLOps Lead,CoSourcing Partners,United States (Remote),Applied,2026-01-14
+183,Senior AI Agentic Engineer - 100% Remote,Optomi,United States (Remote),Applied,2026-01-14
+184,Microsoft - Data Engineer - Remote W2 role,Pioneer IT Systems,United States (Remote),Applied,2026-01-14
+185,GenAI Data Automation Engineer,Equiliem,United States (Remote),Applied,2026-01-14
+186,Founding Engineer — Backend & Data,Greenline,United States (Remote),Applied,2026-01-14
+187,Senior Full-Stack and AI Engineer,Mais Petições,United States (Remote),Applied,2026-01-14
+188,Software Engineer,Amigos,United States (Remote),Applied,2026-01-14
+189,Senior Software Engineer,PsychNow,Chicago IL (Remote),Applied,2026-01-14
+190,Lead Software Engineer - Technical Co-Founder,Ralle,United States (Remote),Applied,2026-01-14
+191,Frontend Software Engineering Intern,Integrate,United States (Remote),Applied,2026-01-14
+192,Fullstack Software Developer Intern (Summer '26),Todd,Los Angeles CA (Remote),Applied,2026-01-14
+193,Google Agentic AI/GenAI Developer,Themesoft Inc,Charlotte NC (Remote),Applied,2026-01-14
+194,Cloud Data Engineer,Net2Source (N2S),Dallas TX (Remote),Applied,2026-01-14
+195,Senior Software Engineer (AI/LLM),Irvine Technology Corporation,Boston MA (Remote),Applied,2026-01-14
+196,Senior Software Engineer,Because,United States (Remote),Applied,2026-01-14
+197,Software Engineer,Robert Half,Texas (Remote),Applied,2026-01-14
+198,Associate Cloud Platform Engineer,Brooksource,United States (Remote),Applied,2026-01-14
+199,Cloud Engineer,Ocho,United States (Remote),Applied,2026-01-14
+200,Senior Data Engineer / Cloud Database Engineer (GCP),AMISEQ,United States (Remote),Applied,2026-01-14
+201,Senior Data Engineer,Harnham,Texas (Remote),Applied,2026-01-14
+202,GEN AI Consultant,Lumen Axis,United States (Remote),Applied,2026-01-14
+203,MySQL Database Engineer (DBA),Temu,United States (Remote),Applied,2026-01-14
+204,AI Software Engineer,Harnham,United States (Remote),Applied,2026-01-14
+205,Full Stack Software Developer (Remote),Goldstar Learning Inc,United States (Remote),Applied,2026-01-14
+206,Sr.Solution Engineer,Prana Tree,Chicago IL (Remote),Applied,2026-01-14
+207,Backend Engineering Lead,Motivus,United States (Remote),Applied,2026-01-14
+208,Apprentice Engineer - AI/ML,LinkedIn,Mountain View CA (Hybrid),Applied,2026-01-15
+209,Apprentice Engineer - Backend,LinkedIn,Mountain View CA (Hybrid),Applied,2026-01-15
+210,Site Operations Engineer,LinkedIn,Mountain View CA (Hybrid),Applied,2026-01-15
+211,Artificial Intelligence Engineer,Aida,Palo Alto CA (On-site),Applied,2026-01-15
+212,Junior AI Engineer,Emonics LLC,Dallas TX (On-site),Applied,2026-01-15
+213,Sensor Fusion & Machine Learning Engineer,EVONA,United States (Remote),Applied,2026-01-15
+214,Python Developer / Data Engineer - AI Tools & Platforms,Proven Recruiting,San Diego CA (On-site),Applied,2026-01-15
+215,Early Career Talent - Data Engineer,Western Digital,San Jose CA (On-site),Applied,2026-01-15
+216,AI Solutions Engineer,dais,Tulsa OK (Remote),Applied,2026-01-15
+217,ML Engineer - Reinforcement Learning,Path Robotics,Columbus OH (On-site),Applied,2026-01-15
+218,Machine Learning Engineer,Medical Guardian,Philadelphia PA (Hybrid),Applied,2026-01-15
+219,AI Software Engineer,Alexander Technology Group,Burlington MA (Hybrid),Applied,2026-01-15
+220,AI Engineer,Virginia Transformer Corp,Roanoke VA (On-site),Applied,2026-01-15
+221,Software Engineer,The Phoenix Group,Fairfield County CT (Hybrid),Applied,2026-01-15
+222,Junior Full Stack Developer,Unissant,Ashburn VA (On-site),Applied,2026-01-15
+223,Embedded Software Engineer,L&T Technology Services,Mossville IL (On-site),Applied,2026-01-15
+224,Software Engineer,Prestige Staffing,Dallas TX (Hybrid),Applied,2026-01-15
+225,Backend Software Developer,Glocomms,Dallas TX (Hybrid),Applied,2026-01-15
+226,Software Engineer,Beacon Hill,Indianapolis IN (On-site),Applied,2026-01-15
+227,Software Engineer,Albert Bow,New York NY (Hybrid),Applied,2026-01-15
+228,Software Engineer,Liberty Personnel Services,Dolton IL (On-site),Applied,2026-01-15

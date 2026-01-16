@@ -14,6 +14,13 @@
 - **LinkedIn:** https://www.linkedin.com/in/har5ha-7663
 - **GitHub:** https://github.com/HAR5HA-7663
 
+## Work Authorization
+- **Current Status:** F-1 OPT (Post-Completion)
+- **Work Authorization:** Yes - authorized to work in the US
+- **Sponsorship Required:** Yes - will require H-1B sponsorship for long-term employment
+- **Willing to Relocate:** Yes
+- **Start Availability:** Immediate / 2 weeks notice
+
 ## Summary/Profile
 Backend Engineer with experience in Infor ERP system development (LN, ION) and building scalable AI tools like Resumade.in, using FastAPI, AWS Lambda, and multi-LLM pipelines (GPT-4, Gemini) to deliver cloud-native automation.
 
@@ -23,7 +30,7 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 - **University:** Lawrence Technological University
 - **Location:** Southfield, MI
 - **GPA:** 3.6/4.0
-- **Expected Graduation:** December 2025
+- **Graduated:** December 2025
 - **Relevant Coursework:** Intelligent Robotics (ROS), Machine Learning, Artificial Intelligence, Natural Language Processing, Collaborative Research in Agentic AI
 
 ### Bachelor of Technology in Computer Science & Engineering
@@ -158,3 +165,15 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 - Participated in RSNA Pneumonia Detection Challenge; ranked in upper quartile (2024)
 - Designed "ATOLL" for NSS/NASA Space Settlement Design Competition (2015)
 - Gold Medalist in Indian National Mathematical Olympiad (INMO) (2012)
+
+## Job Application Preferences
+- **Preferred Roles:** ML Engineer, AI Engineer, Backend Engineer, Full Stack Developer, DevOps/Platform Engineer
+- **Preferred Location:** Remote (strongly preferred), or on-site/hybrid in MI, CA, NY, TX, WA
+- **Salary Expectation:** $100,000 - $130,000 (negotiable based on role/location)
+- **Company Size:** Open to startups, mid-size, and enterprise
+- **Industries of Interest:** AI/ML, FinTech, HealthTech, SaaS, Developer Tools
+- **Deal Breakers:** Roles requiring US citizenship/security clearance (due to visa status)
+
+## References
+- **Professional Reference:** Professor Paula Lauren (GRA Supervisor at LTU)
+- Available upon request

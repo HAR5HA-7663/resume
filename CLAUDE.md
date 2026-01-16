@@ -10,6 +10,31 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ---
 
+## IMPORTANT: User Communication Preferences
+
+**Writing Style for Emails/Messages:**
+- **NEVER use markdown formatting** (no `**bold**`, `*italics*`, or bullet points) when composing emails or messages on behalf of the user
+- Write in a **natural, conversational tone** - like a real person, not an AI
+- Keep it professional but warm and authentic
+- The user explicitly said: "you are writing it like a llm" and "those ** will surely let them know that" - meaning markdown symbols appearing literally in emails is a dead giveaway
+
+**Work Style:**
+- User types quickly with typos (e.g., "reaply", "sned", "prefrennces") - understand intent without asking for clarification
+- User prefers **autonomous action** - don't ask unnecessary questions, just do the task
+- When user says things like "i did it continue" - they've handled a small thing themselves, keep moving
+- Be efficient and action-oriented
+
+**Gmail Account:**
+- `harsha.yellela@gmail.com` is Gmail account #4 (use `/u/4/` in URLs)
+- This is the primary job application email
+
+**Response Format:**
+- Be concise, not verbose
+- Use tables and structured summaries for status updates
+- Don't over-explain or add unnecessary caveats
+
+---
+
 ## IMPORTANT: On New Chat Session
 
 **When opening this project in a new chat, Claude MUST:**
@@ -213,6 +238,44 @@ Job Number,Position,Company,Location,Status,Date Applied
 
 ---
 
+## CRITICAL: Role Matching Before Applying
+
+**STOP and verify role fit BEFORE applying to any job. Do NOT bulk-apply without vetting.**
+
+### Harsha's Core Competencies (APPLY TO THESE)
+| Category | Skills/Experience |
+|----------|-------------------|
+| **ML/AI** | LLM fine-tuning (QLoRA), deep learning, NLP, computer vision, MLOps pipelines |
+| **Backend** | Python (FastAPI), Go, Node.js, REST APIs, microservices |
+| **DevOps** | Kubernetes, AWS (Lambda, EKS, SageMaker), Docker, CI/CD, Terraform |
+| **Data** | PostgreSQL, MongoDB, Redis, data pipelines |
+
+### DO NOT APPLY (Immediate Skip)
+| Role Type | Reason |
+|-----------|--------|
+| **Splunk/SIEM/Security Analytics** | No Splunk experience |
+| **Salesforce/SAP/Oracle ERP** | No enterprise ERP experience |
+| **iOS/Swift Development** | No iOS experience |
+| **Mainframe/COBOL** | Not relevant to background |
+| **Federal Security Clearance Required** | F-1 OPT visa status |
+| **10+ years experience required** | Only 2-3 years experience |
+| **Staff/Principal/Director level** | Too senior |
+| **Domain-specific tools** (Workday, ServiceNow admin, etc.) | No experience |
+
+### Role Matching Checklist (Before Each Application)
+1. **Read the job title carefully** - Does it match ML/AI, SDE, Backend, DevOps, or Full Stack?
+2. **Check required skills** - Can Harsha demonstrate 60%+ of required skills?
+3. **Check experience level** - Is it entry-level, mid-level (2-5 years), or senior (5+ years)?
+4. **Check for deal-breakers** - Security clearance? Specific tools not in skillset?
+5. **If uncertain, ASK** - Better to skip than waste time on a bad fit
+
+### When Bulk Applying
+- **Flag mismatches** to user before submitting
+- **Group by fit level**: TOP PICK (>80% match), HIGH (60-80%), STRETCH (40-60%), SKIP (<40%)
+- **Prioritize quality over quantity** - 10 good matches > 50 random applications
+
+---
+
 ## IMPORTANT: Job Application Permissions (Pre-Authorized Actions)
 
 **The user has granted FULL PERMISSION for the following actions during job applications. Do NOT ask for confirmation - just proceed:**
@@ -366,6 +429,25 @@ V Harsha Vardhan Yellela
 
 ---
 
+## Networking Contacts & Referrals
+
+**Active Referral Contacts:**
+
+| Contact | Company | Connection | Status | Notes |
+|---------|---------|------------|--------|-------|
+| **Professor Tina Korani** | Apple (via husband) | Met at LTU Research Day (Apr 2025) | Pending outreach | Associate Professor at SJSU, offered to help with Apple referral. Discussed agentic AI, automation agency ideas. |
+
+**Contact Details:**
+- **Tina Korani:** tina.korani@sjsu.edu | Discord: tkorani | LinkedIn: tinakorani
+  - Background: UX/UI expert, Co-founder Immersive Storytelling Lab at SJSU
+  - Connection: Husband works at Apple, offered referral for ML/SDE roles
+
+**Additional User Accounts:**
+- **Alternative Email:** harshavardhan.yellela@gmail.com (used for academic/networking correspondence)
+- **Discord:** har5ha
+
+---
+
 ## Task Log
 
 **Instructions for Claude:** After completing any significant task, add an entry here with the date and description. Keep entries concise. **Only keep the last 4 entries** - delete older ones when adding new. This helps future chat sessions understand the project state.
@@ -374,18 +456,27 @@ V Harsha Vardhan Yellela
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2025-12-29 | Cover letter docs | Added "Cover Letter Handling" section to CLAUDE.md with decision matrix, template, and process |
-| 2026-01-09 | Build Fellowship apps | Applied to 2 Build Fellowship programs: (1) Transformer language model (Expert), (2) LLM integration with Python (Intermediate). Q&A saved to `Build_Fellowship_QA.md` |
-| 2026-01-09 | JPMC referral research | Found 3 new top-pick JPMC roles via web search: Python/Agentic AI (210670963), Python/PySpark SWE II (210671741), Full Stack SWE III (210679365) |
-| 2026-01-09 | JPMC jobs ranked | Created `jpmc_referral_jobs_ranked.csv` with all JPMC referral jobs ranked by match level (TOP PICK → VERY LOW) |
+| 2026-01-14 | Added role matching rules | Updated CLAUDE.md and job-applicator.skill with strict role vetting before applying. Added DO NOT APPLY list |
+| 2026-01-15 | LinkedIn REACH applications | Completed AI/ML and Backend essay applications on HackerRank, applied to LinkedIn REACH Apprentice Engineer positions |
+| 2026-01-15 | Gmail status update & bulk apply | Updated 4 new rejections (Glidewell, Mensor, Coinbase, Restoration). Started 30 LinkedIn Easy Apply jobs |
+| 2026-01-15 | LinkedIn bulk apply completed | Applied to 18 jobs (10 ML/AI, 8 SDE). Hit LinkedIn daily submission limits - all remaining jobs blocked with "We limit daily submissions" message |
 
 ### Pending/In Progress
-- LinkedIn DevOps/SDE job applications pending
-- Total applications: 77+ (CSV job_applications.csv)
+- Send email to Professor Tina Korani for Apple referral
+- Complete Akraya ML Engineer chatbot questions
+- Total applications: 228 (CSV job_applications.csv)
+
+### LinkedIn Daily Limits Note
+LinkedIn implements daily submission caps per user. When hit, jobs show "We limit daily submissions to maintain each application get the right attention tomorrow." Limits reset the next day. Good targets for tomorrow:
+- Backend Engineer at Wealthfront ($140K-$185K)
+- DevOps Engineer at Ivanti (Utah, Hybrid)
+- Platform Engineer (AWS) at iO Associates ($175K-$220K)
 
 ### New Files Created This Session
-- `Build_Fellowship_QA.md` - Interview prep with all Q&A for both fellowship applications
-- `jpmc_referral_jobs_ranked.csv` - Ranked JPMC referral jobs with 3 new top picks added
+- `adp_jobs_ranked.csv` - Ranked ADP jobs with realistic experience levels
+- `amazon_jobs_ranked.csv` - Ranked Amazon jobs (24 roles, 4 TOP PICK)
+- `apple_jobs_ranked.csv` - Ranked Apple jobs for referral (25 roles, 6 TOP PICK)
+- `oracle_jobs_ranked.csv` - Ranked Oracle jobs (52 roles, mostly Senior/Principal level)
 
 ### Current State Summary
 - **Projects in projects.md:** 27 total
