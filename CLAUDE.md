@@ -64,10 +64,33 @@ This is a personal resume repository for Harsha Vardhan Yellela. It contains a s
 
 ## File Structure
 
-- `resume.html` - Main resume document (self-contained HTML with embedded CSS)
-- `*.pdf` - PDF exports for different purposes (e.g., MLE/SDE roles, specific companies)
-- `personal_details.md` - Personal information, education, work experience, and skills
-- `projects.md` - Detailed project repository with skills mapping for resume tailoring
+```
+D:\Desktop\resume\
+├── CLAUDE.md                    # Project instructions (this file)
+├── resumes/                     # All resume files
+│   ├── resume.html              # Main resume (self-contained HTML)
+│   ├── Harsha_Yellela_resume.pdf
+│   ├── Harsha_Yellela_ML-Engineer.pdf
+│   ├── Harsha_Yellela_SDE.pdf
+│   └── Harsha_Yellela_DevOps.pdf
+├── references/                  # Context files for tailoring
+│   ├── personal_details.md      # Personal info, education, skills
+│   ├── projects.md              # Project repository
+│   ├── JOB_APPLICATION_CONTEXT.md
+│   └── Build_Fellowship_QA.md
+├── job_tracking/                # Application tracking
+│   ├── job_applications.csv     # All applications log
+│   └── referral_requests.csv    # Networking/referral tracking
+├── ranked_jobs/                 # Company-specific job rankings
+│   ├── apple_jobs_ranked.csv
+│   ├── amazon_jobs_ranked.csv
+│   ├── oracle_jobs_ranked.csv
+│   └── ...
+├── cover_letters/               # Generated cover letters
+│   └── {Company}_{Role}_Cover_Letter.txt
+└── outreach_emails/             # Networking emails
+    └── CDF_Volunteer_Application.txt
+```
 
 ---
 
@@ -118,8 +141,8 @@ When the user provides a job description (JD), follow these steps:
 - Note any specific keywords or phrases to incorporate
 
 ### Step 2: Read Context Files
-- Read `personal_details.md` for personal info, education, experience, and skills
-- Read `projects.md` for available projects
+- Read `references/personal_details.md` for personal info, education, experience, and skills
+- Read `references/projects.md` for available projects
 
 ### Step 3: Select Relevant Projects
 - Match projects from `projects.md` based on:
@@ -137,7 +160,7 @@ When the user provides a job description (JD), follow these steps:
 - Ensure keywords from JD appear naturally in the resume
 
 ### Step 5: Generate Output
-- Update `resume.html` with tailored content
+- Update `resumes/resume.html` with tailored content
 - Maintain existing CSS and formatting
 - Keep resume to 1-2 pages (use page breaks appropriately)
 - Inform user to generate PDF via browser print
@@ -208,7 +231,7 @@ When applying to jobs on LinkedIn using Easy Apply, select the appropriate resum
 **IMPORTANT:** After successfully submitting ANY job application (Indeed, LinkedIn, or any other platform), Claude MUST update the job applications CSV file.
 
 ### CSV File Location
-`/Users/HAR5HA/Desktop/resume/job_applications.csv`
+`D:\Desktop\resume\job_tracking\job_applications.csv`
 
 ### CSV Format
 ```csv
@@ -344,12 +367,12 @@ When a job application has an **optional** cover letter upload field:
 | **User explicitly requests** | Always generate |
 
 ### Cover Letter Generation Process:
-1. **Create folder** (if not exists): `temp_cvr_ltrs/`
+1. **Create folder** (if not exists): `cover_letters/`
 2. **File naming**: `{Company}_{Role}_Cover_Letter.txt`
    - Example: `EY_MLE_Cover_Letter.txt`
 3. **Tailor content** to match:
    - Job requirements from posting
-   - Harsha's relevant experience from `JOB_APPLICATION_CONTEXT.md`
+   - Harsha's relevant experience from `references/JOB_APPLICATION_CONTEXT.md`
    - Specific technologies mentioned in JD
 4. **Format**: Plain text, professional business letter format
 5. **Inform user** of file location so they can upload manually if needed
@@ -391,7 +414,7 @@ V Harsha Vardhan Yellela
 | **Cloud Engineer** | AWS services, serverless (94 Lambda functions), IaC, SageMaker |
 
 ### Cleanup:
-- Cover letters in `temp_cvr_ltrs/` are temporary
+- Cover letters in `cover_letters/` are temporary
 - User can delete after application is submitted
 - Do NOT commit cover letters to git (add to .gitignore if needed)
 
@@ -435,7 +458,45 @@ V Harsha Vardhan Yellela
 
 | Contact | Company | Connection | Status | Notes |
 |---------|---------|------------|--------|-------|
-| **Professor Tina Korani** | Apple (via husband) | Met at LTU Research Day (Apr 2025) | Pending outreach | Associate Professor at SJSU, offered to help with Apple referral. Discussed agentic AI, automation agency ideas. |
+| **Professor Tina Korani** | Apple (via husband) | Met at LTU Research Day (Apr 2025) | Pending outreach | Associate Professor at SJSU, offered to help with Apple referral |
+| **Maral Mesma Khosroshahi** | Microsoft | LinkedIn outreach | Pending (sent 2026-01-16) | Senior Researcher - AI/ML/LLMs, Foundation Models |
+| **Arian Hosseini** | Microsoft | LinkedIn outreach | Pending (sent 2026-01-16) | Tech Lead PhD, UIUC - mutual connection Tina Korani |
+| **Reza Soroushmehr** | Microsoft | LinkedIn outreach | Pending (sent 2026-01-16) | Senior SWE - Applied AI/ML, Azure LLM training |
+| **Arman Khondker** | Microsoft | LinkedIn outreach | Pending (sent 2026-01-16) | SWE - CoreAI/Copilot, multimodal speech LLMs |
+
+**Referral Tracking File:** `job_tracking/referral_requests.csv`
+
+---
+
+## Dream Job Reference
+
+**AI Engineer (New Graduate) @ Distyl**
+
+| Field | Details |
+|-------|---------|
+| Company | Distyl (AI-native systems for Fortune 1000) |
+| Role | AI Engineer (New Graduate) |
+| Location | On-site: San Francisco or New York |
+| Salary | $150,000 - $170,000 |
+| Type | Full-Time, Entry Level / New Grad |
+| Backers | Lightspeed, Khosla, Coatue, OpenAI partners |
+| Leadership | Veterans from Palantir, Apple, national research labs |
+
+**Why This is Perfect:**
+- Build production LLM systems from day one
+- RAG pipelines, agent logic, evaluation, tooling
+- LangChain/LlamaIndex frameworks (Harsha's expertise)
+- AWS/cloud experience valued (bonus)
+- Customer-facing work + technical depth
+- Equity, 401(k), benefits, cutting-edge AI tools
+
+**Apply Link:** https://lnkd.in/gHk_pwqs (Workstory.io)
+**Recruiter:** John Loubser (Job Placement Specialist) - Messaged on LinkedIn 2026-01-17
+**LinkedIn Post:** https://www.linkedin.com/feed/update/urn:li:activity:7418184919639805952/
+**Source:** Brother sent this job listing
+**Status:** Applied 2026-01-17 ✓ (Video intro + resume + cover letter submitted via Workstory.io)
+
+---
 
 **Contact Details:**
 - **Tina Korani:** tina.korani@sjsu.edu | Discord: tkorani | LinkedIn: tinakorani
@@ -445,6 +506,10 @@ V Harsha Vardhan Yellela
 **Additional User Accounts:**
 - **Alternative Email:** harshavardhan.yellela@gmail.com (used for academic/networking correspondence)
 - **Discord:** har5ha
+- **Workstory.io:** harsha.yellela@gmail.com (Google OAuth login)
+  - Video uploaded: "AI Engineer Introduction - Harsha Yellela"
+  - Resume uploaded: ml_engineer
+  - Equipment: Brio 100 microphone, NVIDIA Broadcast camera
 
 ---
 
@@ -456,40 +521,23 @@ V Harsha Vardhan Yellela
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2026-01-14 | Added role matching rules | Updated CLAUDE.md and job-applicator.skill with strict role vetting before applying. Added DO NOT APPLY list |
-| 2026-01-15 | LinkedIn REACH applications | Completed AI/ML and Backend essay applications on HackerRank, applied to LinkedIn REACH Apprentice Engineer positions |
-| 2026-01-15 | Gmail status update & bulk apply | Updated 4 new rejections (Glidewell, Mensor, Coinbase, Restoration). Started 30 LinkedIn Easy Apply jobs |
-| 2026-01-15 | LinkedIn bulk apply completed | Applied to 18 jobs (10 ML/AI, 8 SDE). Hit LinkedIn daily submission limits - all remaining jobs blocked with "We limit daily submissions" message |
+| 2026-01-16 | Completed 30-job bulk apply | Finished remaining jobs: 8 ML/AI, 10 SDE, 10 DevOps. Total 28 applications this batch |
+| 2026-01-17 | Distyl dream job application | Applied to AI Engineer (New Graduate) at Distyl via Workstory.io. Created video intro, messaged recruiter John Loubser on LinkedIn |
+| 2026-01-17 | Workstory.io profile setup | Created account, uploaded ML-Engineer resume, recorded "AI Engineer Introduction" video for applications |
+| 2026-01-17 | Project folder reorganization | Organized project into clean folder structure: resumes/, references/, job_tracking/, ranked_jobs/, cover_letters/, outreach_emails/ |
 
 ### Pending/In Progress
 - Send email to Professor Tina Korani for Apple referral
 - Complete Akraya ML Engineer chatbot questions
-- Total applications: 228 (CSV job_applications.csv)
-
-### LinkedIn Daily Limits Note
-LinkedIn implements daily submission caps per user. When hit, jobs show "We limit daily submissions to maintain each application get the right attention tomorrow." Limits reset the next day. Good targets for tomorrow:
-- Backend Engineer at Wealthfront ($140K-$185K)
-- DevOps Engineer at Ivanti (Utah, Hybrid)
-- Platform Engineer (AWS) at iO Associates ($175K-$220K)
-
-### New Files Created This Session
-- `adp_jobs_ranked.csv` - Ranked ADP jobs with realistic experience levels
-- `amazon_jobs_ranked.csv` - Ranked Amazon jobs (24 roles, 4 TOP PICK)
-- `apple_jobs_ranked.csv` - Ranked Apple jobs for referral (25 roles, 6 TOP PICK)
-- `oracle_jobs_ranked.csv` - Ranked Oracle jobs (52 roles, mostly Senior/Principal level)
+- Microsoft referral requests sent (4 contacts pending response)
+- Distyl application submitted - awaiting response from recruiter John Loubser
+- Total applications: 260 (CSV job_applications.csv)
 
 ### Current State Summary
-- **Projects in projects.md:** 27 total
-  - ML/AI (10): Resume Optimizer, Sentiment Forecasting, Pneumonia Detection, Food Classifier, ATS Matching, NLP Course, Air Quality, Hybrid CMA-ES, Traffic Flow GNN, Stretch2
-  - Backend (5): Job Portal, FieldFuze Backend, Resumade, Lambda Microservices, AviationStack
-  - MLOps/Platform (4): ML Sentiment Loop, Telegram Toxicity, Online Learning Portal, AWS ML Projects
-  - Full Stack (3): FieldFuze, Resumade, Car Dealer App
-  - AI Agents/RAG (3): AgenticAI, CRE Agent, N8N
-  - Mobile/IoT (3): FieldFuze Mobile, DOMUS, Covid-analyzer
-  - Frontend (1): VSCode Portfolio
-  - Robotics (1): Stretch2 Robot
-- **personal_details.md:** Complete with 17+ skill categories (added ROS, IoT, GNN, Embedded)
-- **resume.html:** Contains current resume (can be tailored per JD)
+- **Folder Structure:** Organized into 6 folders (resumes, references, job_tracking, ranked_jobs, cover_letters, outreach_emails)
+- **Projects:** 27 total in `references/projects.md`
+- **Applications:** 260 tracked in `job_tracking/job_applications.csv`
+- **Resumes:** 4 PDFs + HTML source in `resumes/`
 
 ---
 

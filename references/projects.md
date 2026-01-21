@@ -1172,6 +1172,60 @@ This file contains detailed information about all projects for resume tailoring 
 
 ---
 
+## Project 28: Blindspot – Cognitive Bias Detector
+
+### Overview
+- **Project Name:** Blindspot – Proactive Cognitive Bias Detector
+- **Role:** Full Stack Developer
+- **Duration:** Jan 2026
+- **Event:** Aurora Hackathon 2026
+- **GitHub:** https://github.com/HAR5HA-7663/blindspot
+- **Team:** Harsha Yellela & Vaishnav
+- **Status:** Completed
+
+### Tech Stack
+- **Platform:** Chrome Extension (Manifest V3)
+- **AI:** Claude API (Anthropic)
+- **Frontend:** Vanilla JavaScript, CSS3
+- **Architecture:** Service Worker (background.js), Content Scripts, Popup UI
+
+### Key Features & Accomplishments
+- Built real-time cognitive bias detector that catches decision-making flaws before they happen
+- Integrated Claude API for AI-powered bias analysis and reframe suggestions
+- Implemented on-demand analysis via right-click context menu ("Analyze with Blindspot")
+- Created proactive intervention system that detects risky decision contexts automatically
+- Monitors high-risk sites: Amazon, eBay, DoorDash, UberEats, social media, subscription pages
+- Detects 6+ cognitive biases: Sunk Cost Fallacy, Confirmation Bias, Planning Fallacy, Loss Aversion, Emotional Reasoning
+- Built keyboard shortcut (Ctrl+Shift+B) for manual intervention triggers
+- Designed clean popup UI for API key management and settings
+- Implemented content script injection for universal webpage analysis
+
+### Cognitive Biases Detected
+- **Sunk Cost Fallacy** - "I've already invested so much..."
+- **Confirmation Bias** - Only seeing supporting evidence
+- **Planning Fallacy** - "This will only take a week..."
+- **Loss Aversion** - Fearing losses more than valuing gains
+- **Emotional Reasoning** - Using feelings as evidence
+
+### Skills Demonstrated
+- Chrome Extension Development (Manifest V3)
+- LLM API Integration (Claude/Anthropic)
+- Service Worker Architecture
+- Content Script Injection
+- Context Menu API
+- Real-time Text Analysis
+- Behavioral Nudge Design
+- Hackathon Rapid Prototyping
+
+### Best For Roles
+- AI/ML Engineer
+- Full Stack Developer
+- Chrome Extension Developer
+- Product Engineer
+- Behavioral Tech Developer
+
+---
+
 ## Quick Reference: Skills to Projects Mapping
 
 | Skill Category | Projects |
@@ -1179,7 +1233,7 @@ This file contains detailed information about all projects for resume tailoring 
 | **Python** | All Projects |
 | **Go** | FieldFuze Backend |
 | **TypeScript** | FieldFuze Mobile, VSCode Portfolio |
-| **JavaScript** | Car Dealer App, VSCode Portfolio |
+| **JavaScript** | Car Dealer App, VSCode Portfolio, Blindspot |
 | **FastAPI** | Resumade, AgenticAI, Job Portal, ML Sentiment Loop, Telegram Toxicity, CRE Agent, AviationStack |
 | **Flask** | Pneumonia Detection, Car Dealer App |
 | **React Native/Expo** | FieldFuze Mobile |
@@ -1195,7 +1249,7 @@ This file contains detailed information about all projects for resume tailoring 
 | **Jenkins CI/CD** | Online Learning Portal |
 | **GitHub Actions** | FieldFuze Backend, ML Sentiment Loop |
 | **LLM Fine-tuning** | Resume Optimizer (QLoRA) |
-| **LLM Integration** | Resumade, AgenticAI, CRE Agent, N8N |
+| **LLM Integration** | Resumade, AgenticAI, CRE Agent, N8N, Blindspot |
 | **RAG Systems** | CRE Agent |
 | **Deep Learning** | Sentiment Forecasting, Pneumonia Detection, Food Classifier, Air Quality (LSTM/GRU) |
 | **LSTM/GRU/RNN** | Sentiment Forecasting, Air Quality Prediction |
@@ -1222,6 +1276,8 @@ This file contains detailed information about all projects for resume tailoring 
 | **SUMO Traffic Simulation** | Traffic Flow GNN |
 | **IoT/MQTT** | DOMUS |
 | **Arduino/ESP32** | DOMUS |
+| **Chrome Extension** | Blindspot |
+| **Claude API** | Blindspot |
 
 ---
 
@@ -1264,9 +1320,10 @@ When selecting projects for a specific role:
 | **Mobile/IoT** | 3 | FieldFuze Mobile, DOMUS, Covid-analyzer |
 | **Frontend** | 1 | VSCode Portfolio |
 | **Robotics** | 1 | Stretch2 Robot |
+| **Browser Extension** | 1 | Blindspot |
 
-**Total Projects: 27**
+**Total Projects: 28**
 
 ---
 
-*Last Updated: December 2024*
+*Last Updated: January 2026*

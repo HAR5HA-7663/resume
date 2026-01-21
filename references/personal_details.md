@@ -177,3 +177,14 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 ## References
 - **Professional Reference:** Professor Paula Lauren (GRA Supervisor at LTU)
 - Available upon request
+
+## Recording Equipment
+- **Microphone:** Logitech Brio 100
+- **Camera:** NVIDIA Broadcast (virtual camera)
+
+## Online Profiles & Accounts
+- **LinkedIn:** https://www.linkedin.com/in/har5ha-7663
+- **GitHub:** https://github.com/HAR5HA-7663
+- **Portfolio:** https://har5ha.in
+- **Workstory.io:** harsha.yellela@gmail.com (video intro platform for job applications)
+- **Discord:** har5ha
