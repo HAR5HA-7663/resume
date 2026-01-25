@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vardhan Yellela - DevOps Engineer Resume</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 7.5in;
+            margin: 0.1in auto 0.7in auto;
+            line-height: 1.1;
+            color: #000;
+            text-align: left;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @media print {
+            body {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+            }
+
+            .entry, .entry .header, .entry .subheader, ul, ul li {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                page-break-inside: avoid;
+            }
+
+            ul li:before {
+                -webkit-user-select: none !important;
+                -moz-user-select: none !important;
+                -ms-user-select: none !important;
+                user-select: none !important;
+            }
+        }
+
+        h1 {
+            font-size: 22pt;
+            text-align: center;
+            margin: 30px 0 1px 0;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 10pt;
+            margin: 0 0 8px 0;
+        }
+
+        h2 {
+            font-size: 14pt;
+            margin: 15px 0 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header, .entry .subheader {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header span, .entry .subheader span {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 10pt;
+            margin: 0 0 10px 0;
+        }
+
+        .entry {
+            margin-bottom: 12px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry::after {
+            content: "";
+            display: block;
+            clear: both;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .entry ul {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry .header {
+            font-size: 11pt;
+            font-weight: bold;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .header span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 70%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .header span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 30%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader {
+            font-size: 11pt;
+            font-style: italic;
+            margin-bottom: 3px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .subheader span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 80%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 20%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+            font-size: 10pt;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        ul li {
+            margin-bottom: 3px;
+            position: relative;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: -15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Harsha Vardhan Yellela</h1>
+    <div class="contact-info">
+        United States | +1-248-497-9965 |
+        <a href="mailto:harsha.yellela@gmail.com">harsha.yellela@gmail.com</a> |
+        <a href="https://har5ha.in">har5ha.in</a> |
+        <a href="https://www.linkedin.com/in/har5ha-7663">LinkedIn</a> |
+        <a href="https://github.com/HAR5HA-7663">GitHub</a>
+    </div>
+
+    <!-- Summary Section -->
+    <h2>Summary</h2>
+    <p>
+        <strong>DevOps Engineer</strong> with hands-on experience in <strong>Kubernetes orchestration</strong>, <strong>CI/CD pipeline development</strong>, and <strong>Infrastructure as Code (Terraform, CloudFormation)</strong>.
+        Proficient in <strong>Docker containerization</strong>, <strong>AWS cloud services (EKS, ECS, Lambda)</strong>, and <strong>monitoring solutions (Prometheus, Grafana)</strong>.
+        Built production systems with <strong>autoscaling (HPA)</strong>, <strong>circuit breaker patterns</strong>, and <strong>8-microservice architectures</strong>.
+        Strong foundation in <strong>automation</strong>, <strong>GitOps workflows</strong>, and <strong>reliability engineering</strong>.
+    </p>
+
+    <!-- Experience Section -->
+    <h2>Experience</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Graduate Research Assistant – Agentic AI</span>
+            <span>Jan 2025 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Lawrence Technological University</span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li>Deployed persistent <strong>backend services</strong> on <strong>AWS Fargate</strong> and <strong>Amazon EKS</strong>, managing container orchestration and service mesh configurations.</li>
+            <li>Configured <strong>OpenSearch Serverless</strong> clusters for semantic search, implementing <strong>auto-scaling policies</strong> and <strong>access control</strong>.</li>
+            <li>Built <strong>CI/CD pipelines</strong> for multi-agent systems using <strong>GitHub Actions</strong>, achieving <strong>70% reduction in deployment time</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Infor India Pvt. Ltd.</span>
+            <span>Apr 2022 – Dec 2023</span>
+        </div>
+        <div class="subheader">
+            <span>LN Technical Consultant</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Integrated <strong>AWS S3, Lambda, and API Gateway</strong> with <strong>Infor ION</strong> process flows for asynchronous file transfer and event-driven automation.</li>
+            <li><strong>Containerized</strong> business logic services using <strong>Docker</strong> and simulated <strong>Kubernetes-like orchestration</strong> with enterprise systems.</li>
+            <li>Developed <strong>automation scripts</strong> for global clients (<strong>Ferrari, Boeing, Triumph</strong>), reducing <strong>batch processing delays by ~40%</strong>.</li>
+        </ul>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Container Orchestration:</strong> Kubernetes (EKS), Docker, Docker Compose, Helm | HPA, PVC, Deployments, Services</li>
+        <li><strong>CI/CD:</strong> Jenkins (Multibranch Pipelines), GitHub Actions, GitOps | Automated Testing, Deployment Strategies</li>
+        <li><strong>Infrastructure as Code:</strong> Terraform, AWS CloudFormation, AWS CDK | State Management, Modular Configurations</li>
+        <li><strong>Cloud (AWS):</strong> EKS, ECS Fargate, Lambda, EC2, API Gateway, S3, DynamoDB, ECR, SQS, SNS, ALB</li>
+        <li><strong>Monitoring & Observability:</strong> Prometheus, Grafana, CloudWatch | Metrics, Alerting, Dashboards, Log Aggregation</li>
+        <li><strong>Scripting & Languages:</strong> Bash, Python, Go, YAML | Shell Scripting, Automation, Configuration Management</li>
+        <li><strong>Reliability Patterns:</strong> Circuit Breaker, Health Checks (Readiness/Liveness), Auto-scaling, Spot Instances</li>
+        <li><strong>Practices:</strong> GitOps, Agile/Scrum, Infrastructure Automation, Security Best Practices, Cost Optimization</li>
+    </ul>
+
+    <!-- Projects Section -->
+    <h2>Projects</h2>
+    <div class="entry">
+        <div class="header">
+            <span>ML Sentiment Feedback Loop – Production MLOps Microservices</span>
+            <span>Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Terraform, GitHub Actions, AWS (ECS Fargate, SageMaker, ECR), Docker | <a href="https://github.com/HAR5HA-7663/ml-sentiment-feedback-loop">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>8-microservice architecture</strong> with <strong>independent scaling</strong> on <strong>AWS ECS Fargate</strong>, implementing <strong>API Gateway</strong> for unified routing.</li>
+            <li>Configured <strong>GitHub Actions CI/CD</strong> with <strong>Terraform IaC</strong> for automated infrastructure provisioning and container deployments to <strong>ECR</strong>.</li>
+            <li>Designed <strong>auto-deployment pipeline</strong> (training → model registry → production) with <strong>SNS notifications</strong> and <strong>SageMaker integration</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Online Learning Portal – Microservices CI/CD Platform</span>
+            <span>Nov 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Jenkins, Docker, Kubernetes, AWS (ECS Fargate, ECR, ALB) | <a href="https://github.com/HAR5HA-7663/demo-for-CI_CD-integration">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Implemented <strong>Jenkins Multibranch Pipeline</strong> with <strong>branch-per-service CI strategy</strong>, enabling independent Docker builds for <strong>6 microservices</strong>.</li>
+            <li>Created <strong>unified CD pipeline</strong> for <strong>EKS deployment</strong> with <strong>LoadBalancer service</strong> configuration and <strong>automated Docker builds</strong> with commit hash tagging.</li>
+            <li>Designed <strong>Kubernetes manifests</strong> for all services with <strong>webhook automation</strong> for continuous integration triggers.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Telegram Toxicity Moderator – Production K8s ML Platform</span>
+            <span>Oct 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Kubernetes (EKS), Prometheus, Grafana, FastAPI, HPA, ALB | <a href="https://github.com/HAR5HA-7663/Telegram-Toxicity-Police">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Deployed <strong>ML inference service</strong> on <strong>AWS EKS</strong> with <strong>Horizontal Pod Autoscaler (HPA)</strong> achieving <strong>500 RPS average, 1500 RPS peak</strong> capacity.</li>
+            <li>Implemented <strong>circuit breaker pattern</strong> (5 failures, 30s recovery window) with <strong>readiness/liveness probes</strong> for production reliability.</li>
+            <li>Created <strong>Prometheus metrics</strong> and <strong>Grafana dashboards</strong> for real-time monitoring; reduced costs <strong>70%</strong> with <strong>spot instances</strong> and aggressive scale-down.</li>
+        </ul>
+    </div>
+
+    <div style="page-break-before: always;"></div>
+
+    <div class="entry" style="margin-top: 30px;">
+        <div class="header">
+            <span>Car Dealer App – Full-Stack Kubernetes Application</span>
+            <span>Oct 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Kubernetes, Docker, PostgreSQL, Flask, Nginx | <a href="https://github.com/HAR5HA-7663/MCS-5993-Machine-Learning-and-Microservices-in-the-Cloud">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Configured <strong>3-tier Kubernetes architecture</strong> with <strong>Deployments, Services, PersistentVolumeClaims</strong> and <strong>2 replicas</strong> for high availability.</li>
+            <li>Implemented <strong>readiness/liveness probes</strong> for health monitoring and <strong>LoadBalancer service</strong> for external traffic routing.</li>
+            <li>Wrote comprehensive <strong>shell scripts</strong> for <strong>deployment automation</strong> including build, push, and rollout commands.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Job Portal REST API – Containerized Cloud Deployment</span>
+            <span>Oct 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Docker, Docker Compose, AWS ECS/ECR, FastAPI, GitHub Actions | <a href="https://github.com/HAR5HA-7663/MCS-5993-Machine-Learning-and-Microservices-in-the-Cloud">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li><strong>Containerized</strong> application using <strong>Docker</strong> and <strong>Docker Compose</strong> with <strong>persistent named volumes</strong> for data durability across restarts.</li>
+            <li>Deployed to <strong>AWS cloud infrastructure</strong> using <strong>ECR</strong> for container registry and <strong>ECS</strong> for orchestration with end-to-end <strong>CI/CD pipeline</strong>.</li>
+            <li>Built <strong>production-ready API</strong> with <strong>25+ endpoints</strong>, comprehensive <strong>OpenAPI/Swagger documentation</strong>, and <strong>shell scripting automation</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Lambda Microservices Platform – Serverless Infrastructure</span>
+            <span>Dec 2024</span>
+        </div>
+        <div class="subheader">
+            <span>AWS Lambda, Terraform, CloudFormation, DynamoDB, API Gateway, S3</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Developed and deployed <strong>94 AWS Lambda functions</strong> for complete SaaS platform using <strong>Terraform</strong> and <strong>CloudFormation</strong> templates.</li>
+            <li>Built <strong>automated deployment pipeline</strong> with <strong>Git change detection</strong>, deploying only modified functions to reduce deployment time.</li>
+            <li>Configured <strong>API Gateway</strong> with Lambda integrations, <strong>DynamoDB streams</strong>, and <strong>S3 event triggers</strong> for event-driven architecture.</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Lawrence Technological University</strong></span>
+            <span>Jan 2024 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Master of Science in Computer Science · GPA: <strong>3.6/4.0</strong></span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Cloud Microservices</strong>, <strong>Machine Learning</strong>, <strong>Artificial Intelligence</strong>, <strong>Intelligent Robotics (ROS)</strong></li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
+            <span>Aug 2018 – Aug 2022</span>
+        </div>
+        <div class="subheader">
+            <span>Bachelor of Technology in Computer Science & Engineering · GPA: <strong>7.5/10 (~3.0/4.0)</strong></span>
+            <span>Hyderabad, Telangana</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Software Engineering</strong>, <strong>Operating Systems</strong>, <strong>Computer Networks</strong>, <strong>Database Management</strong></li>
+        </ul>
+    </div>
+
+    <!-- Achievements Section -->
+    <h2>Achievements</h2>
+    <ul>
+        <li><strong>Selected for Amazon Nova AI Challenge: Trusted AI Track</strong> (2025)</li>
+        <li><strong>Built production SaaS platform</strong> with 94 Lambda functions and Terraform IaC serving real customers (2024)</li>
+        <li><strong>Gold Medalist in Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
+    </ul>
+</body>
+
+</html>

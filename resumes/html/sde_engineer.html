@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vardhan Yellela - Software Engineer Resume</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 7.5in;
+            margin: 0.1in auto 0.7in auto;
+            line-height: 1.1;
+            color: #000;
+            text-align: left;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @media print {
+            body {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+            }
+
+            .entry, .entry .header, .entry .subheader, ul, ul li {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                page-break-inside: avoid;
+            }
+
+            ul li:before {
+                -webkit-user-select: none !important;
+                -moz-user-select: none !important;
+                -ms-user-select: none !important;
+                user-select: none !important;
+            }
+        }
+
+        h1 {
+            font-size: 22pt;
+            text-align: center;
+            margin: 30px 0 1px 0;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 10pt;
+            margin: 0 0 8px 0;
+        }
+
+        h2 {
+            font-size: 14pt;
+            margin: 15px 0 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header, .entry .subheader {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header span, .entry .subheader span {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 10pt;
+            margin: 0 0 10px 0;
+        }
+
+        .entry {
+            margin-bottom: 12px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry::after {
+            content: "";
+            display: block;
+            clear: both;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .entry ul {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry .header {
+            font-size: 11pt;
+            font-weight: bold;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .header span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 70%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .header span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 30%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader {
+            font-size: 11pt;
+            font-style: italic;
+            margin-bottom: 3px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .subheader span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 80%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 20%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+            font-size: 10pt;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        ul li {
+            margin-bottom: 3px;
+            position: relative;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: -15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Harsha Vardhan Yellela</h1>
+    <div class="contact-info">
+        United States | +1-248-497-9965 |
+        <a href="mailto:harsha.yellela@gmail.com">harsha.yellela@gmail.com</a> |
+        <a href="https://har5ha.in">har5ha.in</a> |
+        <a href="https://www.linkedin.com/in/har5ha-7663">LinkedIn</a> |
+        <a href="https://github.com/HAR5HA-7663">GitHub</a>
+    </div>
+
+    <!-- Summary Section -->
+    <h2>Summary</h2>
+    <p>
+        <strong>Software Engineer</strong> with hands-on experience building <strong>scalable backend systems</strong>, <strong>RESTful APIs</strong>, and <strong>cloud-native microservices</strong>.
+        Proficient in <strong>Python (FastAPI)</strong>, <strong>Go (Gin)</strong>, and <strong>AWS services (Lambda, ECS, DynamoDB)</strong>.
+        Built production systems handling <strong>94+ serverless functions</strong>, <strong>third-party integrations (Stripe, Twilio, DocuSign)</strong>, and <strong>Kubernetes deployments</strong>.
+        Strong foundation in <strong>API design</strong>, <strong>containerization</strong>, <strong>CI/CD pipelines</strong>, and <strong>database optimization</strong>.
+    </p>
+
+    <!-- Experience Section -->
+    <h2>Experience</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Graduate Research Assistant – Agentic AI</span>
+            <span>Jan 2025 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Lawrence Technological University</span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li>Deployed persistent <strong>backend services</strong> on <strong>AWS Fargate</strong> and <strong>Amazon EKS</strong>, integrating <strong>OpenSearch Serverless</strong> for semantic search and document retrieval.</li>
+            <li>Built <strong>multi-agent systems</strong> using <strong>Python (CrewAI + LangChain)</strong> with <strong>RESTful APIs</strong> for workflow automation and intelligent decision-making.</li>
+            <li>Designed <strong>hybrid service pipelines</strong> achieving <strong>70% reduction in manual process time</strong> through automation and API orchestration.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Infor India Pvt. Ltd.</span>
+            <span>Apr 2022 – Dec 2023</span>
+        </div>
+        <div class="subheader">
+            <span>LN Technical Consultant</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Developed <strong>modular, production-ready tools</strong> for global clients (<strong>Ferrari, Boeing, Triumph</strong>) by extending <strong>Infor LN ERP</strong> workflows for inventory and manufacturing.</li>
+            <li>Integrated <strong>AWS S3, Lambda, and API Gateway</strong> with enterprise systems to enable <strong>asynchronous data pipelines</strong>, reducing <strong>batch processing delays by ~40%</strong>.</li>
+            <li><strong>Containerized</strong> business logic services using <strong>Docker</strong> and orchestrated deployments, improving <strong>consistency</strong> across client environments.</li>
+        </ul>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Languages:</strong> Python, Go, TypeScript, JavaScript, SQL, Bash | <strong>Core:</strong> Data Structures, Algorithms, OOP</li>
+        <li><strong>Backend Frameworks:</strong> FastAPI, Flask, Gin (Go), Express.js | Pydantic, JWT, CORS, HATEOAS</li>
+        <li><strong>Cloud (AWS):</strong> Lambda, ECS Fargate, EC2, API Gateway, S3, DynamoDB, ECR, SQS, SageMaker</li>
+        <li><strong>Databases:</strong> PostgreSQL, MySQL, SQLite, DynamoDB, MongoDB | <strong>Caching:</strong> Redis | <strong>Vector:</strong> Qdrant, pgvector</li>
+        <li><strong>DevOps:</strong> Git, Linux, Docker, Kubernetes (EKS), Terraform, Jenkins, GitHub Actions, CI/CD Pipelines</li>
+        <li><strong>Practices:</strong> Agile/Scrum, Unit Testing, Integration Testing, Code Reviews, RESTful API Design</li>
+        <li><strong>Integrations:</strong> Stripe, Twilio, DocuSign, QuickBooks, OpenAPI/Swagger</li>
+    </ul>
+
+    <!-- Projects Section -->
+    <h2>Projects</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Blindspot – Cognitive Bias Detector Chrome Extension</span>
+            <span>Jan 2026</span>
+        </div>
+        <div class="subheader">
+            <span>JavaScript, Chrome Extension (Manifest V3), Claude API, Service Workers | <a href="https://github.com/HAR5HA-7663/blindspot">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>Chrome Extension</strong> with <strong>Manifest V3 architecture</strong> using <strong>Service Workers</strong>, <strong>Content Scripts</strong>, and <strong>Context Menu API</strong> for real-time webpage analysis.</li>
+            <li>Integrated <strong>Claude API</strong> for AI-powered cognitive bias detection; implemented <strong>keyboard shortcuts (Ctrl+Shift+B)</strong> and <strong>right-click context menu</strong> triggers.</li>
+            <li>Designed <strong>proactive intervention system</strong> monitoring high-risk sites (e-commerce, subscriptions) with <strong>content script injection</strong> for universal webpage support.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>AI Resume Builder (Resumade.in) – Serverless Backend</span>
+            <span>Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>FastAPI, AWS Lambda, DynamoDB, GPT-4, Gemini, BeautifulSoup</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Architected <strong>serverless backend</strong> using <strong>FastAPI + AWS Lambda + DynamoDB</strong> with <strong>95%+ uptime</strong> and <strong>sub-2s PDF/Word generation</strong>.</li>
+            <li>Integrated <strong>multi-LLM pipelines (GPT-4, Gemini, DeepSeek)</strong> with custom prompts; implemented <strong>LinkedIn job scraping</strong> for tailored resume optimization.</li>
+            <li>Configured <strong>JWT + Google OAuth authentication</strong> and <strong>CI/CD via GitHub Actions</strong>, reducing manual resume effort by <strong>80%</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Online Learning Portal – Microservices CI/CD Platform</span>
+            <span>Nov 2025</span>
+        </div>
+        <div class="subheader">
+            <span>FastAPI, Jenkins, Docker, Kubernetes, AWS ECS Fargate | <a href="https://github.com/HAR5HA-7663/demo-for-CI_CD-integration">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>6-microservice platform</strong> (user, course, enrollment, payment, notification, API gateway) using <strong>FastAPI</strong> with <strong>Docker containerization</strong>.</li>
+            <li>Implemented <strong>branch-per-service CI strategy</strong> with <strong>Jenkins Multibranch Pipeline</strong>; automated Docker builds with <strong>commit hash tagging</strong>.</li>
+            <li>Deployed to <strong>AWS ECS Fargate</strong> with <strong>ALB routing</strong>, <strong>ECR registry</strong>, and <strong>Kubernetes manifests</strong> for EKS deployment.</li>
+        </ul>
+    </div>
+
+    <div style="page-break-before: always;"></div>
+
+    <div class="entry" style="margin-top: 30px;">
+        <div class="header">
+            <span>Job Portal REST API – Full-Stack Job Listing Platform</span>
+            <span>Oct 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Python, FastAPI, SQLite, Docker, AWS ECS/ECR | <a href="https://github.com/HAR5HA-7663/MCS-5993-Machine-Learning-and-Microservices-in-the-Cloud">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>production-ready RESTful API</strong> with <strong>25+ endpoints</strong> supporting full CRUD operations for job seekers, employers, postings, and applications with <strong>Pydantic v2 validation</strong>.</li>
+            <li>Designed and implemented <strong>HATEOAS-compliant architecture</strong> enabling hypermedia-driven navigation, improving API discoverability and client integration.</li>
+            <li>Containerized using <strong>Docker Compose</strong> with persistent volumes; deployed to <strong>AWS ECR/ECS</strong> demonstrating end-to-end <strong>CI/CD pipeline</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>FieldFuze Backend – Enterprise Go API with Multi-Tenant RBAC</span>
+            <span>Dec 2024</span>
+        </div>
+        <div class="subheader">
+            <span>Go 1.23, Gin, DynamoDB, JWT, Docker, GitHub Actions</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>production-ready REST API</strong> in <strong>Go/Gin</strong> with <strong>multi-tenant RBAC architecture</strong>, implementing complete user lifecycle (register, login, logout, validate).</li>
+            <li>Designed <strong>modular architecture</strong> using <strong>controller → service → repository pattern</strong> with comprehensive middleware (JWT auth, CORS, logging).</li>
+            <li>Created <strong>infrastructure automation worker</strong> for DynamoDB table/index management; wrote extensive <strong>unit tests</strong> for all layers.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Lambda Microservices Platform – Field Service Backend</span>
+            <span>Dec 2024</span>
+        </div>
+        <div class="subheader">
+            <span>Python, AWS Lambda, DynamoDB, S3, Stripe, Twilio, DocuSign, Terraform</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Developed <strong>94 AWS Lambda functions</strong> for complete SaaS platform, integrating <strong>Stripe Connect</strong> for vendor onboarding and payment processing.</li>
+            <li>Implemented <strong>DocuSign e-signature workflow</strong>, <strong>Twilio calling integration</strong>, and <strong>QuickBooks accounting sync</strong> for invoicing automation.</li>
+            <li>Built <strong>automated deployment pipeline</strong> with Git change detection using <strong>Terraform IaC</strong> and <strong>CloudFormation</strong> templates.</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Lawrence Technological University</strong></span>
+            <span>Jan 2024 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Master of Science in Computer Science · GPA: <strong>3.6/4.0</strong></span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Machine Learning</strong>, <strong>Artificial Intelligence</strong>, <strong>Natural Language Processing</strong>, <strong>Intelligent Robotics (ROS)</strong>, <strong>Cloud Microservices</strong></li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
+            <span>Aug 2018 – Aug 2022</span>
+        </div>
+        <div class="subheader">
+            <span>Bachelor of Technology in Computer Science & Engineering · GPA: <strong>7.5/10 (~3.0/4.0)</strong></span>
+            <span>Hyderabad, Telangana</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Software Engineering</strong>, <strong>Data Structures & Algorithms</strong>, <strong>Database Management</strong>, <strong>Operating Systems</strong></li>
+        </ul>
+    </div>
+
+    <!-- Achievements Section -->
+    <h2>Achievements</h2>
+    <ul>
+        <li><strong>Selected for Amazon Nova AI Challenge: Trusted AI Track</strong> (2025)</li>
+        <li><strong>Built production SaaS platform</strong> with 94 Lambda functions serving real customers (2024)</li>
+        <li><strong>Gold Medalist in Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
+    </ul>
+</body>
+
+</html>

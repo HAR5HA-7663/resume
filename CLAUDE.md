@@ -513,6 +513,52 @@ V Harsha Vardhan Yellela
 
 ---
 
+## Build Fellowship (Accepted - January 2026)
+
+| Field | Value |
+|-------|-------|
+| Program | Build Fellowship - Build Projects |
+| Project | Build and train transformer language model |
+| Role | Student Consultant |
+| Build Fellow | Kacper Raczy |
+| Schedule | Tuesdays 6:00 PM ET, 8 weeks (start TBD) |
+| Commitment | 1-2 hrs/week + 60-min weekly workshop |
+| Requirements | Attend 5/8 workshops, final deliverable, Pre/Post surveys |
+| Contact | education@buildfellowship.com |
+
+**Action Items:**
+- [ ] Confirm participation via link (by EOD Sun Jan 25)
+- [ ] Complete Pre-Project Survey when received (by EOD Sun Jan 25)
+- [ ] Sign up for Orientation: Wed Jan 28, 5pm ET
+- [ ] Watch for email from Kacper Raczy (Build Fellow) by end of week
+- [ ] Reply to Kacper's email + RSVP calendar invite
+
+**Project Details:** Develop a text generation language model using GPT/transformer architecture with attention mechanism. State-of-the-art NLP techniques.
+
+---
+
+## Current Volunteer Position (OPT Status Maintenance)
+
+**INTERNAL - Do not mention externally**
+
+| Field | Value |
+|-------|-------|
+| Organization | Community Dreams Foundation (CDF) |
+| Role | Machine Learning Engineer (Volunteer) |
+| Start Date | February 2, 2026 |
+| Type | Nonprofit volunteer - maintains F-1 OPT status |
+| Slack | ML/AI department channel |
+| Working Hours | 9:00–18:00 EST |
+
+**Purpose:** Volunteer work at qualifying nonprofits helps maintain OPT status while job hunting. Light workload - primarily for status maintenance.
+
+**Channels:**
+- #general - Project postings (don't post intros here)
+- Department-specific channel - Post intro, look for project matches
+- #payment_queries, #onboarding_queries, #waiver_queries, #other_queries - Support channels
+
+---
+
 ## Task Log
 
 **Instructions for Claude:** After completing any significant task, add an entry here with the date and description. Keep entries concise. **Only keep the last 4 entries** - delete older ones when adding new. This helps future chat sessions understand the project state.
@@ -521,17 +567,19 @@ V Harsha Vardhan Yellela
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2026-01-16 | Completed 30-job bulk apply | Finished remaining jobs: 8 ML/AI, 10 SDE, 10 DevOps. Total 28 applications this batch |
 | 2026-01-17 | Distyl dream job application | Applied to AI Engineer (New Graduate) at Distyl via Workstory.io. Created video intro, messaged recruiter John Loubser on LinkedIn |
 | 2026-01-17 | Workstory.io profile setup | Created account, uploaded ML-Engineer resume, recorded "AI Engineer Introduction" video for applications |
 | 2026-01-17 | Project folder reorganization | Organized project into clean folder structure: resumes/, references/, job_tracking/, ranked_jobs/, cover_letters/, outreach_emails/ |
+| 2026-01-22 | Build Fellowship accepted + CDF prep | Accepted to Build Fellowship "transformer language model" project (Kacper Raczy). CDF volunteer starts 02/02/26 |
 
 ### Pending/In Progress
+- **Build Fellowship (by EOD Sun Jan 25):** Confirm participation, Pre-Project Survey, Orientation signup (Jan 28)
 - Send email to Professor Tina Korani for Apple referral
 - Complete Akraya ML Engineer chatbot questions
 - Microsoft referral requests sent (4 contacts pending response)
 - Distyl application submitted - awaiting response from recruiter John Loubser
 - Total applications: 260 (CSV job_applications.csv)
+- CDF: Starts 02/02/26, look for ML/AI projects in department channel
 
 ### Current State Summary
 - **Folder Structure:** Organized into 6 folders (resumes, references, job_tracking, ranked_jobs, cover_letters, outreach_emails)

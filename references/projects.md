@@ -227,7 +227,7 @@ This file contains detailed information about all projects for resume tailoring 
 ### Overview
 - **Project Name:** Resume Optimizer – QLoRA Fine-tuned LLM for ATS Optimization
 - **Role:** ML Engineer / LLM Specialist
-- **Duration:** Oct 2024 – Present
+- **Duration:** Dec 2025
 - **GitHub:** https://github.com/HAR5HA-7663/Resume-Optimzer
 - **Status:** Active
 
@@ -274,7 +274,7 @@ This file contains detailed information about all projects for resume tailoring 
 ### Overview
 - **Project Name:** ML Sentiment Feedback Loop – Production MLOps Microservices
 - **Role:** MLOps Engineer / Cloud Architect
-- **Duration:** Nov 2024 – Present
+- **Duration:** Dec 2025
 - **GitHub:** https://github.com/HAR5HA-7663/ml-sentiment-feedback-loop
 - **Status:** Active
 
@@ -376,8 +376,8 @@ This file contains detailed information about all projects for resume tailoring 
 ### Overview
 - **Project Name:** FieldFuze Backend – Enterprise Go API
 - **Role:** Backend Engineer
-- **Duration:** Aug 2024 – Present
-- **Status:** Active
+- **Duration:** Dec 2024
+- **Status:** Completed
 
 ### Tech Stack
 - **Language:** Go 1.23.2
@@ -467,8 +467,8 @@ This file contains detailed information about all projects for resume tailoring 
 ### Overview
 - **Project Name:** Lambda Microservices – Field Service Backend
 - **Role:** Cloud Engineer / Integration Specialist
-- **Duration:** 2024
-- **Status:** Active (94 Lambda functions)
+- **Duration:** Dec 2024
+- **Status:** Completed
 
 ### Tech Stack
 - **Language:** Python 3
