@@ -1,0 +1,26 @@
+V Harsha Vardhan Yellela
+Ferndale, MI 48220
+harsha.yellela@gmail.com | (248) 497-9965
+linkedin.com/in/har5ha-7663 | github.com/HAR5HA-7663
+
+February 3, 2026
+
+10a Labs
+Machine Learning Fellow Position
+
+Hi there,
+
+I came across the ML Fellow role at 10a Labs and it immediately caught my attention. AI safety and red teaming are areas I genuinely care about, and the chance to work on real problems with frontier AI labs sounds like exactly the kind of hands-on work I've been looking for.
+
+A bit about me - I just finished my MS in Computer Science at Lawrence Tech, where I spent the past year building multi-agent systems as a research assistant. Most of my time went into comparing no-code tools like n8n against coded approaches using CrewAI and LangChain. We deployed these on AWS EKS with RAG pipelines, and honestly, figuring out what worked and what broke taught me more than any class could.
+
+On the fine-tuning side, I recently trained Qwen3-4B using QLoRA on a pretty niche dataset (resumes, of all things). Getting 4-bit quantization to work efficiently while maintaining output quality was a fun challenge. I've also built a toxicity detection system for Telegram using HuggingFace's toxic-bert - basically content moderation at scale with Kubernetes handling the load. That project felt adjacent to the abuse detection work you mentioned.
+
+I'm comfortable with the full ML pipeline. I built an 8-service MLOps platform that handles everything from data ingestion to auto-retraining, all running on SageMaker. For NLP, I've done the usual - tokenization, feature engineering, sentiment analysis - but also more involved stuff like building a research agent with multi-step RAG, reranking, and citation tracking.
+
+What draws me to this role is the experimentation aspect. I like working on problems where the path forward isn't obvious and you have to try things to find out. I'm good at moving fast, documenting what I learn, and explaining technical stuff to people who don't live in Jupyter notebooks.
+
+I can do up to 20 hours a week and my schedule is flexible. Happy to start whenever works for you.
+
+Thanks for reading,
+Harsha

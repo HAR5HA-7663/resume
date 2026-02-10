@@ -30,22 +30,26 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 - **University:** Lawrence Technological University
 - **Location:** Southfield, MI
 - **GPA:** 3.6/4.0
+- **Duration:** January 2024 – December 2025
 - **Graduated:** December 2025
 - **Relevant Coursework:** Intelligent Robotics (ROS), Machine Learning, Artificial Intelligence, Natural Language Processing, Collaborative Research in Agentic AI
+- **Summary:** Completed MS in Computer Science with 3.6 GPA, specializing in AI/ML. Conducted research on multi-agent systems as Graduate Research Assistant, building CrewAI + LangChain pipelines deployed on AWS EKS. Coursework included hands-on ROS robotics (Stretch2 manipulation), NLP, and deep learning. Built 8-microservice MLOps platform with auto-retraining, fine-tuned LLMs using QLoRA, and developed Graph Neural Networks for traffic anomaly detection. Published projects integrating SageMaker, Terraform IaC, and production Kubernetes deployments.
 
 ### Bachelor of Technology in Computer Science & Engineering
 - **University:** Geethanjali College of Engineering & Technology
 - **Location:** Hyderabad, Telangana
 - **GPA:** 7.5/10 (~3.0/4.0)
+- **Duration:** August 2018 – August 2022
 - **Graduated:** August 2022
 - **Relevant Coursework:** Software Engineering, Deep Learning & Python, Machine Learning Foundations, Internet of Things
+- **Summary:** Earned B.Tech in Computer Science with strong foundation in software engineering, data structures, and algorithms. Completed coursework in deep learning and ML foundations. Built IoT home automation system (DOMUS) integrating Flutter mobile app with Arduino/ESP32 microcontrollers and MQTT cloud connectivity. Developed COVID-19 statistics tracker app using Flutter and REST APIs. Won Gold Medal in Indian National Mathematical Olympiad (INMO). Secured placement at Infor India as LN Technical Consultant immediately after graduation.
 
 ## Work Experience
 
 ### Graduate Research Assistant – Agentic AI
 - **Company:** Lawrence Technological University
 - **Location:** Southfield, MI
-- **Duration:** Jan 2025 – Present
+- **Duration:** Jan 2025 – Dec 2025
 - **Key Responsibilities:**
   - Built and compared no-code (n8n) vs. coded multi-agent systems (CrewAI + LangChain MCP) for workflow automation and intelligent decision-making
   - Deployed persistent MCP agent services on AWS Fargate and Amazon EKS, integrating OpenSearch Serverless Vector Engine for semantic search and RAG
