@@ -208,6 +208,7 @@ When the user provides a job description (JD), follow these steps:
 | Data Scientist | Sentiment Forecasting, NLP Course, Food Classifier |
 | Integration Engineer | Lambda Microservices (Stripe, Twilio, DocuSign, QuickBooks) |
 | Automation Engineer | N8N, AgenticAI, ATS Matching |
+| AI Automation Engineer | AgenticAI, N8N, CRE Agent (RAG), Lambda Microservices, Resumade |
 
 ---
 
@@ -236,6 +237,7 @@ When applying to jobs on LinkedIn using Easy Apply, select the appropriate resum
 | **Software Engineer / SDE / Backend / Full Stack** | SDE Resume | `Harsha_Yellela_SDE.pdf` |
 | **ML Engineer / AI Engineer / Data Scientist / NLP / CV** | ML-Engineer Resume | `Harsha_Yellela_ML-Engineer.pdf` |
 | **DevOps / Platform / SRE / Cloud Engineer** | DevOps Resume | `Harsha_Yellela_DevOps.pdf` |
+| **AI Automation / Integration / Agentic AI / Workflow** | AI Automation Resume | `Harsha_Yellela_AI-Automation-Engineer.pdf` |
 | **General / Mixed / Unclear roles** | Default Resume | `Harsha_Yellela_resume.pdf` |
 
 ### LinkedIn Resume Selection Tips:
@@ -249,6 +251,7 @@ When applying to jobs on LinkedIn using Easy Apply, select the appropriate resum
 - `Harsha_Yellela_SDE.pdf` (221 KB) - Software Development Engineer focused
 - `Harsha_Yellela_ML-Engineer.pdf` (227 KB) - Machine Learning focused
 - `Harsha_Yellela_DevOps.pdf` (272 KB) - DevOps/Platform focused
+- `Harsha_Yellela_AI-Automation-Engineer.pdf` - AI Automation / Agentic AI focused
 
 ---
 
@@ -362,6 +365,7 @@ Job Number,Position,Company,Location,Status,Date Applied
 | ML, AI, Data Science, NLP, CV, Deep Learning | `Harsha_Yellela_ML-Engineer.pdf` |
 | SDE, Software Engineer, Backend, Full Stack | `Harsha_Yellela_SDE.pdf` |
 | DevOps, Platform, SRE, Cloud, Infrastructure | `Harsha_Yellela_DevOps.pdf` |
+| AI Automation, Integration, Agentic AI, Workflow | `Harsha_Yellela_AI-Automation-Engineer.pdf` |
 | General/Unclear | `Harsha_Yellela_resume.pdf` |
 
 ### Key Form Field Values (Quick Reference):
@@ -593,11 +597,10 @@ V Harsha Vardhan Yellela
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2026-01-17 | Distyl dream job application | Applied to AI Engineer (New Graduate) at Distyl via Workstory.io. Created video intro, messaged recruiter John Loubser on LinkedIn |
-| 2026-01-17 | Workstory.io profile setup | Created account, uploaded ML-Engineer resume, recorded "AI Engineer Introduction" video for applications |
-| 2026-01-17 | Project folder reorganization | Organized project into clean folder structure: resumes/, references/, job_tracking/, ranked_jobs/, cover_letters/, outreach_emails/ |
 | 2026-01-22 | Build Fellowship accepted + CDF prep | Accepted to Build Fellowship "transformer language model" project (Kacper Raczy). CDF volunteer starts 02/02/26 |
 | 2026-01-23 | Created open-source template | Published job-application-llm-agent to GitHub with template files, skills, and comprehensive README. Repo: https://github.com/HAR5HA-7663/job-application-llm-agent |
+| 2026-02-10 | Merge conflicts resolved | Pulled remote, resolved 3 conflicts (CLAUDE.md, job_applications.csv, personal_details.md), merged all entries |
+| 2026-02-10 | AI Automation Engineer resume | Created `resumes/html/ai_automation_engineer.html` with MCP, Bedrock, function calling, structured output, RAG skills. Added to all tracking tables |
 
 ### Pending/In Progress
 - **Build Fellowship (by EOD Sun Jan 25):** Confirm participation, Pre-Project Survey, Orientation signup (Jan 28)
@@ -641,7 +644,7 @@ V Harsha Vardhan Yellela
 - **Folder Structure:** Organized into 6 folders (resumes, references, job_tracking, ranked_jobs, cover_letters, outreach_emails)
 - **Projects:** 27 total in `references/projects.md`
 - **Applications:** 260 tracked in `job_tracking/job_applications.csv`
-- **Resumes:** 4 PDFs + HTML source in `resumes/`
+- **Resumes:** 5 variants (SDE, ML, DevOps, AI-Automation, General) + HTML sources in `resumes/html/`
 
 ---
 
