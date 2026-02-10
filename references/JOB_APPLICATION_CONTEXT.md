@@ -17,7 +17,7 @@
 | **Phone** | +1-248-497-9965 |
 | **Phone (alt format)** | 248-497-9965 |
 | **Location** | United States |
-| **City** | Ferndale |
+| **City** | Farmington Hills |
 | **State** | Michigan (MI) |
 | **Country** | United States |
 | **LinkedIn** | https://www.linkedin.com/in/har5ha-7663 |
@@ -36,7 +36,7 @@
 | **Willing to Relocate** | Yes - Anywhere in the United States |
 | **Remote Work** | Yes, open to remote, hybrid, or on-site |
 | **Expected Salary Range** | $80,000 - $150,000 (flexible based on role/location) |
-| **Availability/Start Date** | Immediately / 2 weeks notice |
+| **Availability/Start Date** | Immediately |
 | **Preferred Work Type** | Full-time |
 | **Open to Contract** | Yes |
 
@@ -52,8 +52,8 @@
 | **Location** | Southfield, MI, USA |
 | **GPA** | 3.6/4.0 |
 | **Start Date** | January 2024 |
-| **Expected Graduation** | December 2025 |
-| **Status** | Currently Enrolled |
+| **Graduation** | December 2025 |
+| **Status** | Completed |
 
 ### Bachelor's Degree
 | Field | Value |
@@ -70,14 +70,14 @@
 
 ## 4. Work Experience
 
-### Current Position
+### Most Recent Position (Currently Unemployed)
 | Field | Value |
 |-------|-------|
 | **Job Title** | Graduate Research Assistant – Agentic AI |
 | **Company** | Lawrence Technological University |
 | **Location** | Southfield, MI |
 | **Start Date** | January 2025 |
-| **End Date** | Present |
+| **End Date** | December 2025 |
 | **Employment Type** | Part-time |
 | **Description** | Built and compared no-code (n8n) vs. coded multi-agent systems (CrewAI + LangChain MCP) for workflow automation. Deployed persistent MCP agent services on AWS Fargate and Amazon EKS, integrating OpenSearch Serverless Vector Engine for semantic search and RAG. Designed hybrid pipelines combining Bedrock-hosted models with custom tools, achieving up to 70% reduction in manual process time. |
 

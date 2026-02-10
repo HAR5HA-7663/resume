@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vardhan Yellela - AI Automation Engineer Resume</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 7.5in;
+            margin: 0.1in auto 0.7in auto;
+            line-height: 1.1;
+            color: #000;
+            text-align: left;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @media print {
+            body {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+            }
+
+            .entry, .entry .header, .entry .subheader, ul, ul li {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                page-break-inside: avoid;
+            }
+
+            ul li:before {
+                -webkit-user-select: none !important;
+                -moz-user-select: none !important;
+                -ms-user-select: none !important;
+                user-select: none !important;
+            }
+        }
+
+        h1 {
+            font-size: 22pt;
+            text-align: center;
+            margin: 30px 0 1px 0;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 10pt;
+            margin: 0 0 8px 0;
+        }
+
+        h2 {
+            font-size: 14pt;
+            margin: 15px 0 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header, .entry .subheader {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header span, .entry .subheader span {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 10pt;
+            margin: 0 0 10px 0;
+        }
+
+        .entry {
+            margin-bottom: 12px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry::after {
+            content: "";
+            display: block;
+            clear: both;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .entry ul {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry .header {
+            font-size: 11pt;
+            font-weight: bold;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .header span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 70%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .header span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 30%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader {
+            font-size: 11pt;
+            font-style: italic;
+            margin-bottom: 3px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .subheader span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 80%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 20%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+            font-size: 10pt;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        ul li {
+            margin-bottom: 3px;
+            position: relative;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: -15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Harsha Vardhan Yellela</h1>
+    <div class="contact-info">
+        United States | +1-248-497-9965 |
+        <a href="mailto:harsha.yellela@gmail.com">harsha.yellela@gmail.com</a> |
+        <a href="https://har5ha.in">har5ha.in</a> |
+        <a href="https://www.linkedin.com/in/har5ha-7663">LinkedIn</a> |
+        <a href="https://github.com/HAR5HA-7663">GitHub</a>
+    </div>
+
+    <!-- Summary Section -->
+    <h2>Summary</h2>
+    <p>
+        <strong>AI Automation Engineer</strong> with hands-on experience building <strong>multi-agent systems</strong>, <strong>workflow automation pipelines</strong>, and <strong>LLM-powered tools</strong> for production environments.
+        Designed and deployed <strong>agentic AI workflows</strong> using <strong>CrewAI, LangChain, and n8n</strong>, achieving <strong>70% reduction in manual processes</strong>.
+        Built <strong>94 serverless functions</strong> integrating <strong>10+ third-party APIs</strong> (Stripe, Twilio, DocuSign, QuickBooks) and <strong>8-microservice MLOps platforms</strong> with auto-retraining loops.
+        Skilled in <strong>AWS cloud infrastructure</strong>, <strong>RAG pipelines</strong>, and <strong>end-to-end automation</strong> from data ingestion to deployment.
+    </p>
+
+    <!-- Experience Section -->
+    <h2>Experience</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Graduate Research Assistant – Agentic AI</span>
+            <span>Jan 2025 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Lawrence Technological University</span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li>Built and benchmarked <strong>no-code (n8n)</strong> vs. <strong>coded multi-agent systems (CrewAI + LangChain MCP)</strong> for automated newsletter generation, research workflows, and intelligent decision-making.</li>
+            <li>Deployed persistent <strong>MCP agent services</strong> on <strong>AWS Fargate</strong> and <strong>Amazon EKS</strong>, integrating <strong>OpenSearch Serverless Vector Engine</strong> for semantic search and <strong>RAG-based automation</strong>.</li>
+            <li>Designed hybrid pipelines combining <strong>Bedrock-hosted models</strong> with custom tool integrations, achieving up to <strong>70% reduction in manual process time</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Infor India Pvt. Ltd.</span>
+            <span>Apr 2022 – Dec 2023</span>
+        </div>
+        <div class="subheader">
+            <span>LN Technical Consultant</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Developed modular, production-ready <strong>automation tools</strong> for global clients (<strong>Ferrari, Boeing, Triumph</strong>) by extending <strong>Infor LN ERP</strong> workflows with custom business logic.</li>
+            <li>Integrated <strong>Infor ION process flows</strong> with <strong>AWS S3, Lambda, and API Gateway</strong> for <strong>asynchronous file transfer</strong> and <strong>event-driven automation</strong>, reducing batch processing delays by <strong>~40%</strong>.</li>
+            <li><strong>Containerized</strong> business logic services using <strong>Docker</strong> and orchestrated with <strong>Infor ION</strong> for automated enterprise workflows across manufacturing and finance modules.</li>
+        </ul>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>AI Agents & Automation:</strong> CrewAI, LangChain, LangGraph, n8n | Multi-Agent Orchestration | RAG Pipelines | Workflow Automation</li>
+        <li><strong>LLMs & Models:</strong> GPT-4, Gemini, Claude, Llama, Qwen, DeepSeek | QLoRA Fine-tuning (PEFT, TRL) | Ollama, vLLM, Bedrock</li>
+        <li><strong>Cloud (AWS):</strong> Lambda, ECS Fargate, EKS, SageMaker, Bedrock | S3, DynamoDB, ECR | API Gateway, SNS, Kinesis, OpenSearch</li>
+        <li><strong>Backend & APIs:</strong> Python (FastAPI, Flask), Go (Gin), Node.js (Express) | REST APIs, OpenAPI/Swagger | JWT, OAuth</li>
+        <li><strong>DevOps & IaC:</strong> Docker, Kubernetes | Terraform, CloudFormation, CDK | Jenkins, GitHub Actions | Prometheus, Grafana</li>
+        <li><strong>Data & Integration:</strong> Stripe, Twilio, DocuSign, QuickBooks | Web Scraping (Selenium, BeautifulSoup) | Webhooks, Event-Driven Architectures</li>
+        <li><strong>ML/DL:</strong> PyTorch, TensorFlow/Keras, HuggingFace Transformers | CNN, LSTM, GNN | SageMaker Pipelines, MLOps</li>
+        <li><strong>Databases:</strong> PostgreSQL, DynamoDB, MongoDB | Qdrant, pgvector (Vector DBs) | Redis | Elasticsearch</li>
+        <li><strong>Languages:</strong> Python, Go, TypeScript, JavaScript, SQL, Bash</li>
+    </ul>
+
+    <!-- Projects Section -->
+    <h2>Projects</h2>
+    <div class="entry">
+        <div class="header">
+            <span>AgenticAI – Multi-Agent Newsletter Automation</span>
+            <span>Apr 2025</span>
+        </div>
+        <div class="subheader">
+            <span>CrewAI, LangChain, n8n, FastAPI, AWS Lambda | <a href="https://github.com/HAR5HA-7663/Newsletter_gen_CrewAI">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Designed and deployed <strong>newsletter automation</strong> using <strong>n8n (no-code)</strong> and <strong>CrewAI + LangChain (code-first)</strong>, benchmarking both approaches across latency, reliability, and developer speed.</li>
+            <li>Built <strong>multi-agent coordination logic</strong> with custom <strong>FastAPI</strong> backends and deployed on <strong>AWS Lambda</strong> for scalable, event-driven execution.</li>
+            <li>Achieved <strong>70% reduction in manual workload</strong> and provided actionable insights into visual vs. programmatic agent orchestration tradeoffs.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>CRE Research Agent – AI-Powered Literature Review</span>
+            <span>Nov 2024 – Present</span>
+        </div>
+        <div class="subheader">
+            <span>LangGraph, FastAPI, vLLM, pgvector, Qdrant, Elasticsearch, Redis</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built automated <strong>literature review system</strong> using <strong>multi-step RAG pipeline</strong>: query expansion → retrieval → reranking → summarization, discovering <strong>~20 relevant papers</strong> per query.</li>
+            <li>Implemented <strong>LangGraph-style state machine</strong> orchestration with <strong>dual vector databases</strong> (Qdrant + pgvector), <strong>BM25 sparse retrieval</strong>, and <strong>BGE cross-encoder reranking</strong>.</li>
+            <li>Integrated <strong>Semantic Scholar, ArXiv, and Crossref APIs</strong> for automated paper discovery with inline citation tracking and bibliography generation.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>N8N Workflow Automation – Self-Hosted AI Platform</span>
+            <span>Sep 2024</span>
+        </div>
+        <div class="subheader">
+            <span>n8n, OpenAI, SerpAPI, Tavily AI, Ollama, Qdrant, Docker | <a href="https://github.com/HAR5HA-7663/N8N">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>newsletter automation workflow</strong> with <strong>AI agents</strong> integrating <strong>SerpAPI</strong> for trending topic discovery and <strong>Tavily AI</strong> for research.</li>
+            <li>Deployed <strong>self-hosted AI starter kit</strong> with <strong>Docker Compose</strong>, configuring <strong>Qdrant vector database</strong> for semantic search and <strong>Ollama (Llama 3.2)</strong> for local LLM inference.</li>
+            <li>Designed <strong>end-to-end automated pipelines</strong> from topic discovery to structured content generation with zero manual intervention.</li>
+        </ul>
+    </div>
+
+    <div style="page-break-before: always;"></div>
+
+    <div class="entry" style="margin-top: 30px;">
+        <div class="header">
+            <span>Lambda Microservices – Enterprise Serverless Integration Platform</span>
+            <span>2024</span>
+        </div>
+        <div class="subheader">
+            <span>AWS Lambda, DynamoDB, API Gateway, Terraform, CloudFormation | Stripe, Twilio, DocuSign, QuickBooks</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Developed <strong>94 AWS Lambda functions</strong> for a complete SaaS platform with <strong>automated deployment pipelines</strong> using Git change detection.</li>
+            <li>Integrated <strong>10+ third-party services</strong>: <strong>Stripe Connect</strong> (vendor onboarding/payments), <strong>DocuSign</strong> (e-signature workflows), <strong>Twilio</strong> (communications), <strong>QuickBooks</strong> (accounting sync), <strong>EagleView</strong> (aerial imagery).</li>
+            <li>Built <strong>event-driven architectures</strong> with <strong>API Gateway</strong> routing and <strong>Terraform/CloudFormation IaC</strong> for repeatable infrastructure provisioning.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>ML Sentiment Feedback Loop – Automated MLOps Platform</span>
+            <span>Nov 2024 – Present</span>
+        </div>
+        <div class="subheader">
+            <span>AWS (ECS Fargate, SageMaker, S3), Terraform, GitHub Actions, Docker | <a href="https://github.com/HAR5HA-7663/ml-sentiment-feedback-loop">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>8-microservice MLOps architecture</strong> with <strong>automated feedback loops</strong>: Inference → Feedback → Evaluation → Retraining → Deployment, requiring <strong>zero manual intervention</strong>.</li>
+            <li>Implemented <strong>auto-retraining triggers</strong> with <strong>SageMaker</strong>, automated <strong>model versioning/registry</strong>, and <strong>SNS-based notifications</strong> for pipeline events.</li>
+            <li>Configured <strong>GitHub Actions CI/CD</strong> with <strong>Terraform IaC</strong> for fully automated infrastructure provisioning and container deployments to <strong>ECS Fargate</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>AI Resume Builder (Resumade.in) – Multi-LLM Automation</span>
+            <span>Jun 2025 – Present</span>
+        </div>
+        <div class="subheader">
+            <span>FastAPI, AWS Lambda, DynamoDB, GPT-4, Gemini, DeepSeek, GitHub Actions</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Architected <strong>serverless automation pipeline</strong> using <strong>FastAPI + AWS Lambda</strong> with <strong>multi-LLM orchestration</strong> (GPT-4, Gemini, DeepSeek) for intelligent resume generation.</li>
+            <li>Built <strong>real-time web scraping + AI optimization pipelines</strong> using <strong>BeautifulSoup</strong> and <strong>LinkedIn parsers</strong>, reducing manual resume tailoring effort by <strong>80%</strong>.</li>
+            <li>Deployed with <strong>95%+ uptime</strong>, <strong>sub-2s PDF/Word generation</strong>, and <strong>GitHub Actions CI/CD</strong> for automated testing and deployment.</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Lawrence Technological University</strong></span>
+            <span>Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Master of Science in Computer Science · GPA: <strong>3.6/4.0</strong></span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Agentic AI Research</strong>, <strong>Machine Learning</strong>, <strong>Natural Language Processing</strong>, <strong>Artificial Intelligence</strong>, <strong>Intelligent Robotics (ROS)</strong></li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
+            <span>Aug 2022</span>
+        </div>
+        <div class="subheader">
+            <span>Bachelor of Technology in Computer Science & Engineering · GPA: <strong>7.5/10 (~3.0/4.0)</strong></span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Deep Learning & Python</strong>, <strong>Machine Learning Foundations</strong>, <strong>Software Engineering</strong>, <strong>Internet of Things</strong></li>
+        </ul>
+    </div>
+
+    <!-- Achievements Section -->
+    <h2>Achievements</h2>
+    <ul>
+        <li><strong>Selected for Amazon Nova AI Challenge: Trusted AI Track</strong> (2025)</li>
+        <li><strong>Built production SaaS platform</strong> with 94 Lambda functions and 10+ third-party integrations serving real customers (2024)</li>
+        <li><strong>Participated in RSNA Pneumonia Detection Challenge</strong>; ranked in upper quartile with VGG19 transfer learning model (2024)</li>
+        <li><strong>Gold Medalist in Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
+    </ul>
+</body>
+
+</html>

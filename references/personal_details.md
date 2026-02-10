@@ -6,7 +6,7 @@
 - **Casual Name:** Harsha
 - **Date of Birth:** June 7, 2001
 - **Gender:** Male
-- **Address:** 431 W Saratoga St, Ferndale, MI 48220
+- **Address:** 36631 Jefferson Ct, Apt 814, Farmington Hills, MI 48335
 - **Location:** United States
 - **Phone:** +1-248-497-9965
 - **Email:** harsha.yellela@gmail.com
@@ -31,7 +31,7 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 - **Location:** Southfield, MI
 - **GPA:** 3.6/4.0
 - **Duration:** January 2024 – December 2025
-- **Graduated:** December 2025
+- **Graduated:** December 2025 (Completed)
 - **Relevant Coursework:** Intelligent Robotics (ROS), Machine Learning, Artificial Intelligence, Natural Language Processing, Collaborative Research in Agentic AI
 - **Summary:** Completed MS in Computer Science with 3.6 GPA, specializing in AI/ML. Conducted research on multi-agent systems as Graduate Research Assistant, building CrewAI + LangChain pipelines deployed on AWS EKS. Coursework included hands-on ROS robotics (Stretch2 manipulation), NLP, and deep learning. Built 8-microservice MLOps platform with auto-retraining, fine-tuned LLMs using QLoRA, and developed Graph Neural Networks for traffic anomaly detection. Published projects integrating SageMaker, Terraform IaC, and production Kubernetes deployments.
 

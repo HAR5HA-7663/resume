@@ -35,6 +35,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ---
 
+## IMPORTANT: temp.txt Queue System
+
+**Purpose:** temp.txt is used for quick inter-session communication - a queue of length 5.
+
+**How it works:**
+- When you need to send text to the user or save notes between sessions, add to temp.txt
+- Keep only the **5 most recent entries** - delete the oldest when adding new
+- Each entry should have a header with date/time and purpose
+- Format: `---\n[DATE] - [PURPOSE]\n[CONTENT]\n`
+
+**Current queue structure:**
+```
+---
+[Entry 1 - oldest, gets deleted when 6th entry is added]
+---
+[Entry 2]
+---
+[Entry 3]
+---
+[Entry 4]
+---
+[Entry 5 - newest]
+```
+
+---
+
 ## IMPORTANT: On New Chat Session
 
 **When opening this project in a new chat, Claude MUST:**
@@ -380,7 +406,7 @@ When a job application has an **optional** cover letter upload field:
 ### Cover Letter Template Structure:
 ```
 V Harsha Vardhan Yellela
-Ferndale, MI 48220
+36631 Jefferson Ct, Apt 814, Farmington Hills, MI 48335
 harsha.yellela@gmail.com | (248) 497-9965
 LinkedIn: linkedin.com/in/har5ha-7663 | GitHub: github.com/HAR5HA-7663
 
@@ -571,6 +597,7 @@ V Harsha Vardhan Yellela
 | 2026-01-17 | Workstory.io profile setup | Created account, uploaded ML-Engineer resume, recorded "AI Engineer Introduction" video for applications |
 | 2026-01-17 | Project folder reorganization | Organized project into clean folder structure: resumes/, references/, job_tracking/, ranked_jobs/, cover_letters/, outreach_emails/ |
 | 2026-01-22 | Build Fellowship accepted + CDF prep | Accepted to Build Fellowship "transformer language model" project (Kacper Raczy). CDF volunteer starts 02/02/26 |
+| 2026-01-23 | Created open-source template | Published job-application-llm-agent to GitHub with template files, skills, and comprehensive README. Repo: https://github.com/HAR5HA-7663/job-application-llm-agent |
 
 ### Pending/In Progress
 - **Build Fellowship (by EOD Sun Jan 25):** Confirm participation, Pre-Project Survey, Orientation signup (Jan 28)
@@ -578,8 +605,37 @@ V Harsha Vardhan Yellela
 - Complete Akraya ML Engineer chatbot questions
 - Microsoft referral requests sent (4 contacts pending response)
 - Distyl application submitted - awaiting response from recruiter John Loubser
-- Total applications: 260 (CSV job_applications.csv)
+- Total applications: 304 (CSV job_applications.csv)
 - CDF: Starts 02/02/26, look for ML/AI projects in department channel
+
+---
+
+## Agent Learnings & Tips for Future Sessions
+
+**Browser Extension Issues:**
+- If browser extension is not connected, user needs to:
+  1. Make sure Chrome is open with the Claude extension installed
+  2. May need to restart Chrome after installation
+  3. Must be logged into claude.ai with the same account as Claude Code
+- Report issues at: https://github.com/anthropics/claude-code/issues
+
+**Job Application Efficiency:**
+- Always check role fit BEFORE applying (see "CRITICAL: Role Matching" section)
+- Use the skill `job-applicator` for streamlined applications
+- Batch similar roles together for faster processing
+- Keep job_applications.csv updated after EVERY successful submission
+
+**File Reading Order on New Session:**
+1. CLAUDE.md (this file) - for context and instructions
+2. temp.txt - for any queued messages from previous session
+3. job_applications.csv - to know current count and recent activity
+4. personal_details.md / JOB_APPLICATION_CONTEXT.md - only when actively applying
+
+**Common User Patterns:**
+- Typos in commands are intentional - parse for intent, don't ask for clarification
+- "i did it continue" = user completed a manual step, proceed
+- User wants autonomous action, not confirmation dialogs
+- Use tables for status summaries - user likes structured output
 
 ### Current State Summary
 - **Folder Structure:** Organized into 6 folders (resumes, references, job_tracking, ranked_jobs, cover_letters, outreach_emails)

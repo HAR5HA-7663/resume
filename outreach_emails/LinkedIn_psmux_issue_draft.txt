@@ -1,0 +1,19 @@
+Just spent an hour debugging why I couldn't detach from psmux while running Claude Code inside it.
+
+The problem: I wanted to run Claude Code in a persistent terminal session on Windows so I could detach and come back later while it keeps working on long tasks (like browser automation with Chrome).
+
+psmux is a Windows-native tmux alternative that seemed perfect for this. But here's what I ran into:
+
+1. The default prefix key is Ctrl+B, same as tmux. But Claude Code captures this keystroke before psmux can see it. Can't detach.
+
+2. Tried changing the prefix key in ~/.psmux.conf to Ctrl+] but it didn't work. Config file parsing seems incomplete in v0.1.0.
+
+3. Even when I could detach earlier, the server process died instead of staying alive in the background. Classic daemonization issue on Windows.
+
+The obvious answer is "just use tmux in WSL" but that breaks the Chrome MCP integration since Claude needs to control a Windows Chrome browser, not a Linux one.
+
+For now there's no clean solution. Windows still lacks a reliable terminal multiplexer that plays nice with modern CLI tools.
+
+Anyone else running into this? Or found a workaround I'm missing?
+
+#DevTools #Windows #TerminalMultiplexer #ClaudeCode #DeveloperExperience
