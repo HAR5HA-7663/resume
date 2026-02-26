@@ -1,0 +1,24 @@
+V Harsha Vardhan Yellela
+36631 Jefferson Ct, Apt 814, Farmington Hills, MI 48335
+harsha.yellela@gmail.com | (248) 497-9965
+LinkedIn: linkedin.com/in/har5ha-7663 | GitHub: github.com/HAR5HA-7663
+
+February 26, 2026
+
+Stripe
+Platform Team
+
+Dear Hiring Manager,
+
+I still remember the first time I integrated Stripe into a real project. I was building a field service management platform in Go, and the moment a test payment went through using Stripe Connect, it genuinely felt like magic. The API was so clean, the docs so thoughtful, that I ended up building 94 AWS Lambda functions around Stripe and Stripe Connect for payment processing, subscription management, and multi-party payouts. That experience changed how I think about developer tools. It set a standard I now hold every API I build to.
+
+That's why this Platform role feels less like a job posting and more like a natural next step. I've spent the last few years being exactly the kind of generalist this role calls for. At Infor, I extended ERP workflows for Ferrari, Boeing, and Triumph, jumping between manufacturing logic, cloud integrations with AWS S3 and Lambda, and containerized services. As a Graduate Research Assistant at Lawrence Tech, I went from deploying multi-agent AI systems on AWS EKS to building RAG pipelines with vector search. No two weeks looked the same, and that's how I like it.
+
+What draws me to Stripe's Platform team specifically is the challenge of building infrastructure that other engineers depend on. I've done this at a smaller scale, designing backend services in FastAPI and Go that teammates and clients built on top of, and I know firsthand that platform work requires a different kind of empathy. You're not just solving your own problem, you're anticipating someone else's. I find that deeply satisfying.
+
+I'm based in Michigan but genuinely excited to relocate to Seattle or South San Francisco. I will need H-1B sponsorship down the line, but I'm immediately available on F-1 OPT and ready to start contributing from day one.
+
+I'd love the chance to build the infrastructure that powers the next generation of internet commerce, at the company whose API taught me what great developer experience looks like.
+
+Sincerely,
+V Harsha Vardhan Yellela
