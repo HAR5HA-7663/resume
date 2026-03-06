@@ -64,10 +64,23 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
   - Integrated Infor ION process flows with AWS S3, Lambda, and API Gateway for asynchronous file transfer
   - Containerized business logic services using Docker and simulated Kubernetes-like orchestration with Infor ION
 
+### PEP (Pre Education Programme) – Java Backend Apprentice
+- **Company:** EPAM Systems
+- **Location:** Hyderabad, Telangana, India
+- **Duration:** Sep 2020 – Jul 2021 (11 months)
+- **Type:** Apprenticeship (industry training pipeline into EPAM engineering roles)
+- **Key Responsibilities:**
+  - Completed structured modules on core Java, object-oriented design, collections, exception handling, and multithreading
+  - Built practice projects using Java 8 (Servlets, JSP, basic Spring concepts) with clean-code principles and Git-based version control
+  - Designed and tested RESTful endpoints following standard HTTP verbs, status codes, and payload structures
+  - Gained hands-on exposure to CI/CD concepts (build pipelines, automated testing, deployment basics)
+  - Practiced JUnit-style testing, logging, and debugging to improve reliability of services in realistic scenarios
+- **Summary:** Intensive 11-month industry training program focused on Java backend development, REST APIs, and CI/CD, designed as a pipeline into EPAM engineering roles. Laid the groundwork for later work in microservices, containerized backends, and MLOps.
+
 ## Technical Skills
 
 ### Programming Languages
-- **Primary:** Python, Go, TypeScript, JavaScript
+- **Primary:** Python, Go, TypeScript, JavaScript, Java
 - **Secondary:** SQL, Dart, C#, Bash
 
 ### Backend Frameworks & APIs`
@@ -171,7 +184,7 @@ Backend Engineer with experience in Infor ERP system development (LN, ION) and b
 - Gold Medalist in Indian National Mathematical Olympiad (INMO) (2012)
 
 ## Job Application Preferences
-- **Preferred Roles:** ML Engineer, AI Engineer, Backend Engineer, Full Stack Developer, DevOps/Platform Engineer
+- **Preferred Roles:** AI Automation Engineer (primary focus), ML Engineer, AI Engineer, Backend Engineer, Full Stack Developer, DevOps/Platform Engineer
 - **Preferred Location:** Remote (strongly preferred), or on-site/hybrid in MI, CA, NY, TX, WA
 - **Salary Expectation:** $100,000 - $130,000 (negotiable based on role/location)
 - **Company Size:** Open to startups, mid-size, and enterprise

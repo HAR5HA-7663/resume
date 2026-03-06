@@ -290,6 +290,18 @@
 - Deep Learning (TensorFlow, PyTorch)
 - Multi-agent systems (CrewAI, LangChain)
 
+### For AI Automation Engineer Roles
+- MCP (Model Context Protocol) server development and deployment on AWS Fargate/EKS
+- n8n workflow automation: built and compared no-code vs. coded multi-agent systems
+- CrewAI + LangChain agent pipelines for intelligent decision-making and workflow automation
+- AWS Bedrock integration: hybrid pipelines combining Bedrock-hosted models with custom tools
+- Function calling and structured output with LLMs (GPT-4, Claude, Gemini)
+- RAG pipelines with OpenSearch Serverless Vector Engine, Qdrant, pgvector
+- Workflow automation achieving up to 70% reduction in manual process time
+- ATS Matching system: automated resume-JD matching with multi-LLM pipelines
+- Resumade.in: cloud-native automation tool using FastAPI, AWS Lambda, and multi-LLM pipelines
+- Lambda Microservices: 94 serverless functions integrating Stripe, Twilio, DocuSign, QuickBooks
+
 ### For Cloud Engineer Roles
 - AWS services: Lambda, ECS, EKS, SageMaker, S3, DynamoDB
 - Serverless architecture (94 Lambda functions)
@@ -298,7 +310,29 @@
 
 ---
 
-## 11. Platform-Specific Information
+## 11. AI Automation Engineer Screening Q&A
+
+**Q: Describe your experience with AI agents and workflow automation.**
+> As a Graduate Research Assistant focused on Agentic AI, I built and compared no-code (n8n) vs. coded multi-agent systems (CrewAI + LangChain MCP) for workflow automation. I deployed persistent MCP agent services on AWS Fargate and Amazon EKS, integrating OpenSearch Serverless Vector Engine for semantic search and RAG. I designed hybrid pipelines combining AWS Bedrock-hosted models with custom tools, achieving up to 70% reduction in manual process time. I've also built Resumade.in, a cloud-native automation tool that uses multi-LLM pipelines (GPT-4, Gemini) with FastAPI and AWS Lambda.
+
+**Q: What is your experience with MCP (Model Context Protocol)?**
+> I have hands-on experience building and deploying MCP server implementations as part of my research at Lawrence Technological University. I developed persistent MCP agent services deployed on AWS Fargate and Amazon EKS, enabling LLMs to interact with external tools, APIs, and data sources through standardized protocols. This included integrating MCP with CrewAI and LangChain for multi-agent orchestration.
+
+**Q: How have you used LLMs in production workflows?**
+> I've integrated multiple LLMs (GPT-4, Gemini, Claude, Qwen, LLaMA) into production applications. My experience includes function calling and structured output for reliable LLM interactions, RAG pipelines with vector databases for grounded responses, multi-LLM pipelines where different models handle different stages, AWS Bedrock for managed model hosting, and QLoRA fine-tuning for domain-specific tasks. At Resumade.in, I orchestrate multiple LLMs through a FastAPI backend deployed on AWS Lambda.
+
+**Q: Describe your experience with n8n or similar workflow automation tools.**
+> I built and evaluated n8n-based workflow automation as part of my Graduate Research comparing no-code vs. coded approaches to multi-agent systems. The n8n workflows demonstrated rapid prototyping for automation tasks, while the coded CrewAI + LangChain approach offered more flexibility for complex agent interactions. This research gave me deep understanding of when to use no-code vs. coded automation approaches.
+
+**Q: What RAG systems have you built?**
+> I've built multiple RAG (Retrieval-Augmented Generation) systems. My CRE Research Agent uses RAG with vector databases (Qdrant, pgvector), embeddings, and reranking for academic literature review across Semantic Scholar and ArXiv. At LTU, I integrated OpenSearch Serverless Vector Engine for semantic search as part of MCP agent services. I also built an ATS Matching system that uses RAG-like approaches to match resumes against job descriptions.
+
+**Q: What cloud services have you used for AI/ML workloads?**
+> I have extensive AWS experience for AI/ML: SageMaker for model training and deployment, Bedrock for managed LLM hosting and inference, Lambda for serverless AI endpoints (94 functions), ECS Fargate and EKS for containerized agent services, OpenSearch Serverless for vector search, S3 for model artifacts and data storage, and API Gateway for serving AI endpoints. I've also used Terraform and CloudFormation for provisioning ML infrastructure as code.
+
+---
+
+## 12. Platform-Specific Information
 
 ### Turing (developers.turing.com)
 | Field | Value |
@@ -318,4 +352,4 @@
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: February 2026*

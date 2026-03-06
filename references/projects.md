@@ -1226,6 +1226,53 @@ This file contains detailed information about all projects for resume tailoring 
 
 ---
 
+## Project 29: Inventra – Inventory Management REST API
+
+### Overview
+- **Project Name:** Inventra – Inventory Management REST API
+- **Role:** Backend / Full Stack Engineer
+- **Duration:** Mar 2026
+- **GitHub:** https://github.com/HAR5HA-7663/inventra
+- **Status:** Completed
+
+### Tech Stack
+- **Backend:** Java 21, Spring Boot 3.5, Spring MVC
+- **Persistence:** Spring Data JPA, Hibernate
+- **Database:** PostgreSQL (production), H2 (dev/test)
+- **Validation:** Jakarta Validation (Bean Validation 3.0)
+- **API Docs:** OpenAPI 3 / Swagger UI (springdoc)
+- **Testing:** JUnit 5, Mockito
+- **DevOps:** Docker, Docker Compose, GitHub Actions
+
+### Key Features & Accomplishments
+- Built RESTful Inventory Management API with 10+ endpoints across Products and Categories resources
+- Implemented clean layered architecture: Controller → Service → Repository (Spring MVC pattern)
+- Designed paginated search with filtering by name and category; automatic stock status (IN_STOCK / LOW_STOCK / OUT_OF_STOCK)
+- Added Jakarta Validation on all request DTOs and global exception handling with @RestControllerAdvice
+- Configured OpenAPI 3 / Swagger UI documentation for all endpoints
+- Wrote JUnit 5 + Mockito unit tests covering service layer (happy path + edge cases)
+- Containerized with Docker + Docker Compose; PostgreSQL healthcheck for prod simulation
+- CI pipeline via GitHub Actions on push/PR to main
+
+### Skills Demonstrated
+- Java / Spring Boot / Spring Data JPA
+- RESTful API Design (CRUD, pagination, filtering)
+- Layered Architecture (Controller-Service-Repository)
+- Jakarta Validation / Bean Validation
+- JUnit 5 + Mockito Unit Testing
+- Docker / Docker Compose
+- GitHub Actions CI/CD
+- OpenAPI / Swagger Documentation
+
+### Best For Roles
+- Java Full Stack Developer
+- Java Backend Engineer
+- Spring Boot Developer
+- Software Engineer (Java)
+- Full Stack Developer
+
+---
+
 ## Quick Reference: Skills to Projects Mapping
 
 | Skill Category | Projects |
@@ -1278,6 +1325,9 @@ This file contains detailed information about all projects for resume tailoring 
 | **Arduino/ESP32** | DOMUS |
 | **Chrome Extension** | Blindspot |
 | **Claude API** | Blindspot |
+| **Java / Spring Boot** | Inventra |
+| **Spring Data JPA / Hibernate** | Inventra |
+| **JUnit 5 / Mockito** | Inventra |
 
 ---
 
@@ -1305,6 +1355,7 @@ When selecting projects for a specific role:
 18. **Robotics Engineer:** Stretch2 Robot (ROS, YOLO, CLIP, Point Cloud)
 19. **IoT Developer:** DOMUS (Flutter, Arduino, MQTT, Voice Assistants)
 20. **Graph ML Specialist:** Traffic Flow GNN (PyTorch Geometric, GCN)
+21. **Java Full Stack / Spring Boot:** Inventra (Spring Boot, JPA, PostgreSQL, JUnit 5, Docker)
 
 ---
 

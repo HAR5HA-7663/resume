@@ -238,6 +238,7 @@ When applying to jobs on LinkedIn using Easy Apply, select the appropriate resum
 | **ML Engineer / AI Engineer / Data Scientist / NLP / CV** | ML-Engineer Resume | `Harsha_Yellela_ML-Engineer.pdf` |
 | **DevOps / Platform / SRE / Cloud Engineer** | DevOps Resume | `Harsha_Yellela_DevOps.pdf` |
 | **AI Automation / Integration / Agentic AI / Workflow** | AI Automation Resume | `Harsha_Yellela_AI-Automation-Engineer.pdf` |
+| **Java Full Stack / Java Backend / Spring Boot** | Java Full Stack Resume | `Harsha_Yellela_Java-FullStack.pdf` |
 | **General / Mixed / Unclear roles** | Default Resume | `Harsha_Yellela_resume.pdf` |
 
 ### LinkedIn Resume Selection Tips:
@@ -252,6 +253,7 @@ When applying to jobs on LinkedIn using Easy Apply, select the appropriate resum
 - `Harsha_Yellela_ML-Engineer.pdf` (227 KB) - Machine Learning focused
 - `Harsha_Yellela_DevOps.pdf` (272 KB) - DevOps/Platform focused
 - `Harsha_Yellela_AI-Automation-Engineer.pdf` - AI Automation / Agentic AI focused
+- `Harsha_Yellela_Java-FullStack.pdf` - Java Full Stack / Spring Boot focused
 
 ---
 
@@ -366,6 +368,7 @@ Job Number,Position,Company,Location,Status,Date Applied
 | SDE, Software Engineer, Backend, Full Stack | `Harsha_Yellela_SDE.pdf` |
 | DevOps, Platform, SRE, Cloud, Infrastructure | `Harsha_Yellela_DevOps.pdf` |
 | AI Automation, Integration, Agentic AI, Workflow | `Harsha_Yellela_AI-Automation-Engineer.pdf` |
+| Java, Spring Boot, Java Full Stack, Java Backend | `Harsha_Yellela_Java-FullStack.pdf` |
 | General/Unclear | `Harsha_Yellela_resume.pdf` |
 
 ### Key Form Field Values (Quick Reference):
@@ -438,6 +441,7 @@ V Harsha Vardhan Yellela
 ### Key Points to Highlight (by role type):
 | Role Type | Cover Letter Focus |
 |-----------|-------------------|
+| **AI Automation Engineer** | MCP servers, n8n workflows, CrewAI + LangChain agents, AWS Bedrock, function calling, structured output, RAG pipelines, workflow automation |
 | **ML/AI Engineer** | LangChain, CrewAI, RAG systems, QLoRA fine-tuning, MLOps pipelines |
 | **Backend/SDE** | FastAPI, Go, AWS Lambda, microservices, enterprise clients (Ferrari, Boeing) |
 | **DevOps/Platform** | Kubernetes, EKS, Jenkins CI/CD, Terraform, monitoring (Prometheus/Grafana) |
@@ -597,18 +601,20 @@ V Harsha Vardhan Yellela
 
 | Date | Task Completed | Details |
 |------|----------------|---------|
-| 2026-01-22 | Build Fellowship accepted + CDF prep | Accepted to Build Fellowship "transformer language model" project (Kacper Raczy). CDF volunteer starts 02/02/26 |
 | 2026-01-23 | Created open-source template | Published job-application-llm-agent to GitHub with template files, skills, and comprehensive README. Repo: https://github.com/HAR5HA-7663/job-application-llm-agent |
 | 2026-02-10 | Merge conflicts resolved | Pulled remote, resolved 3 conflicts (CLAUDE.md, job_applications.csv, personal_details.md), merged all entries |
 | 2026-02-10 | AI Automation Engineer resume | Created `resumes/html/ai_automation_engineer.html` with MCP, Bedrock, function calling, structured output, RAG skills. Added to all tracking tables |
+| 2026-02-12 | AI Automation Engineer job search sprint | Active LinkedIn + portal applications for AI Automation Engineer roles. Using AI-Automation-Engineer resume. Broadened search beyond Easy Apply. |
+| 2026-03-03 | Java Full Stack resume + Inventra project | Built Inventra Spring Boot project, pushed to github.com/HAR5HA-7663/inventra as Harsha. Added Project 29 to projects.md. Updated java_fullstack.html with Inventra as lead project. |
 
 ### Pending/In Progress
+- **AI Automation Engineer job search sprint** - actively applying on LinkedIn and company portals (PRIMARY FOCUS)
 - **Build Fellowship (by EOD Sun Jan 25):** Confirm participation, Pre-Project Survey, Orientation signup (Jan 28)
 - Send email to Professor Tina Korani for Apple referral
 - Complete Akraya ML Engineer chatbot questions
 - Microsoft referral requests sent (4 contacts pending response)
 - Distyl application submitted - awaiting response from recruiter John Loubser
-- Total applications: 304 (CSV job_applications.csv)
+- Total applications: 309+ (CSV job_applications.csv) - growing with AI Automation sprint
 - CDF: Starts 02/02/26, look for ML/AI projects in department channel
 
 ---
@@ -641,10 +647,12 @@ V Harsha Vardhan Yellela
 - Use tables for status summaries - user likes structured output
 
 ### Current State Summary
+- **Active Focus:** AI Automation Engineer roles (primary job search target as of 2026-02-12)
 - **Folder Structure:** Organized into 6 folders (resumes, references, job_tracking, ranked_jobs, cover_letters, outreach_emails)
 - **Projects:** 27 total in `references/projects.md`
-- **Applications:** 260 tracked in `job_tracking/job_applications.csv`
+- **Applications:** 309+ tracked in `job_tracking/job_applications.csv` (growing - AI Automation sprint active)
 - **Resumes:** 5 variants (SDE, ML, DevOps, AI-Automation, General) + HTML sources in `resumes/html/`
+- **Primary Resume:** `Harsha_Yellela_AI-Automation-Engineer.pdf` for current sprint
 
 ---
 

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vardhan Yellela - Java Full Stack Engineer Resume</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 7.5in;
+            margin: 0.1in auto 0.7in auto;
+            line-height: 1.1;
+            color: #000;
+            text-align: left;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @media print {
+            body {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+            }
+
+            .entry, .entry .header, .entry .subheader, ul, ul li {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                page-break-inside: avoid;
+            }
+
+            ul li:before {
+                -webkit-user-select: none !important;
+                -moz-user-select: none !important;
+                -ms-user-select: none !important;
+                user-select: none !important;
+            }
+        }
+
+        h1 {
+            font-size: 22pt;
+            text-align: center;
+            margin: 30px 0 1px 0;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 10pt;
+            margin: 0 0 8px 0;
+        }
+
+        h2 {
+            font-size: 14pt;
+            margin: 15px 0 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header, .entry .subheader {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header span, .entry .subheader span {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 10pt;
+            margin: 0 0 10px 0;
+        }
+
+        .entry {
+            margin-bottom: 12px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry::after {
+            content: "";
+            display: block;
+            clear: both;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .entry ul {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry .header {
+            font-size: 11pt;
+            font-weight: bold;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .header span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 70%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .header span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 30%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader {
+            font-size: 11pt;
+            font-style: italic;
+            margin-bottom: 3px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .subheader span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 80%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 20%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+            font-size: 10pt;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        ul li {
+            margin-bottom: 3px;
+            position: relative;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: -15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Harsha Vardhan Yellela</h1>
+    <div class="contact-info">
+        United States | +1-248-497-9965 |
+        <a href="mailto:harsha.yellela@gmail.com">harsha.yellela@gmail.com</a> |
+        <a href="https://har5ha.in">har5ha.in</a> |
+        <a href="https://www.linkedin.com/in/har5ha-7663">LinkedIn</a> |
+        <a href="https://github.com/HAR5HA-7663">GitHub</a>
+    </div>
+
+    <!-- Summary Section -->
+    <h2>Summary</h2>
+    <p>
+        <strong>Full Stack Engineer</strong> with a <strong>Java backend foundation</strong> from EPAM Systems' engineering training program and production experience building
+        <strong>REST APIs</strong>, <strong>microservices</strong>, and <strong>cloud-native systems</strong>.
+        Experienced in <strong>layered backend architecture</strong> (controller–service–repository), <strong>React/Next.js frontends</strong>,
+        <strong>PostgreSQL/MySQL</strong>, and <strong>Docker + Kubernetes</strong> deployments.
+        Enterprise background delivering systems for <strong>Ferrari, Boeing, and Triumph</strong> via Infor India; graduate research deploying
+        services on <strong>AWS EKS and Fargate</strong>. Strong in <strong>OOP design principles</strong>, <strong>HATEOAS REST design</strong>, and <strong>CI/CD pipelines</strong>.
+    </p>
+
+    <!-- Experience Section -->
+    <h2>Experience</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Graduate Research Assistant – Agentic AI</span>
+            <span>Jan 2025 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Lawrence Technological University</span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li>Deployed persistent <strong>backend microservices</strong> on <strong>AWS Fargate</strong> and <strong>Amazon EKS</strong> with <strong>OpenSearch Serverless</strong> for semantic search and document retrieval.</li>
+            <li>Built <strong>multi-agent orchestration systems</strong> using <strong>Python (CrewAI + LangChain)</strong> exposing <strong>RESTful APIs</strong> for workflow automation and intelligent decision-making.</li>
+            <li>Designed <strong>hybrid service pipelines</strong> combining cloud-hosted models with custom tooling, achieving <strong>70% reduction in manual process time</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>LN Technical Consultant</span>
+            <span>Apr 2022 – Dec 2023</span>
+        </div>
+        <div class="subheader">
+            <span>Infor India Pvt. Ltd.</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Developed <strong>modular, production-ready backend tools</strong> for global enterprise clients (<strong>Ferrari, Boeing, Triumph</strong>) by extending <strong>Infor LN ERP</strong> workflows.</li>
+            <li>Integrated <strong>AWS S3, Lambda, and API Gateway</strong> with enterprise systems to enable <strong>asynchronous data pipelines</strong>, reducing batch processing delays by <strong>~40%</strong>.</li>
+            <li><strong>Containerized</strong> business logic services with <strong>Docker</strong> and automated deployments, improving consistency and reducing environment-specific defects.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>PEP – Java Backend Apprentice</span>
+            <span>Sep 2020 – Jul 2021</span>
+        </div>
+        <div class="subheader">
+            <span>EPAM Systems</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Completed intensive 11-month engineering training covering <strong>core Java</strong>, <strong>OOP design</strong>, <strong>Collections</strong>, <strong>Exception Handling</strong>, and <strong>Multithreading</strong>.</li>
+            <li>Built practice projects using <strong>Java 8</strong> (Servlets, JSP, Spring fundamentals) applying <strong>clean-code principles</strong> and <strong>Git-based version control</strong>.</li>
+            <li>Designed and tested <strong>RESTful endpoints</strong> following HTTP verbs and status codes; practiced <strong>JUnit-style testing</strong> and CI/CD pipeline fundamentals.</li>
+        </ul>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Languages:</strong> Java (Core, OOP, Collections, Multithreading), Python, Go, TypeScript, JavaScript (ES6+), SQL</li>
+        <li><strong>Backend Frameworks:</strong> Spring (fundamentals – MVC, Servlets, JSP), FastAPI, Gin (Go), Express.js | REST APIs, HATEOAS, JWT, OpenAPI/Swagger</li>
+        <li><strong>Frontend:</strong> React, Next.js, JavaScript (ES6+), HTML5, CSS3 | React Native/Expo (mobile)</li>
+        <li><strong>Databases:</strong> PostgreSQL, MySQL, SQLite, DynamoDB, MongoDB | <strong>Caching:</strong> Redis | <strong>Vector:</strong> pgvector, Qdrant</li>
+        <li><strong>Cloud (AWS):</strong> Lambda, ECS Fargate, EC2, API Gateway, S3, DynamoDB, ECR, SageMaker, EKS</li>
+        <li><strong>DevOps:</strong> Docker, Kubernetes (EKS), Jenkins (Multibranch), GitHub Actions, Terraform, CI/CD Pipelines, Nginx</li>
+        <li><strong>Testing & Practices:</strong> JUnit (concepts), Unit Testing, Agile/Scrum, OOP Design Patterns, Code Reviews, API Documentation</li>
+    </ul>
+
+    <!-- Projects Section -->
+    <h2>Projects</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Inventra – Inventory Management REST API</span>
+            <span>Mar 2026</span>
+        </div>
+        <div class="subheader">
+            <span>Java 21, Spring Boot 3.5, Spring Data JPA, Hibernate, PostgreSQL, JUnit 5, Mockito, Docker | <a href="https://github.com/HAR5HA-7663/inventra">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>RESTful Inventory Management API</strong> using <strong>Java 21 + Spring Boot 3.5</strong> with <strong>Spring Data JPA + Hibernate</strong> and <strong>PostgreSQL</strong>; full CRUD for Products and Categories.</li>
+            <li>Implemented <strong>Controller → Service → Repository layered architecture</strong>, <strong>Jakarta Validation</strong> on all request DTOs, and <strong>global exception handling</strong> via <code>@RestControllerAdvice</code>.</li>
+            <li>Wrote <strong>JUnit 5 + Mockito unit tests</strong>; configured <strong>OpenAPI 3 / Swagger UI</strong> docs, <strong>Docker + Docker Compose</strong> with PostgreSQL healthcheck, and <strong>GitHub Actions CI</strong> pipeline.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Job Portal REST API – Full-Stack Job Listing Platform</span>
+            <span>Oct 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Python, FastAPI, SQLite, Docker, AWS ECS/ECR | <a href="https://github.com/HAR5HA-7663/MCS-5993-Machine-Learning-and-Microservices-in-the-Cloud">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>production-ready RESTful API</strong> with <strong>25+ endpoints</strong> supporting full CRUD for job seekers, employers, postings, and applications with <strong>schema validation</strong>.</li>
+            <li>Designed <strong>HATEOAS-compliant architecture</strong> enabling hypermedia-driven navigation — standard pattern in <strong>Spring HATEOAS</strong> and enterprise REST APIs.</li>
+            <li>Containerized with <strong>Docker Compose</strong> and deployed to <strong>AWS ECR/ECS</strong> with end-to-end <strong>CI/CD pipeline</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>FieldFuze Backend – Enterprise API with Multi-Tenant RBAC</span>
+            <span>Dec 2024</span>
+        </div>
+        <div class="subheader">
+            <span>Go 1.23, Gin, DynamoDB, JWT, Docker, GitHub Actions</span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>production REST API</strong> using strict <strong>controller → service → repository pattern</strong> — the same layered architecture as <strong>Spring MVC/Spring Boot</strong>.</li>
+            <li>Implemented <strong>multi-tenant RBAC</strong> with complete user lifecycle (register, login, logout, validate) and full middleware stack (JWT auth, CORS, structured logging).</li>
+            <li>Wrote comprehensive <strong>unit tests</strong> for all layers; built <strong>infrastructure automation worker</strong> for database table and index provisioning.</li>
+        </ul>
+    </div>
+
+    <div style="page-break-before: always;"></div>
+
+    <div class="entry" style="margin-top: 30px;">
+        <div class="header">
+            <span>Vroomm Vrommmm Car Dealership – Full-Stack K8s Web App</span>
+            <span>Dec 2024</span>
+        </div>
+        <div class="subheader">
+            <span>Python (Flask), HTML5, CSS3, JavaScript, PostgreSQL, Docker, Kubernetes | <a href="https://github.com/HAR5HA-7663/vroomm-vrommm">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>3-tier full-stack application</strong> — <strong>JavaScript/HTML5/CSS3 frontend (Nginx)</strong> → <strong>REST API backend</strong> → <strong>PostgreSQL database</strong> — mirroring enterprise layered architecture.</li>
+            <li>Containerized all tiers with <strong>Docker</strong> and deployed to <strong>Kubernetes</strong> with <strong>2 replicas each</strong> for frontend and backend, demonstrating production-grade orchestration.</li>
+            <li>Implemented full <strong>CRUD operations</strong> for vehicle inventory, user accounts, and transactions with <strong>relational data modeling</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Online Learning Portal – Microservices CI/CD Platform</span>
+            <span>Nov 2025</span>
+        </div>
+        <div class="subheader">
+            <span>FastAPI, Jenkins, Docker, Kubernetes, AWS ECS Fargate | <a href="https://github.com/HAR5HA-7663/demo-for-CI_CD-integration">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>6-microservice platform</strong> (user, course, enrollment, payment, notification, API gateway) with <strong>Docker containerization</strong> and service isolation.</li>
+            <li>Implemented <strong>Jenkins Multibranch Pipeline</strong> with branch-per-service CI strategy; automated Docker builds with <strong>commit hash tagging</strong> for traceability.</li>
+            <li>Deployed to <strong>AWS ECS Fargate</strong> with <strong>ALB routing</strong> and maintained <strong>Kubernetes manifests</strong> for EKS deployment.</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Lawrence Technological University</strong></span>
+            <span>Jan 2024 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Master of Science in Computer Science · GPA: <strong>3.6/4.0</strong></span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Machine Learning</strong>, <strong>Artificial Intelligence</strong>, <strong>Natural Language Processing</strong>, <strong>Cloud Microservices</strong>, <strong>Intelligent Robotics</strong></li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
+            <span>Aug 2018 – Aug 2022</span>
+        </div>
+        <div class="subheader">
+            <span>Bachelor of Technology in Computer Science & Engineering · GPA: <strong>7.5/10 (~3.0/4.0)</strong></span>
+            <span>Hyderabad, Telangana</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> <strong>Software Engineering</strong>, <strong>Data Structures & Algorithms</strong>, <strong>Database Management</strong>, <strong>Operating Systems</strong>, <strong>OOP in Java</strong></li>
+        </ul>
+    </div>
+
+    <!-- Achievements Section -->
+    <h2>Achievements</h2>
+    <ul>
+        <li><strong>Selected for Amazon Nova AI Challenge: Trusted AI Track</strong> (2025)</li>
+        <li><strong>Built production SaaS platform</strong> with 94 Lambda functions serving real customers (2024)</li>
+        <li><strong>Gold Medalist in Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+---
+[2026-02-12 13:15] - Antonio outreach email draft
+Subject: LTU connection + interest in Proofpoint AI Integration Intern role
+
+Hi Antonio,
+
+I wanted to reach out directly about the AI Integration Intern role in Detroit. I saw the posting closed quickly, but it’s exactly the type of role I’m targeting, so I hoped to still express interest.
+
+I noticed we have a Lawrence Tech connection, and I also saw Baan in your background. I worked with Baan/Infor LN during my time at Infor India, where I built and extended ERP workflows for enterprise clients, so that part especially caught my attention.
+
+I recently completed my MS in Computer Science at LTU and worked as a Graduate Research Assistant on agentic AI systems. My recent work includes building multi-agent workflows (CrewAI/LangChain), deploying AI services on AWS (Lambda, Fargate, EKS), and shipping production FastAPI backends for AI automation.
+
+I’m based in Farmington Hills, so Detroit is a convenient commute. If there’s any chance to be considered for this role (or a similar opening on your team), I’d really appreciate it. I’m happy to send my resume and a short project summary.
+
+Thanks for your time,
+Harsha Yellela
+harsha.yellela@gmail.com
+248-497-9965
+https://www.linkedin.com/in/har5ha-7663
+---
+[2026-02-16 17:54] - Nathan Daifuku LinkedIn connection message
+Hi Nathan, fellow LTU alum here. I recently completed my MS in Computer Science and applied to a junior developer role at Daifuku. I saw you’re a Software Engineer there and wanted to connect and learn what your team works on day to day, including the software, tools, and languages you use.
+
+Short version:
+Hi Nathan, fellow LTU alum here (I just finished my MS in CS). I applied to a junior developer role at Daifuku and would love to connect and learn about your day-to-day work and tech stack.
