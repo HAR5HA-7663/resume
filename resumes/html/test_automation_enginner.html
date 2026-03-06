@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vardhan Yellela - Software Engineer – Test Automation</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 7.5in;
+            margin: 0.1in auto 0.7in auto;
+            line-height: 1.1;
+            color: #000;
+            text-align: left;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @media print {
+            body {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+            }
+
+            .entry, .entry .header, .entry .subheader, ul, ul li {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                page-break-inside: avoid;
+            }
+
+            ul li:before {
+                -webkit-user-select: none !important;
+                -moz-user-select: none !important;
+                -ms-user-select: none !important;
+                user-select: none !important;
+            }
+        }
+
+        h1 {
+            font-size: 22pt;
+            text-align: center;
+            margin: 30px 0 1px 0;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 10pt;
+            margin: 0 0 8px 0;
+        }
+
+        h2 {
+            font-size: 14pt;
+            margin: 15px 0 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header, .entry .subheader {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header span, .entry .subheader span {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 10pt;
+            margin: 0 0 10px 0;
+        }
+
+        .entry {
+            margin-bottom: 12px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry::after {
+            content: "";
+            display: block;
+            clear: both;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .entry ul {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry .header {
+            font-size: 11pt;
+            font-weight: bold;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .header span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 70%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .header span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 30%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader {
+            font-size: 11pt;
+            font-style: italic;
+            margin-bottom: 3px;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            page-break-after: avoid;
+            break-after: avoid;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .entry .subheader span:first-child {
+            display: table-cell;
+            text-align: left;
+            width: 80%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        .entry .subheader span:last-child {
+            display: table-cell;
+            text-align: right;
+            width: 20%;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+            font-size: 10pt;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        ul li {
+            margin-bottom: 3px;
+            position: relative;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+            display: block;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: -15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Harsha Vardhan Yellela</h1>
+    <div class="contact-info">
+        United States | +1-248-497-9965 |
+        <a href="mailto:harsha.yellela@gmail.com">harsha.yellela@gmail.com</a> |
+        <a href="https://har5ha.in">har5ha.in</a> |
+        <a href="https://www.linkedin.com/in/har5ha-7663">LinkedIn</a> |
+        <a href="https://github.com/HAR5HA-7663">GitHub</a>
+    </div>
+
+    <!-- Summary -->
+    <h2>Summary</h2>
+    <p>
+        <strong>Software Engineer</strong> with 3+ years of experience in <strong>Python-based test automation</strong>, <strong>distributed and network-facing system validation</strong>, and <strong>CI/CD pipeline integration</strong>.
+        Background in designing and executing <strong>functional, regression, scale, and performance test suites</strong> across microservice and enterprise network environments.
+        Hands-on with <strong>Docker, Kubernetes (EKS), and Linux</strong> for building customer-like test environments; experienced in <strong>TCP/IP, IPv4/IPv6, VLANs, ARP, OSPF/BGP</strong>, and L2/L3 networking validation.
+        Skilled in <strong>defect isolation, log analysis, root-cause analysis</strong>, and delivering clear test reports to engineering and stakeholder teams.
+        Familiar with <strong>Robot Framework, Spirent/Ixia traffic simulation concepts</strong>, and <strong>AI/LLM-based automation</strong> (LangChain, RAG pipelines) for intelligent test case generation.
+    </p>
+
+    <!-- Experience -->
+    <h2>Experience</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Graduate Research Assistant – AI Automation</span>
+            <span>Jan 2025 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Lawrence Technological University</span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li>Owned end-to-end test strategy for distributed agentic AI systems — authored test plans covering functional, scale, and failure-recovery scenarios; tracked coverage gaps sprint-over-sprint and reported test progress to faculty and research stakeholders.</li>
+            <li>Stood up <strong>customer-like deployment environments on AWS Fargate and Kubernetes (EKS)</strong> over TCP/IP, simulating realistic distributed workloads; wrote <strong>PyTest</strong>-based automation to execute regression suites on every deployment.</li>
+            <li>Traced service defects through <strong>AWS CloudWatch logs and Prometheus metrics</strong>; drilled into root causes across inter-service REST API boundaries and confirmed fixes with automated retesting.</li>
+            <li>Built <strong>LangChain + RAG pipeline</strong> to auto-generate context-aware test cases from system documentation — cut manual test authoring time by <strong>70%</strong> and improved scenario coverage across multi-agent workflows.</li>
+            <li>Used <strong>LLM-based agents</strong> for automated log triage and defect classification; collaborated cross-functionally with peers and architects to refine test coverage and close gaps ahead of each research milestone.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>LN Technical Consultant</span>
+            <span>Apr 2022 – Dec 2023</span>
+        </div>
+        <div class="subheader">
+            <span>Infor India Pvt. Ltd.</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Wrote and ran <strong>Python (PyTest)</strong>-based functional and regression test scripts against <strong>Infor LN ERP</strong> modules — covering inventory, manufacturing, and finance workflows for production deployments at <strong>Ferrari, Boeing, and Triumph</strong>.</li>
+            <li>Built test coverage maps for each release cycle; wrote test plans for feature validation and end-to-end deployment scenarios, flagging gaps early and coordinating with dev and QA teams to close them.</li>
+            <li>Integrated <strong>Infor ION process flows</strong> with <strong>AWS S3, Lambda, and API Gateway</strong>; authored API-level tests against payload contracts, async delivery paths, and error-handling behavior across distributed enterprise components.</li>
+            <li>Isolated, reproduced, and documented software defects; paired with engineers on root-cause walkthroughs and verified fixes via automated retesting — drove batch processing delays down by <strong>~40%</strong>.</li>
+            <li>Kept <strong>Docker-based test environments</strong> consistent across client deployments; used <strong>AWS CloudWatch</strong> for performance monitoring and delivered written test progress and defect reports to stakeholders.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Network Automation QA</span>
+            <span>Aug 2022 – Feb 2023</span>
+        </div>
+        <div class="subheader">
+            <span>UST Global</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Validated <strong>L2/L3 networking behaviors</strong> across customer-like lab environments — verified <strong>TCP/IP connectivity, VLAN tagging, ARP resolution</strong>, and <strong>OSPF/BGP route propagation</strong> across simulated router and switch topologies.</li>
+            <li>Wrote <strong>Python automation scripts</strong> to execute functional and regression tests against networking stack components and <strong>REST API</strong> endpoints; integrated runs into team CI processes to catch regressions early.</li>
+            <li>Authored <strong>test plans for customer-specific network scenarios</strong>; mapped coverage across feature areas, flagged untested paths, and participated in design workshops to understand network requirements before test development.</li>
+            <li>Captured and analyzed packet traces in <strong>Wireshark</strong> to isolate network-level defects; produced written defect reports with reproduction steps, log evidence, and root-cause findings for engineering team handoff.</li>
+            <li>Supported <strong>scale and performance test execution</strong> using simulated traffic scenarios; collaborated with system test and development teams to verify fixes and confirm coverage closure before release sign-off.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Junior Java Trainee (PEP Program)</span>
+            <span>Sep 2020 – Jul 2021</span>
+        </div>
+        <div class="subheader">
+            <span>EPAM Systems</span>
+            <span>Hyderabad, India</span>
+        </div>
+        <ul>
+            <li>Trained on <strong>Java Core</strong> — Multithreading, Streams API, Collections — and applied <strong>JUnit + Mockito</strong> unit testing throughout; maintained high code coverage and participated in structured peer code reviews.</li>
+            <li>Built backend modules using <strong>Spring Boot and Hibernate</strong>; validated REST endpoint behavior across request/response cycles using standard HTTP conventions and status code contracts.</li>
+            <li>Debugged service-level issues in <strong>Linux environments</strong> using CLI tooling; developed early habits around log-based failure analysis that carried into later roles.</li>
+            <li>Operated in a structured <strong>Agile/Scrum</strong> team with sprint planning, Git-based version control, and regular delivery checkpoints.</li>
+        </ul>
+    </div>
+
+    <!-- Skills -->
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Programming & Automation:</strong> Python, Go, Java, Perl, Shell/Bash | REST APIs, <strong>PyTest</strong>, Robot Framework, JUnit, Mockito</li>
+        <li><strong>Networking:</strong> TCP/IP, UDP, IPv4/IPv6, Ethernet, ARP, VLANs, OSPF/BGP, L2/L3 Networking, MPLS, EVPN-VXLAN, L2/L3 VPN | Wireshark, Linux CLI | JUNOS (exposure)</li>
+        <li><strong>Test Engineering:</strong> Test Plan Development, Customer Network Validation, Functional Testing, Regression Testing, Scale Testing, Performance Testing, Defect Tracking, Root Cause Analysis, Test Reporting</li>
+        <li><strong>Traffic Simulation:</strong> Ixia/Spirent (lab exposure & traffic simulation concepts) | k6 Load Testing</li>
+        <li><strong>DevOps & CI/CD:</strong> Jenkins, GitHub Actions, Terraform, Git, Linux | Docker, Kubernetes (EKS), Docker Compose</li>
+        <li><strong>Cloud (AWS):</strong> Lambda, ECS Fargate, EC2, S3, API Gateway, CloudWatch, SageMaker, ECR</li>
+        <li><strong>Observability:</strong> Prometheus, Grafana, AWS CloudWatch, ELK Stack | Logging & Metrics Analysis, Alerting</li>
+        <li><strong>AI & LLM Tools:</strong> LangChain, CrewAI, RAG Pipelines, LLM-based Agents, Prompt Engineering, AI-assisted Test Case Generation</li>
+        <li><strong>Collaboration:</strong> Agile/Scrum, Cross-Functional Teams, Technical Documentation, Stakeholder Reporting</li>
+    </ul>
+
+    <!-- Projects -->
+    <h2>Projects</h2>
+    <div class="entry">
+        <div class="header">
+            <span>Telegram Toxicity Moderator – Automated Scale & Performance Test Framework</span>
+            <span>Nov 2024</span>
+        </div>
+        <div class="subheader">
+            <span>Python, PyTest, Kubernetes (EKS), Docker, AWS ALB, Prometheus, Grafana, k6 Load Testing, GitHub Actions | <a href="https://github.com/HAR5HA-7663/Telegram-Toxicity-Police">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Designed and executed <strong>automated performance and scale test scenarios</strong> for a distributed ML inference service deployed on <strong>Kubernetes (EKS)</strong>, validating <strong>500 RPS average</strong> and <strong>1,500 RPS peak</strong> throughput with <strong>~3-5ms inference latency</strong>.</li>
+            <li>Built <strong>load test automation using k6</strong> to simulate traffic conditions; verified <strong>Horizontal Pod Autoscaler (HPA)</strong> behavior and <strong>circuit breaker patterns</strong> (5-failure threshold, 30-second recovery window) under stress.</li>
+            <li>Analyzed <strong>Prometheus metrics</strong> and <strong>Grafana dashboards</strong> to isolate performance bottlenecks, validate autoscaling responses, and perform <strong>root-cause analysis</strong> of failures during scale tests.</li>
+            <li>Integrated test automation with <strong>GitHub Actions CI/CD</strong>; reduced cloud infrastructure costs by <strong>70%</strong> through spot instance configuration validated by scale test results.</li>
+        </ul>
+    </div>
+
+    <div style="page-break-before: always;"></div>
+
+    <div class="entry" style="margin-top: 30px;">
+        <div class="header">
+            <span>ML Sentiment Feedback Loop – End-to-End Microservice Validation Platform</span>
+            <span>Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Python, PyTest, AWS (ECS Fargate, SageMaker, S3, CloudWatch), Docker, Kubernetes, Prometheus, Grafana, Terraform, GitHub Actions | <a href="https://github.com/HAR5HA-7663/ml-sentiment-feedback-loop">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>automated test infrastructure</strong> for an <strong>8-microservice ML platform</strong> (API Gateway, Inference, Feedback, Model Registry, Evaluation, Retraining, Notification), designing <strong>functional and scale test suites</strong> using <strong>PyTest</strong>.</li>
+            <li>Validated <strong>throughput, latency, and reliability</strong> of distributed services under load; identified performance bottlenecks through <strong>Prometheus metrics</strong> and <strong>Grafana dashboards</strong>; performed root-cause analysis using <strong>CloudWatch logs</strong>.</li>
+            <li>Implemented <strong>CI/CD-integrated test pipelines</strong> via <strong>GitHub Actions + Terraform IaC</strong>; automated regression runs on every model version update and deployment to <strong>AWS ECS Fargate</strong>.</li>
+            <li>Designed <strong>auto-deployment pipeline</strong> (training → validation → deployment) with automated test gates; verified SageMaker inference endpoint performance under production-equivalent traffic conditions.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>AgenticAI – AI-Powered Test Case Generation & Validation Pipeline</span>
+            <span>Apr 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Python, LangChain, CrewAI, FastAPI, AWS Lambda, RAG Pipelines, n8n, Docker | <a href="https://github.com/HAR5HA-7663/Newsletter_gen_CrewAI">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>multi-agent automation system</strong> using <strong>LangChain and CrewAI</strong> to intelligently generate test cases, analyze logs, and triage defects — reducing manual test authoring effort by <strong>70%</strong>.</li>
+            <li>Implemented <strong>RAG pipelines</strong> for context-aware test scenario creation from documentation; deployed <strong>LLM-based agents on AWS Lambda</strong> for scalable, event-driven automated test execution and reporting.</li>
+            <li>Benchmarked <strong>no-code (n8n) vs. code-first (CrewAI)</strong> automation approaches across latency, reliability, coverage, and dev speed metrics; delivered structured <strong>test reports</strong> to stakeholders.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="header">
+            <span>Online Learning Portal – CI/CD Automated Test Pipeline for Microservices</span>
+            <span>Nov 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Python, Jenkins, GitHub Actions, Docker, Kubernetes, AWS ECS Fargate | <a href="https://github.com/HAR5HA-7663/demo-for-CI_CD-integration">GitHub</a></span>
+            <span> </span>
+        </div>
+        <ul>
+            <li>Built <strong>6-microservice platform</strong> (user, course, enrollment, payment, notification, API gateway) and implemented <strong>branch-per-service CI strategy</strong> with <strong>Jenkins Multibranch Pipeline</strong> for automated build and test on every commit.</li>
+            <li>Configured <strong>automated Docker build + test gates</strong> with commit hash tagging; deployed to <strong>AWS ECS Fargate</strong> with <strong>ALB routing</strong> and validated end-to-end service behavior across all microservice boundaries.</li>
+        </ul>
+    </div>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Lawrence Technological University</strong></span>
+            <span>Jan 2024 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Master of Science in Computer Science · GPA: <strong>3.6/4.0</strong></span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> Machine Learning, Artificial Intelligence, Natural Language Processing, Cloud Microservices, Intelligent Robotics (ROS)</li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
+            <span>Aug 2018 – Aug 2022</span>
+        </div>
+        <div class="subheader">
+            <span>Bachelor of Technology in Computer Science & Engineering · GPA: <strong>7.5/10 (~3.0/4.0)</strong></span>
+            <span>Hyderabad, Telangana</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> Software Engineering, Data Structures & Algorithms, Database Management, Operating Systems, Computer Networks</li>
+        </ul>
+    </div>
+
+    <!-- Achievements -->
+    <h2>Achievements</h2>
+    <ul>
+        <li><strong>Selected for Amazon Nova AI Challenge: Trusted AI Track</strong> (2025) – Designed and validated AI safety evaluation pipelines</li>
+        <li><strong>Built production SaaS platform</strong> with 94 Lambda functions serving real customers; validated end-to-end with automated test pipelines (2024)</li>
+        <li><strong>Gold Medalist in Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
+    </ul>
+</body>
+
+</html>
