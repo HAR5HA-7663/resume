@@ -1273,6 +1273,51 @@ This file contains detailed information about all projects for resume tailoring 
 
 ---
 
+## Project 30: LuffyGPT – GPT Transformer Language Model from Scratch
+
+### Overview
+- **Project Name:** LuffyGPT – One Piece Dialogue Language Model
+- **Role:** Solo developer
+- **Duration:** Jan 2026 – Mar 2026
+- **Live URL:** https://huggingface.co/spaces/HAR5HA-YELLELA/luffy-gpt-space
+- **GitHub:** https://github.com/HAR5HA-7663/luffy-gpt
+- **HuggingFace Hub:** https://huggingface.co/HAR5HA-YELLELA/luffy-gpt
+- **Status:** Completed (Build Fellowship final project)
+
+### Tech Stack
+- **Core:** Python, PyTorch, NumPy, Matplotlib
+- **Tokenization:** SentencePiece (custom BPE), tiktoken
+- **Deployment:** Gradio, HuggingFace Spaces, HuggingFace Hub
+- **Hardware:** Dual NVIDIA RTX 3090 (torch.nn.DataParallel)
+- **Tools:** Jupyter, Git
+
+### Key Features & Accomplishments
+- Implemented GPT decoder-only transformer from scratch (10.81M params, n_embd=384, 6 heads, 6 layers) following "Attention is All You Need" — token + positional embeddings, multi-head causal self-attention (Q/K/V projections, triangular mask), FFN with 4× expansion, residual connections, pre-LayerNorm, dropout (0.2)
+- Built custom web scrapers to collect ~3.2M character One Piece dialogue corpus; wrote preprocessing pipelines for cleaning, normalization, deduplication, and train/val/test splits (80/10/10)
+- Implemented BPE from scratch (get_stats/merge); trained custom SentencePiece BPE tokenizer (vocab 2000, 3.11× compression vs char-level); benchmarked against char-level, GPT-2 BPE (50K), cl100k (100K), o200k (200K)
+- Trained on dual RTX 3090 GPUs with DataParallel; AdamW optimizer, lr 3e-4, batch 64, context 256; achieved val loss ~1.18 at 25K steps generating coherent dialogue with correct character names and story structure
+- Built CLI tool (gpt.py) with --train, --eval, --interactive, --custom-bpe modes
+- Deployed as Gradio web app on HuggingFace Spaces with weights on HuggingFace Hub (downloaded at runtime)
+- Part of Build Fellowship cohort program — each participant builds on a unique self-chosen dataset with no starter templates
+
+### Skills Demonstrated
+- Transformer architecture implementation from first principles
+- Custom tokenizer design and training (BPE, SentencePiece)
+- Multi-GPU training with DataParallel
+- Full ML pipeline ownership (scraping → preprocessing → training → deployment)
+- Research paper implementation ("Attention is All You Need")
+- Model evaluation, overfitting analysis, hyperparameter tuning
+- Production deployment with public web interface
+
+### Best For Roles
+- ML/AI Engineer
+- LLM/NLP Engineer
+- Deep Learning Engineer
+- Research Engineer
+- MLOps Engineer
+
+---
+
 ## Quick Reference: Skills to Projects Mapping
 
 | Skill Category | Projects |
@@ -1306,7 +1351,7 @@ This file contains detailed information about all projects for resume tailoring 
 | **Multi-Agent Systems** | AgenticAI, CRE Agent |
 | **Serverless** | Resumade, AgenticAI, Lambda Microservices |
 | **TensorFlow/Keras** | Sentiment Forecasting, Pneumonia Detection, Food Classifier, Air Quality, AWS ML |
-| **PyTorch** | Resume Optimizer, ML Sentiment Loop, Telegram Toxicity |
+| **PyTorch** | Resume Optimizer, ML Sentiment Loop, Telegram Toxicity, LuffyGPT |
 | **Stripe Integration** | Lambda Microservices, FieldFuze Mobile |
 | **PostgreSQL** | Car Dealer App, CRE Agent |
 | **DynamoDB** | FieldFuze Backend, Lambda Microservices |
@@ -1328,6 +1373,9 @@ This file contains detailed information about all projects for resume tailoring 
 | **Java / Spring Boot** | Inventra |
 | **Spring Data JPA / Hibernate** | Inventra |
 | **JUnit 5 / Mockito** | Inventra |
+| **Transformer Architecture** | LuffyGPT |
+| **Custom BPE Tokenization** | LuffyGPT |
+| **HuggingFace / Gradio** | LuffyGPT |
 
 ---
 
@@ -1339,8 +1387,8 @@ When selecting projects for a specific role:
 2. **API Developer:** Job Portal (HATEOAS), FieldFuze Backend, AviationStack (OpenAPI)
 3. **DevOps/Platform Engineer:** Telegram Toxicity (K8s, HPA), Online Learning Portal (Jenkins), Car Dealer App (K8s)
 4. **SRE:** Telegram Toxicity (circuit breaker, monitoring), ML Sentiment Loop
-5. **ML/AI Engineer:** Resume Optimizer (QLoRA), Sentiment Forecasting, Pneumonia Detection, Food Classifier, Traffic Flow GNN
-6. **LLM/NLP Engineer:** Resume Optimizer, CRE Agent (RAG), ATS Matching
+5. **ML/AI Engineer:** LuffyGPT (GPT from scratch), Resume Optimizer (QLoRA), Sentiment Forecasting, Pneumonia Detection, Food Classifier, Traffic Flow GNN
+6. **LLM/NLP Engineer:** LuffyGPT (transformer from scratch), Resume Optimizer, CRE Agent (RAG), ATS Matching
 7. **MLOps Engineer:** ML Sentiment Loop (8 microservices), Telegram Toxicity, AWS ML Projects
 8. **Cloud Engineer:** Lambda Microservices (94 functions), ML Sentiment Loop, AWS ML Projects
 9. **Full Stack Roles:** FieldFuze (Go + React Native), Job Portal, Car Dealer App, Resumade
@@ -1363,7 +1411,7 @@ When selecting projects for a specific role:
 
 | Category | Count | Projects |
 |----------|-------|----------|
-| **ML/AI** | 10 | Resume Optimizer, Sentiment Forecasting, Pneumonia Detection, Food Classifier, ATS Matching, NLP Course, Air Quality, Hybrid CMA-ES, Traffic Flow GNN, Stretch2 |
+| **ML/AI** | 11 | LuffyGPT, Resume Optimizer, Sentiment Forecasting, Pneumonia Detection, Food Classifier, ATS Matching, NLP Course, Air Quality, Hybrid CMA-ES, Traffic Flow GNN, Stretch2 |
 | **Backend** | 5 | Job Portal, FieldFuze Backend, Resumade, Lambda Microservices, AviationStack |
 | **MLOps/Platform** | 4 | ML Sentiment Loop, Telegram Toxicity, Online Learning Portal, AWS ML Projects |
 | **Full Stack** | 3 | FieldFuze (Go+RN), Resumade, Car Dealer App |
@@ -1373,8 +1421,8 @@ When selecting projects for a specific role:
 | **Robotics** | 1 | Stretch2 Robot |
 | **Browser Extension** | 1 | Blindspot |
 
-**Total Projects: 28**
+**Total Projects: 30**
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: March 2026*
