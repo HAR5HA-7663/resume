@@ -10,8 +10,8 @@
         body {
             font-family: 'Times New Roman', serif;
             max-width: 7.5in;
-            margin: 0.1in auto 0.7in auto;
-            line-height: 1.1;
+            margin: 0.1in auto 0.4in auto;
+            line-height: 1.05;
             color: #000;
             text-align: left;
             -webkit-user-select: text;
@@ -49,7 +49,7 @@
         h1 {
             font-size: 22pt;
             text-align: center;
-            margin: 30px 0 1px 0;
+            margin: 10px 0 1px 0;
             font-variant: small-caps;
             font-weight: bold;
         }
@@ -57,12 +57,12 @@
         .contact-info {
             text-align: center;
             font-size: 10pt;
-            margin: 0 0 8px 0;
+            margin: 0 0 3px 0;
         }
 
         h2 {
-            font-size: 14pt;
-            margin: 15px 0 3px;
+            font-size: 13pt;
+            margin: 7px 0 2px;
             text-transform: uppercase;
             font-weight: bold;
             border-bottom: 1px solid #000;
@@ -96,11 +96,11 @@
 
         p {
             font-size: 10pt;
-            margin: 0 0 10px 0;
+            margin: 0 0 4px 0;
         }
 
         .entry {
-            margin-bottom: 12px;
+            margin-bottom: 6px;
             -webkit-user-select: text;
             -moz-user-select: text;
             -ms-user-select: text;
@@ -278,7 +278,7 @@
             <span>Feb 2026 – Present</span>
         </div>
         <div class="subheader">
-            <span>Build Fellowship (Build Projects)</span>
+            <span>Open Avenues (Build Fellowship)</span>
             <span>Remote</span>
         </div>
         <ul>
@@ -353,21 +353,23 @@
     <h2>Projects</h2>
     <div class="entry">
         <div class="header">
-            <span>Blindspot – AI-Powered Cognitive Bias Detector</span>
-            <span>Jan 2026</span>
+            <span>LuffyGPT – GPT Transformer Language Model from Scratch</span>
+            <span>Jan 2026 – Mar 2026</span>
         </div>
         <div class="subheader">
-            <span>Chrome Extension (Manifest V3), Claude API, JavaScript | Aurora Hackathon 2026 | <a href="https://github.com/HAR5HA-7663/blindspot">GitHub</a></span>
+            <span>Python, PyTorch, SentencePiece, tiktoken, Gradio, HuggingFace Hub | <a href="https://github.com/HAR5HA-7663/luffy-gpt">GitHub</a> | <a href="https://huggingface.co/spaces/HAR5HA-YELLELA/luffy-gpt-space">Demo</a></span>
             <span> </span>
         </div>
         <ul>
-            <li>Built <strong>real-time cognitive bias detector</strong> Chrome extension that identifies decision-making flaws using <strong>Claude API</strong> for AI-powered analysis.</li>
-            <li>Implemented <strong>proactive intervention system</strong> monitoring high-risk sites (Amazon, eBay, DoorDash) detecting <strong>6+ cognitive biases</strong> including Sunk Cost Fallacy and Confirmation Bias.</li>
-            <li>Designed <strong>context menu integration</strong> and keyboard shortcuts for on-demand bias analysis with actionable reframe suggestions.</li>
+            <li>Implemented a <strong>GPT decoder-only transformer from scratch</strong> in PyTorch (10.81M params) — multi-head causal self-attention, positional embeddings, FFN with 4× expansion, residual connections, pre-LayerNorm, dropout; followed the <em>Attention is All You Need</em> architecture.</li>
+            <li>Trained a <strong>custom BPE tokenizer</strong> using SentencePiece on a ~3.2M character corpus (vocab 2000, 3.11× compression); benchmarked char-level, GPT-2 BPE, cl100k, and o200k strategies; trained on <strong>dual NVIDIA RTX 3090 GPUs</strong> (DataParallel), reaching <strong>val loss ~1.18</strong> at 25K steps.</li>
+            <li>Deployed as a <strong>Gradio app on HuggingFace Spaces</strong> with model weights hosted on HuggingFace Hub; built a CLI tool supporting <code>--train</code>, <code>--eval</code>, <code>--interactive</code>, and <code>--custom-bpe</code> modes.</li>
         </ul>
     </div>
 
-    <div class="entry">
+    <div style="page-break-before: always;"></div>
+
+    <div class="entry" style="margin-top: 30px;">
         <div class="header">
             <span>Resume Optimizer – QLoRA Fine-tuned LLM for ATS Optimization</span>
             <span>Dec 2025</span>
@@ -383,9 +385,7 @@
         </ul>
     </div>
 
-    <div style="page-break-before: always;"></div>
-
-    <div class="entry" style="margin-top: 30px;">
+    <div class="entry">
         <div class="header">
             <span>ML Sentiment Feedback Loop – Production MLOps Microservices</span>
             <span>Dec 2025</span>
@@ -419,22 +419,6 @@
 
     <div class="entry">
         <div class="header">
-            <span>Stretch2 Robot – Autonomous Navigation & Grasping</span>
-            <span>Dec 2024</span>
-        </div>
-        <div class="subheader">
-            <span>ROS, Python, OpenCV, YOLO, CLIP, Point Cloud Processing | <a href="https://github.com/HAR5HA-7663/Stretch2_Cluster_navigation_grasp">GitHub</a></span>
-            <span> </span>
-        </div>
-        <ul>
-            <li>Built <strong>autonomous object cluster detection</strong> using <strong>ROS services</strong> with <strong>multi-strategy arm manipulation</strong> (mean/max/random fallback).</li>
-            <li>Integrated <strong>YOLO object detection</strong> with <strong>CLIP segmentation</strong> for multi-modal understanding on <strong>Stretch2 mobile manipulator</strong>.</li>
-            <li>Developed <strong>point cloud processing</strong> with farthest point sampling and <strong>location change detection</strong> to avoid redundant scans.</li>
-        </ul>
-    </div>
-
-    <div class="entry">
-        <div class="header">
             <span>Lambda Microservices Platform – Enterprise Serverless Backend</span>
             <span>Dec 2024</span>
         </div>
@@ -451,17 +435,17 @@
 
     <div class="entry">
         <div class="header">
-            <span>LuffyGPT – GPT Transformer Language Model from Scratch</span>
-            <span>Jan 2026 – Mar 2026</span>
+            <span>Blindspot – AI-Powered Cognitive Bias Detector</span>
+            <span>Jan 2026</span>
         </div>
         <div class="subheader">
-            <span>Python, PyTorch, SentencePiece, tiktoken, Gradio, HuggingFace Hub | <a href="https://github.com/HAR5HA-7663/luffy-gpt">GitHub</a> | <a href="https://huggingface.co/spaces/HAR5HA-YELLELA/luffy-gpt-space">Demo</a></span>
+            <span>Chrome Extension (Manifest V3), Claude API, JavaScript | Aurora Hackathon 2026 | <a href="https://github.com/HAR5HA-7663/blindspot">GitHub</a></span>
             <span> </span>
         </div>
         <ul>
-            <li>Implemented a <strong>GPT decoder-only transformer from scratch</strong> in PyTorch (10.81M params) — multi-head causal self-attention, positional embeddings, FFN with 4× expansion, residual connections, pre-LayerNorm, dropout; followed the <em>Attention is All You Need</em> architecture.</li>
-            <li>Trained a <strong>custom BPE tokenizer</strong> using SentencePiece on a ~3.2M character corpus (vocab 2000, 3.11× compression); benchmarked char-level, GPT-2 BPE, cl100k, and o200k strategies; trained on <strong>dual NVIDIA RTX 3090 GPUs</strong> (DataParallel), reaching <strong>val loss ~1.18</strong> at 25K steps.</li>
-            <li>Deployed as a <strong>Gradio app on HuggingFace Spaces</strong> with model weights hosted on HuggingFace Hub; built a CLI tool supporting <code>--train</code>, <code>--eval</code>, <code>--interactive</code>, and <code>--custom-bpe</code> modes.</li>
+            <li>Built <strong>real-time cognitive bias detector</strong> Chrome extension that identifies decision-making flaws using <strong>Claude API</strong> for AI-powered analysis.</li>
+            <li>Implemented <strong>proactive intervention system</strong> monitoring high-risk sites (Amazon, eBay, DoorDash) detecting <strong>6+ cognitive biases</strong> including Sunk Cost Fallacy and Confirmation Bias.</li>
+            <li>Designed <strong>context menu integration</strong> and keyboard shortcuts for on-demand bias analysis with actionable reframe suggestions.</li>
         </ul>
     </div>
     <!-- Education Section -->
