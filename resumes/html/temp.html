@@ -10,24 +10,46 @@
         body {
             font-family: 'Times New Roman', serif;
             max-width: 7.5in;
-            margin: 0 auto 0.4in auto;
+            margin: 0.1in auto 0.4in auto;
             line-height: 1.05;
             color: #000;
             text-align: left;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
         }
 
         @media print {
+            body {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+            }
+
             .entry, .entry .header, .entry .subheader, ul, ul li {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
                 page-break-inside: avoid;
+            }
+
+            ul li:before {
+                -webkit-user-select: none !important;
+                -moz-user-select: none !important;
+                -ms-user-select: none !important;
+                user-select: none !important;
             }
         }
 
         h1 {
             font-size: 22pt;
             text-align: center;
-            margin: 10px 0 1px 0;
+            margin: 10px 0 4px 0;
             font-variant: small-caps;
             font-weight: bold;
         }
@@ -35,28 +57,58 @@
         .contact-info {
             text-align: center;
             font-size: 10pt;
-            margin: 0 0 3px 0;
+            margin: 0 0 5px 0;
         }
 
         h2 {
             font-size: 13pt;
-            margin: 7px 0 2px;
+            margin: 7px 0 3px;
             text-transform: uppercase;
             font-weight: bold;
             border-bottom: 1px solid #000;
             padding-bottom: 2px;
+            -webkit-user-select: text;
             display: block;
             page-break-after: avoid;
             break-after: avoid;
         }
 
+        .entry .header, .entry .subheader {
+            -webkit-user-select: text;
+            display: block;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        .entry .header span, .entry .subheader span {
+            -webkit-user-select: text;
+            display: inline-block;
+        }
+
         p {
             font-size: 10pt;
-            margin: 0 0 4px 0;
+            margin: 4px 0 6px 0;
         }
 
         .entry {
             margin-bottom: 6px;
+            -webkit-user-select: text;
+            display: block;
+            page-break-inside: avoid;
+            break-inside: avoid;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .entry::after {
+            content: "";
+            display: block;
+            clear: both;
+            -webkit-user-select: none;
+        }
+
+        .entry ul {
+            -webkit-user-select: text;
             display: block;
             page-break-inside: avoid;
             break-inside: avoid;
@@ -65,6 +117,7 @@
         .entry .header {
             font-size: 11pt;
             font-weight: bold;
+            -webkit-user-select: text;
             page-break-after: avoid;
             break-after: avoid;
             display: table;
@@ -88,6 +141,7 @@
             font-size: 11pt;
             font-style: italic;
             margin-bottom: 2px;
+            -webkit-user-select: text;
             page-break-after: avoid;
             break-after: avoid;
             display: table;
@@ -112,6 +166,7 @@
             padding-left: 20px;
             margin: 0;
             font-size: 10pt;
+            -webkit-user-select: text;
             display: block;
             page-break-inside: avoid;
             break-inside: avoid;
@@ -120,7 +175,9 @@
         ul li {
             margin-bottom: 2px;
             position: relative;
+            -webkit-user-select: text;
             display: block;
+            white-space: normal;
             word-wrap: break-word;
         }
 
@@ -136,6 +193,10 @@
             color: #0000EE;
             text-decoration: none;
         }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -149,55 +210,36 @@
         <a href="https://github.com/HAR5HA-7663">GitHub</a>
     </div>
 
-    <!-- Education FIRST -->
-    <h2>Education</h2>
-    <div class="entry">
-        <div class="header">
-            <span><strong>Lawrence Technological University</strong></span>
-            <span>Jan 2024 – Dec 2025</span>
-        </div>
-        <div class="subheader">
-            <span>Master of Science in Computer Science · GPA: <strong>3.6/4.0</strong></span>
-            <span>Southfield, MI</span>
-        </div>
-        <ul>
-            <li><strong>Coursework:</strong> Data Structures & Algorithms, Distributed Systems, Machine Learning, Artificial Intelligence, Natural Language Processing, Cloud Microservices, Intelligent Robotics (ROS)</li>
-        </ul>
-    </div>
-    <div class="entry">
-        <div class="header">
-            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
-            <span>Aug 2018 – Aug 2022</span>
-        </div>
-        <div class="subheader">
-            <span>Bachelor of Technology in Computer Science & Engineering · GPA: <strong>7.5/10 (~3.0/4.0)</strong></span>
-            <span>Hyderabad, India</span>
-        </div>
-        <ul>
-            <li><strong>Coursework:</strong> Data Structures & Algorithms, Operating Systems, Computer Networks, Software Engineering, Object-Oriented Design, Deep Learning</li>
-        </ul>
-    </div>
+    <!-- Summary -->
+    <h2>Summary</h2>
+    <p>
+        <strong>Software Engineer</strong> with full-stack expertise spanning <strong>Java/Spring Boot</strong> backend development, <strong>React</strong> frontends, and production AI/ML systems.
+        Experienced building enterprise-grade REST microservices following <strong>Moneta Boot</strong> architecture patterns — Maven builds, executable JAR runtimes, and CI/CD pipelines targeting <strong>EKS</strong> and cloud environments.
+        Deploys to <strong>AWS</strong> (Lambda, EC2, S3, EKS) using <strong>Jenkins</strong> and <strong>Terraform</strong>; integrates <strong>LLMs, RAG pipelines, and agentic AI</strong> using LangChain, CrewAI, and Bedrock.
+        Delivers in <strong>Agile</strong> sprints with <strong>Jira, Confluence</strong>, <strong>JUnit 5/Mockito</strong> TDD, and SonarQube code quality at production scale.
+    </p>
 
     <!-- Experience -->
     <h2>Experience</h2>
+
     <div class="entry">
         <div class="header">
-            <span>Student Consultant – Software Engineering</span>
+            <span>Student Consultant – ML/AI</span>
             <span>Feb 2026 – Present</span>
         </div>
         <div class="subheader">
-            <span>Open Avenues (Build Fellowship)</span>
+            <span>Build Fellowship (Build Projects)</span>
             <span>Remote</span>
         </div>
         <ul>
-            <li>Implemented a <strong>GPT decoder-only transformer from scratch</strong> in PyTorch (10.81M params) — multi-head causal self-attention, positional embeddings, FFN with 4× expansion, residual connections, pre-LayerNorm; trained on <strong>dual GPUs (DataParallel)</strong>, achieving <strong>val loss ~1.18</strong> at 25K steps.</li>
-            <li>Designed <strong>custom BPE tokenizer</strong> (SentencePiece, 3.11× compression); benchmarked 4 tokenization strategies; deployed on <strong>HuggingFace Hub + Spaces</strong> with CLI supporting train/eval/interactive modes.</li>
+            <li>Building a GPT decoder-only transformer in <strong>Python/PyTorch</strong> on dual RTX 3090 GPUs — clean, modular production code with full <strong>CLI</strong> tooling; leveraging <strong>Claude Code</strong>, <strong>GitHub Copilot</strong>, and <strong>OpenAI Codex</strong> for AI-accelerated development; managing workflow via <strong>GitBash</strong> and <strong>GitHub CLI</strong> from data scraping to <strong>HuggingFace Spaces</strong> deployment.</li>
+            <li>Implemented custom BPE tokenizer (SentencePiece, 3.11× compression); explored <strong>LLM and SLM fine-tuning</strong> training dynamics by building from scratch — benchmarked tokenization strategies with quantitative loss tracking (<strong>val loss ~1.18</strong> at 25K steps); applied <strong>Prompt Engineering</strong> principles to generation quality and structured output.</li>
         </ul>
     </div>
 
     <div class="entry">
         <div class="header">
-            <span>Graduate Research Assistant</span>
+            <span>Graduate Research Assistant – Agentic AI</span>
             <span>Jan 2025 – Dec 2025</span>
         </div>
         <div class="subheader">
@@ -205,8 +247,9 @@
             <span>Southfield, MI</span>
         </div>
         <ul>
-            <li>Designed and deployed <strong>distributed software systems</strong> on <strong>GKE and Cloud Run</strong> — maintained production services with semantic search and LLM inference endpoints, reducing manual process time by <strong>70%</strong>.</li>
-            <li>Benchmarked and optimized two software architectures across latency, reliability, and throughput on production workloads; managed deliverables across a research-to-deployment timeline.</li>
+            <li>Built and deployed multi-agent AI systems (<strong>CrewAI + LangChain MCP</strong>) on <strong>AWS Fargate</strong> and <strong>EKS</strong> using <strong>AWS CLI</strong>-scripted provisioning; integrated <strong>Redis</strong> (<strong>ElastiCache</strong>) for agent context caching, <strong>MongoDB</strong> for agent output persistence, and <strong>OpenSearch Serverless</strong> for RAG semantic search; designed <strong>Kafka</strong>-driven event-driven async messaging for inter-service communication.</li>
+            <li>Engineered <strong>FastAPI</strong> REST and <strong>GraphQL</strong> APIs integrated with <strong>AWS Bedrock</strong> (<strong>Claude Sonnet 4.5</strong>, <strong>Opus 4.6</strong>) and <strong>GPT-4</strong> models using structured <strong>Prompt Engineering</strong>; monitored with <strong>Splunk</strong>, Prometheus, and CloudWatch; delivered in <strong>Agile</strong> sprints via <strong>Jira</strong> and <strong>Confluence</strong> — achieving <strong>70% reduction in manual process time</strong>.</li>
+            <li>Fine-tuned <strong>SLMs</strong> (QLoRA/PEFT) for domain-specific agent task routing; deployed via <strong>Terraform</strong> IaC and <strong>GitHub Actions</strong> CI/CD; benchmarked no-code (<strong>n8n</strong>) vs. coded (<strong>CrewAI + LangChain</strong>) approaches — documented findings in <strong>Confluence</strong> for research stakeholders.</li>
         </ul>
     </div>
 
@@ -220,14 +263,14 @@
             <span>Hyderabad, India</span>
         </div>
         <ul>
-            <li>Developed and extended production software for global enterprise clients (<strong>Ferrari, Boeing, Triumph</strong>) — wrote modules in <strong>BaanC (C/Objective-C–based language)</strong> and <strong>JavaScript</strong> within Infor LN's <strong>multi-million-line enterprise codebase</strong>; integrated with Cloud Functions and GCS reducing batch delays by <strong>~40%</strong>.</li>
-            <li>Navigated and contributed to a <strong>large, unfamiliar legacy codebase</strong> spanning manufacturing, finance, and logistics modules; managed cross-functional deliverables across engineering, QA, and client teams.</li>
+            <li>Built modular REST API integration services for global enterprise clients (<strong>Ferrari, Boeing, Triumph</strong>); deployed business logic on <strong>AWS Lambda</strong> with <strong>S3</strong> event triggers and <strong>API Gateway</strong> endpoints — containerized with <strong>Docker</strong>, version-controlled in <strong>Bitbucket</strong>, and monitored via <strong>CloudWatch</strong> and <strong>Splunk</strong> log forwarding.</li>
+            <li>Managed enterprise data flows across <strong>MySQL</strong> relational databases and distributed ERP components; systematically isolated and resolved pipeline defects through root-cause analysis — improving batch processing reliability by <strong>~40%</strong>.</li>
         </ul>
     </div>
 
     <div class="entry">
         <div class="header">
-            <span>Junior Software Engineer (PEP Program)</span>
+            <span>Junior Java Trainee (PEP Program)</span>
             <span>Sep 2020 – Jul 2021</span>
         </div>
         <div class="subheader">
@@ -235,105 +278,126 @@
             <span>Hyderabad, India</span>
         </div>
         <ul>
-            <li>Completed intensive training in <strong>Java Core</strong> (OOP, Collections, Multithreading, Streams API), <strong>REST API design</strong>, <strong>JUnit testing</strong>, and <strong>Git version control</strong> in Linux environments; practiced Agile/Scrum delivery.</li>
+            <li>Completed intensive <strong>Java Core</strong> training (OOP, Collections, Multithreading, Streams API); built <strong>Spring Boot</strong> REST endpoints with <strong>Hibernate</strong>; applied <strong>JUnit + Mockito</strong> unit tests with <strong>SpringTest</strong> integration coverage and <strong>SonarQube</strong> code quality gates throughout all deliverables.</li>
+            <li>Operated in <strong>Agile/Scrum</strong> sprints with <strong>Git</strong>, <strong>GitBash</strong>, and <strong>Bitbucket</strong> version control; reviewed and debugged code in <strong>IntelliJ IDEA</strong> and <strong>VS Code</strong>; practiced CI/CD pipeline fundamentals and Linux <strong>CLI</strong> service debugging — enterprise Java clean-code patterns applied throughout all subsequent work.</li>
         </ul>
     </div>
 
     <!-- Technical Skills -->
     <h2>Technical Skills</h2>
     <ul>
-        <li><strong>Languages:</strong> Python, Java, Objective-C, C++, C, Go, TypeScript, JavaScript, SQL, Bash</li>
-        <li><strong>Mobile & Frontend:</strong> React Native/Expo, TypeScript, JavaScript (ES6+), WebRTC, React Navigation, Context API | REST APIs, OpenAPI/Swagger | PDF generation, Maps integration</li>
-        <li><strong>Systems & Cloud:</strong> Kubernetes (GKE), Docker, GCP (Cloud Run, Cloud Functions, Vertex AI, GCS) | AWS (Lambda, ECS, S3) | Terraform, GitHub Actions CI/CD | Unix/Linux | Microservices, Event-Driven Architecture</li>
-        <li><strong>Backend & APIs:</strong> FastAPI, Flask, Gin (Go), Express.js | JWT, OAuth | Prometheus, Grafana</li>
-        <li><strong>ML & CS:</strong> PyTorch, TensorFlow, HuggingFace Transformers | Transformer Architecture, CNN, LSTM, GNN | Distributed Training | scikit-learn, Pandas, NumPy</li>
-        <li><strong>Databases:</strong> PostgreSQL, DynamoDB, MongoDB | Redis | SQLite</li>
+        <li><strong>Backend:</strong> Java, Spring Boot, <strong>Moneta Boot</strong>, Maven, JUnit 5, Mockito, SpringTest, SonarQube | Python, FastAPI | REST APIs, GraphQL</li>
+        <li><strong>Frontend:</strong> React, JavaScript (ES6+), Next.js, Node.js, npm, Tailwind CSS, React Testing Library</li>
+        <li><strong>Cloud & DevOps:</strong> AWS (EC2, S3, Lambda, EKS, API Gateway, SageMaker, Bedrock, Route 53), Jenkins, Terraform, Docker, Kubernetes, AWS CLI</li>
+        <li><strong>Data & Messaging:</strong> PostgreSQL, MySQL, MongoDB, Cassandra, DynamoDB, Redis, ElastiCache | Kafka | SQL & NoSQL</li>
+        <li><strong>Observability:</strong> Prometheus, Grafana, Splunk, AWS CloudWatch, ELK Stack | Logging & Metrics Analysis, Alerting</li>
+        <li><strong>AI & LLM:</strong> Prompt Engineering, LangChain, CrewAI, RAG Systems, Agentic AI, LLM Fine-tuning (QLoRA/PEFT) | GPT-4/5, Claude Sonnet 4.5, Opus 4.6, OpenAI Codex</li>
+        <li><strong>Dev Tools:</strong> Git, GitBash, GitHub, Bitbucket, GitHub CLI | Claude Code, GitHub Copilot, MCP Servers | IntelliJ IDEA, VS Code</li>
+        <li><strong>Enterprise & Collaboration:</strong> Jira, Confluence, ServiceNow | Agile/Scrum, CI/CD (Jenkins, GitHub Actions), Terraform IaC</li>
     </ul>
-
-    <!-- Projects -->
-    <h2>Projects</h2>
-    <div class="entry">
-        <div class="header">
-            <span>FieldFuze Mobile – Field Service Management App</span>
-            <span>Aug 2024 – Present</span>
-        </div>
-        <div class="subheader">
-            <span>TypeScript, React Native/Expo, WebRTC (Telnyx), Stripe, Node.js</span>
-            <span> </span>
-        </div>
-        <ul>
-            <li>Built a <strong>production-quality mobile application</strong> with <strong>104+ TypeScript components</strong> across 10+ screens — Dashboard, Jobs, Schedule, Statistics, Crew Management, CRM, and real-time technician tracking; implemented <strong>live VOIP calling via WebRTC</strong> (Telnyx) and Stripe payment integration.</li>
-            <li>Architected component library with <strong>React Native Paper + Restyle</strong>, React Navigation, and Context API state management; integrated PDF generation (estimates/invoices), maps, and contractor onboarding flow for a <strong>complete field-service consumer product</strong>.</li>
-        </ul>
-    </div>
 
     <div style="page-break-before: always;"></div>
 
-    <div class="entry">
+    <!-- Projects -->
+    <h2>Projects</h2>
+
+    <div class="entry" style="margin-top: 16px;">
         <div class="header">
-            <span>LuffyGPT – GPT Transformer Architecture Implemented from Scratch</span>
-            <span>Jan – Mar 2026</span>
+            <span>Inventra – Enterprise REST API (Moneta Boot Architecture Patterns)</span>
+            <span>Mar 2026</span>
         </div>
         <div class="subheader">
-            <span>Python, PyTorch, SentencePiece, HuggingFace Hub, Gradio | <a href="https://github.com/HAR5HA-7663/luffy-gpt">GitHub</a> | <a href="https://huggingface.co/spaces/HAR5HA-YELLELA/luffy-gpt-space">Demo</a></span>
+            <span>Java 21, Spring Boot 3.5, Maven, Spring Data JPA, Hibernate, JUnit 5, Mockito, PostgreSQL, Docker, GitHub Actions | <a href="https://github.com/HAR5HA-7663/inventra">GitHub</a></span>
             <span> </span>
         </div>
         <ul>
-            <li>Implemented all transformer components from scratch in PyTorch (10.81M params): multi-head causal self-attention, learned positional embeddings, FFN with 4× expansion, residual connections, pre-LayerNorm, and dropout — following <em>Attention is All You Need</em> exactly.</li>
-            <li>Designed custom BPE tokenizer (SentencePiece, vocab 2000, 3.11× compression); benchmarked char-level, GPT-2 BPE, cl100k, and o200k strategies; trained on <strong>dual RTX 3090 GPUs</strong> achieving <strong>val loss ~1.18</strong> at 25K steps.</li>
+            <li>Built production-grade Inventory Management REST API in <strong>Java 21</strong> with <strong>Spring Boot 3.5</strong> following <strong>Moneta Boot</strong>-compatible architecture — <strong>Maven</strong> build, controller-service-repository layering, <strong>Springdoc/OpenAPI 3</strong> documentation, and executable JAR runtime packaged for containerized <strong>EKS</strong> deployment via a <strong>Jules</strong>-style <strong>GitHub Actions</strong> CI/CD pipeline.</li>
+            <li>Achieved full <strong>JUnit 5 + Mockito</strong> unit and <strong>SpringTest</strong> integration test coverage; implemented global exception handling (<code>@RestControllerAdvice</code>), <strong>Jakarta validation</strong>, and <strong>Spring Security</strong>-compatible authentication hooks aligned with <strong>ADFS/AuthE</strong> enterprise security patterns.</li>
+            <li>Configured dual-profile database setup (H2 in-memory dev, <strong>PostgreSQL</strong> production) with <strong>Docker Compose</strong> environment parity; applied <strong>SonarQube</strong>-compatible code quality gates — clean, modular, sustainable production-ready Java throughout.</li>
         </ul>
     </div>
 
     <div class="entry">
         <div class="header">
-            <span>Resumade.in – Serverless Full-Stack SaaS Application</span>
-            <span>Jun 2025 – Present</span>
+            <span>AgenticAI – Enterprise Agentic AI Platform (RAG + Multi-Agent)</span>
+            <span>Apr 2025</span>
         </div>
         <div class="subheader">
-            <span>Python, FastAPI, Cloud Functions, Firestore, GitHub Actions | <a href="https://resumade.in">resumade.in</a></span>
+            <span>Python, LangChain, CrewAI, FastAPI, AWS Lambda, Bedrock, RAG Pipelines, n8n, Docker, Terraform | <a href="https://github.com/HAR5HA-7663/Newsletter_gen_CrewAI">GitHub</a></span>
             <span> </span>
         </div>
         <ul>
-            <li>Designed, built, tested, and deployed a <strong>consumer-facing production application</strong> on Cloud Functions + Firestore achieving <strong>95%+ uptime</strong> and <strong>sub-2s response time</strong>; implemented JWT + Google OAuth, CI/CD via GitHub Actions, and real-time web scraping pipelines.</li>
+            <li>Built enterprise-grade multi-agent automation platform using <strong>LangChain</strong> and <strong>CrewAI</strong> with <strong>RAG pipelines</strong>; integrated <strong>GPT-4/GPT-5</strong>, <strong>Claude Sonnet 4.5</strong>, and <strong>AWS Bedrock</strong> models with structured <strong>Prompt Engineering</strong> for tool-calling and structured JSON output — deployed on <strong>AWS Lambda</strong> achieving <strong>70% reduction in manual process time</strong>.</li>
+            <li>Engineered <strong>FastAPI</strong> REST and <strong>GraphQL</strong> APIs backed by <strong>MongoDB</strong> (document storage) and <strong>Redis</strong> caching for agent state; integrated <strong>AWS Bedrock</strong> models via <strong>MCP Servers</strong>; benchmarked no-code (<strong>n8n</strong>) vs. code-first (<strong>CrewAI</strong>) agentic approaches across latency, reliability, and throughput.</li>
+            <li>Deployed with <strong>Terraform</strong> IaC and <strong>GitHub Actions</strong> CI/CD targeting <strong>AWS Lambda</strong> and <strong>EKS</strong>; delivered in <strong>Agile</strong> sprints with <strong>Jira</strong> workflow tracking and <strong>Confluence</strong> stakeholder documentation.</li>
         </ul>
     </div>
 
     <div class="entry">
         <div class="header">
-            <span>Job Portal REST API – Full-Stack Job Listing Platform</span>
-            <span>Oct 2024 – Present</span>
+            <span>ML Sentiment Feedback Loop – Production MLOps Platform</span>
+            <span>Dec 2025</span>
         </div>
         <div class="subheader">
-            <span>JavaScript, Node.js, Express.js, PostgreSQL, Docker | <a href="https://github.com/HAR5HA-7663/MCS-5993-Machine-Learning-and-Microservices-in-the-Cloud">GitHub</a></span>
+            <span>Python, AWS (ECS Fargate, SageMaker, S3, CloudWatch), Terraform, GitHub Actions, Docker, Kubernetes, Prometheus, Grafana | <a href="https://github.com/HAR5HA-7663/ml-sentiment-feedback-loop">GitHub</a></span>
             <span> </span>
         </div>
         <ul>
-            <li>Built a <strong>full-stack job listing platform</strong> in <strong>JavaScript/Node.js</strong> with HATEOAS-compliant REST API, OpenAPI/Swagger documentation, and role-based access control; containerized with Docker and deployed on GCP.</li>
-            <li>Implemented <strong>paginated search, filtering, and relational data modeling</strong> in PostgreSQL; wrote integration tests covering all API endpoints with structured error handling.</li>
+            <li>Architected <strong>8-microservice production ML platform</strong> on <strong>AWS ECS Fargate</strong> and <strong>SageMaker</strong> with automated drift-triggered retraining; implemented full observability via <strong>Prometheus</strong>, <strong>Grafana</strong>, <strong>Splunk</strong> log aggregation, and <strong>CloudWatch</strong> alerts on performance degradation; used <strong>ElastiCache</strong> (Redis) for low-latency inference caching and <strong>Route 53</strong> for service DNS routing.</li>
+            <li>Deployed via <strong>Jenkins</strong> and <strong>GitHub Actions</strong> CI/CD with <strong>Terraform</strong> IaC; implemented <strong>Kafka</strong> event streaming for model version update triggers across microservice boundaries — evaluated <strong>Cassandra</strong> for high-throughput time-series metrics storage alongside DynamoDB.</li>
         </ul>
     </div>
 
     <div class="entry">
         <div class="header">
-            <span>Telegram Toxicity Moderator – High-Throughput Kubernetes Inference Service</span>
-            <span>Oct 2024</span>
+            <span>Lambda Microservices Platform – Enterprise Serverless Backend</span>
+            <span>Dec 2024</span>
         </div>
         <div class="subheader">
-            <span>Python, FastAPI, Kubernetes (GKE), Prometheus, Grafana, k6 | <a href="https://github.com/HAR5HA-7663/Telegram-Toxicity-Police">GitHub</a></span>
+            <span>AWS Lambda, DynamoDB, API Gateway, Node.js, Terraform, CloudFormation | Stripe, Twilio, DocuSign, QuickBooks</span>
             <span> </span>
         </div>
         <ul>
-            <li>Deployed and maintained a <strong>production service on Kubernetes</strong> (GKE) sustaining <strong>500 RPS average, 1,500 RPS peak</strong> at <strong>3–5ms latency</strong>; implemented HPA autoscaling and circuit breaker pattern (5-failure threshold, 30s recovery).</li>
-            <li>Configured <strong>Prometheus + Grafana</strong> observability with readiness/liveness probes; reduced costs <strong>70%</strong> with preemptible instances; load-tested with k6.</li>
+            <li>Developed <strong>94 AWS Lambda functions</strong> forming a complete enterprise SaaS backend with <strong>Terraform</strong> and <strong>CloudFormation</strong> IaC; built <strong>REST API</strong> and <strong>GraphQL</strong> layer via <strong>API Gateway</strong> with <strong>DynamoDB</strong> and <strong>MySQL</strong> data stores; provisioned via <strong>AWS CLI</strong> scripts and <strong>GitHub CLI</strong> in a <strong>Git</strong>-based pipeline that deploys only modified functions.</li>
+            <li>Built <strong>React</strong>/<strong>Next.js</strong> admin frontend with <strong>Tailwind CSS</strong> and <strong>React Testing Library</strong> test coverage served via <strong>Route 53</strong> DNS; paired with a <strong>React Native</strong> mobile app (104+ components); integrated <strong>ElastiCache</strong> (Redis) for session caching and <strong>10+ enterprise services</strong> via <strong>Node.js</strong>/<strong>npm</strong>: Stripe, DocuSign, Twilio, QuickBooks.</li>
+        </ul>
+    </div>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Lawrence Technological University</strong></span>
+            <span>Jan 2024 – Dec 2025</span>
+        </div>
+        <div class="subheader">
+            <span>Master of Science in Computer Science · GPA: <strong>3.6/4.0</strong></span>
+            <span>Southfield, MI</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> Machine Learning, Artificial Intelligence, Natural Language Processing, Cloud Microservices, Agentic AI Research</li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="header">
+            <span><strong>Geethanjali College of Engineering & Technology</strong></span>
+            <span>Aug 2018 – Aug 2022</span>
+        </div>
+        <div class="subheader">
+            <span>Bachelor of Technology in Computer Science · GPA: <strong>7.5/10 (~3.0/4.0)</strong></span>
+            <span>Hyderabad, Telangana</span>
+        </div>
+        <ul>
+            <li><strong>Relevant Coursework:</strong> Software Engineering, Data Structures & Algorithms, Database Management, Operating Systems, Computer Networks</li>
         </ul>
     </div>
 
     <!-- Achievements -->
     <h2>Achievements</h2>
     <ul>
-        <li><strong>Amazon Nova AI Challenge: Trusted AI Track</strong> (2025) – Selected to design and validate AI safety evaluation pipelines</li>
-        <li><strong>RSNA Pneumonia Detection Challenge</strong> (2024) – Ranked upper quartile with VGG19 transfer learning model</li>
-        <li><strong>Gold Medalist – Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
+        <li><strong>Amazon Nova AI Challenge: Trusted AI Track</strong> – Selected participant; designed and validated AI safety evaluation pipelines (2025)</li>
+        <li><strong>Built production SaaS platform</strong> with 94 Lambda functions and 10+ enterprise integrations serving real customers (2024)</li>
+        <li><strong>Gold Medalist, Indian National Mathematical Olympiad (INMO)</strong> (2012)</li>
     </ul>
 </body>
 
